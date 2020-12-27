@@ -10,7 +10,10 @@
       ></iframe>
     </div>
 
-    <article class="py-5 d-flex align-items-center bg-warning" id="about">
+    <article
+      class="py-5 d-flex align-items-center bg-dark text-white"
+      id="about"
+    >
       <b-container>
         <b-row class="text-center">
           <b-col md="12">

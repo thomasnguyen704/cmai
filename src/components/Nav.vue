@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="py-3 bg-danger text-white">
+    <div class="bg-danger text-white py-2">
       <b-container>
         <b-row>
           <b-col>
@@ -19,7 +19,7 @@
               class="text-white"
               href="https://square.site/book/LMQXQF1APV2XD/cmai-beauty-studio-huntersville-nc"
             >
-              Book Appointment Online on Squarespace
+              Book an appointment online on Square Space
             </a>
             <br />
             <div class="mt-2">

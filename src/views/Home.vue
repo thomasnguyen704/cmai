@@ -10,31 +10,39 @@
       ></iframe>
     </div>
 
-    <article class="py-5 d-flex align-items-center" id="about">
+    <article class="py-5 d-flex align-items-center bg-warning" id="about">
       <b-container>
-        <b-row>
-          <b-col md="3">
-            <h2 class="font-weight-light">Carolynn Mai Beauty Studio</h2>
-          </b-col>
-          <b-col md="9">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <b-row class="text-center">
+          <b-col md="12">
+            <p class="h1 font-weight-lighter">
+              The website is still in the progress to complete. We are working
+              hard on finishing our website for you to continue enjoying it!
             </p>
           </b-col>
         </b-row>
       </b-container>
     </article>
+
+    <Covid />
+    <Terms />
+    <About />
     <Services />
   </div>
 </template>
 
 <script>
+import Covid from "@/components/Covid.vue";
+import Terms from "@/components/Terms.vue";
+import About from "@/components/About.vue";
 import Services from "@/components/Services.vue";
 
 export default {
   name: "Home",
   components: {
-    Services
+    Services,
+    Covid,
+    Terms,
+    About
   }
 };
 </script>

@@ -31,8 +31,8 @@
                   online
                 </a>
                 or call me at
-                <a href="tel:980-254-5482" class="text-white">
-                  (980) 253-5482
+                <a href="tel:205-207-2659" class="text-white">
+                  (205)207-2659
                 </a>
               </p>
             </b-col>
@@ -66,4 +66,4 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped></style>

@@ -43,7 +43,7 @@
 
     <hr class="my-5" />
 
-    <p class="lead">Sugaring hair removal</p>
+    <p class="lead text-capitalize">Sugaring Hair Removal</p>
     <b-card-group deck>
       <b-card v-for="hair in hairs" :key="hair.title">
         <b-card-body :title="hair.title" :sub-title="hair.subtitle" title-tag="h6" class="small" >

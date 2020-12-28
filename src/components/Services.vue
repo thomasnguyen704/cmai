@@ -1,16 +1,17 @@
 <template>
-  <div class="container py-5 small">
+  <div class="container py-5">
     <h2 class="font-weight-light my-5">Services</h2>
 
     <p class="lead">Permanent Make Up & Microblading</p>
     <b-card-group columns>
-      <b-card v-for="service in mb_services" :key="service.title">
+      <b-card v-for="pmu in pmus" :key="pmu.title">
         <b-card-body
-          :title="service.title"
-          :sub-title="service.subtitle"
+          :title="pmu.title"
+          :sub-title="pmu.subtitle"
           title-tag="h6"
+          class="small"
         >
-          <p v-html="service.body"></p>
+          <p v-html="pmu.body"></p>
         </b-card-body>
       </b-card>
     </b-card-group>
@@ -19,18 +20,54 @@
 
     <p class="lead">Brows</p>
     <b-card-group columns>
-      <b-card v-for="service in face_services" :key="service.title">
+      <b-card v-for="brow in brows" :key="brow.title">
         <b-card-body
-          :title="service.title"
-          :sub-title="service.subtitle"
+          :title="brow.title"
+          :sub-title="brow.subtitle"
           title-tag="h6"
+          class="small"
         >
-          <p v-html="service.body"></p>
+          <p v-html="brow.body"></p>
         </b-card-body>
       </b-card>
     </b-card-group>
 
     <hr class="my-5" />
+
+    <p class="lead">Lashes</p>
+    <div class="font-weight-light">
+      <p>
+        Eyelash Extensions are a cosmetic application used to enhance the
+        length, curl, fullness, and thickness of natural eyelashes.
+      </p>
+      Products used:<br />
+      <ul class="mb-5">
+        <li>
+          Adhesive: Nova Platinum bond lash adhesive: Nova Lash Glue is voted
+          number 1 more than any other lash glue company in the World. Oil-Proof
+          and instantly waterproof! You can go swimming right after get your
+          lashes done without worrying about messing your lashes up. Clients
+          will only require touch up every 4 weeks.
+        </li>
+        <li>
+          Lashes: Extreme Lashes, professional handmade volume lashes from
+          Parish Lash.
+        </li>
+      </ul>
+    </div>
+
+    <b-card-group columns>
+      <b-card v-for="lash in lashes" :key="lash.title">
+        <b-card-body
+          :title="lash.title"
+          :sub-title="lash.subtitle"
+          title-tag="h6"
+          class="small"
+        >
+          <p v-html="lash.body"></p>
+        </b-card-body>
+      </b-card>
+    </b-card-group>
   </div>
 </template>
 
@@ -39,7 +76,7 @@ export default {
   name: "Services",
   data() {
     return {
-      mb_services: [
+      pmus: [
         {
           title: "3D Microblading",
           subtitle: "Aproximately 2 hours. Cancellation fee $50. Minimal pain.",
@@ -100,7 +137,7 @@ export default {
           `
         }
       ],
-      face_services: [
+      brows: [
         {
           title: "Shaping",
           subtitle: "20 minutes",
@@ -134,6 +171,125 @@ export default {
           title: "Lamination and Tint",
           subtitle: "55 minutes",
           body: `<p>Take your eyebrows lamination service up to notch. When you add tinting to your brow lamination, the results are more defined and bolder beautiful brows. (See “brow lamination” for full description of this service alone)</p>`
+        }
+      ],
+      lashes: [
+        {
+          title: "Classic Full Set",
+          subtitle: "100 minutes",
+          body: `Extreme Faux mink lash is used only (never real animal hairs). Mink is laser cut much thinner than silk which gives a lightweight feel and natural look. Mink has a matte finish. Very popular with first timers.`
+        },
+        {
+          title: "Hybrid Full Set",
+          subtitle: "100 minutes",
+          body: `Hybrid sets are a mix between classic and volume. Perfect for clients with sparse lashes, gaps or just anyone looking for a little more fullness than classic but not quite as dense as a volume set. Hybrid sets at CMai Beauty Studio are created using pro-made fans.`
+        },
+        {
+          title: "Volume Full Set",
+          subtitle: "120 minutes",
+          body: `Volume sets are multiple very lightweight extensions, made into a "fan" placed onto one natural lash. These sets create a very full, luxurious look. Perfect for clients with thin and sparse lashes and those who love a full, dense look. All volume sets at Cmai Beauty Studio are created using Parish pro-made fans.`
+        },
+        {
+          title: "Wispy Full Set",
+          subtitle: "120 minutes",
+          body: `Wispy volume full set is a technique where a pro handmade lash fan is created using 2-9 lashes, then applied using alternating lash lengths, which gives them the appearance of a false strip lashes & Kadashian look. Wispy volume full sets are suitable for clients who desire a spikey false lash look. Wispy volume full set is my favorite!`
+        },
+        {
+          title: "Mega Volume Full Set",
+          subtitle: "120 - 150 minutes",
+          body: `Mega Volume sets are created with upwards of 10 super tiny, lightweight extensions applied to one natural lash.  The lash extensions used for volume & mega volume are so tiny that they weight nearly nothing so there is no potential damage to your natural lash. Mega Volume lashes create very dark and dramatic sets. All volume sets at Cmai Beauty Studio are created using Parish Lash pro-handmade fans.`
+        },
+        {
+          title: "Partial Set",
+          subtitle: "60 minutes",
+          body: `This set is subtle and flirty with 50%-75% of your natural lashes filled. This option is for new clients who have not have a refill in over 28-30 days. Partial set takes 60 minutes. It cost 55% of the full set.`
+        },
+        {
+          title: "Classic Refill",
+          subtitle:
+            "Mini 45 minutes, Standard 60 minutes, Extended refill 75 minutes.",
+          body: `Refills are exactly that intermittent appointments to fill in the lashes you've lost due to shedding and natural lash growth cycle or to add more on top of the set you already have. Prices are based on time so the better you care for your lashes, the less time you'll need!  Check out my care guide for tips.  Also, make sure to come to your lash appointment without any eye makeup to maximize your appointment time.`
+        },
+        {
+          title: "Volume or Wispy Refill",
+          subtitle:
+            "Mini 45 minutes, Standard 60 minutes, Extended refill 75 minutes.",
+          body: `Refills are exactly that intermittent appointments to fill in the lashes you've lost due to shedding and natural lash growth cycle or to add more on top of the set you already have. Prices are based on time so the better you care for your lashes, the less time you'll need!  Check out my care guide for tips.  Also, make sure to come to your lash appointment without any eye makeup to maximize your appointment time.`
+        },
+        {
+          title: "Mega Refill",
+          subtitle: "75 minutes",
+          body: `Refills are exactly that intermittent appointments to fill in the lashes you've lost due to shedding and natural lash growth cycle or to add more on top of the set you already have. Prices are based on time so the better you care for your lashes, the less time you'll need!  Check out my care guide for tips.  Also, make sure to come to your lash appointment without any eye makeup to maximize your appointment time.`
+        },
+        {
+          title: "Lash Extensions Removal",
+          subtitle: "25 minutes",
+          body: `Cmai Beauty Studio uses cream clash remover to soften the hard bonds from the adhesive so that the extensions slide off. It does not hurt a bit and is actually much quicker then getting the lash extensions put on in the first place. I do not do refill other artist’s work. Instead, I would recommend you to get the lashes extensions removal and full set done.`
+        },
+        {
+          title: "Lash Lift and Lash Tint ",
+          subtitle: "60 minutes",
+          body: `<p>A lash lift and tint treatment involves two separate processes, both designed to give you beautiful, fluttery eyelashes for up to 6 -8 weeks. It makes yours natural lashes bend upwards, leaving them looking longer, and your eyes more open and bright. Meanwhile, a black color tint is applied to make your eyelashes look darker, thicker, and fuller. It is particularly striking on those with naturally blonde or red lashes.	While lashes extensions can give a more dramatic look, a lash lift requires far less maintenance lasts several weeks longer, and the treatment itself is quicker and cheaper.</p><p>Aftercare: keep your lashes clean and dry for 24 hours after the procedure.</p>`
+        },
+        {
+          title: "Eyelash Tinting",
+          subtitle: "20 minutes",
+          body: `Tinting is a process of applying a safe, semi-permanent vegetable dye to your eyelashes. This is done to make your dull lashes appear not only darker, but also longer and fuller. Eyelash tinting lasts up to 5 weeks.`
+        }
+      ],
+      hairs: [
+        {
+          title: "",
+          subtitle: "",
+          body: ``
+        }
+      ],
+      facials: [
+        {
+          title: "",
+          subtitle: "",
+          body: ``
+        },
+        {
+          title: "",
+          subtitle: "",
+          body: ``
+        }
+      ],
+      peels: [
+        {
+          title: "",
+          subtitle: "",
+          body: ``
+        },
+        {
+          title: "",
+          subtitle: "",
+          body: ``
+        }
+      ],
+      extractions: [
+        {
+          title: "",
+          subtitle: "",
+          body: ``
+        },
+        {
+          title: "",
+          subtitle: "",
+          body: ``
+        }
+      ],
+      nails: [
+        {
+          title: "",
+          subtitle: "",
+          body: ``
+        },
+        {
+          title: "",
+          subtitle: "",
+          body: ``
         }
       ]
     };

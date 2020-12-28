@@ -5,12 +5,7 @@
     <p class="lead">Permanent Make Up & Microblading</p>
     <b-card-group columns>
       <b-card v-for="pmu in pmus" :key="pmu.title">
-        <b-card-body
-          :title="pmu.title"
-          :sub-title="pmu.subtitle"
-          title-tag="h6"
-          class="small"
-        >
+        <b-card-body :title="pmu.title" :sub-title="pmu.subtitle" title-tag="h6" class="small" >
           <p v-html="pmu.body"></p>
         </b-card-body>
       </b-card>
@@ -21,12 +16,7 @@
     <p class="lead">Brows</p>
     <b-card-group columns>
       <b-card v-for="brow in brows" :key="brow.title">
-        <b-card-body
-          :title="brow.title"
-          :sub-title="brow.subtitle"
-          title-tag="h6"
-          class="small"
-        >
+        <b-card-body :title="brow.title" :sub-title="brow.subtitle" title-tag="h6" class="small" >
           <p v-html="brow.body"></p>
         </b-card-body>
       </b-card>
@@ -36,35 +26,75 @@
 
     <p class="lead">Lashes</p>
     <div class="font-weight-light">
-      <p>
-        Eyelash Extensions are a cosmetic application used to enhance the
-        length, curl, fullness, and thickness of natural eyelashes.
-      </p>
+      <p> Eyelash Extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes. </p>
       Products used:<br />
       <ul class="mb-5">
-        <li>
-          Adhesive: Nova Platinum bond lash adhesive: Nova Lash Glue is voted
-          number 1 more than any other lash glue company in the World. Oil-Proof
-          and instantly waterproof! You can go swimming right after get your
-          lashes done without worrying about messing your lashes up. Clients
-          will only require touch up every 4 weeks.
-        </li>
-        <li>
-          Lashes: Extreme Lashes, professional handmade volume lashes from
-          Parish Lash.
-        </li>
+        <li> Adhesive: Nova Platinum bond lash adhesive: Nova Lash Glue is voted number 1 more than any other lash glue company in the World. Oil-Proof and instantly waterproof! You can go swimming right after get your lashes done without worrying about messing your lashes up. Clients will only require touch up every 4 weeks. </li>
+        <li> Lashes: Extreme Lashes, professional handmade volume lashes from Parish Lash. </li>
       </ul>
     </div>
-
     <b-card-group columns>
       <b-card v-for="lash in lashes" :key="lash.title">
-        <b-card-body
-          :title="lash.title"
-          :sub-title="lash.subtitle"
-          title-tag="h6"
-          class="small"
-        >
+        <b-card-body :title="lash.title" :sub-title="lash.subtitle" title-tag="h6" class="small" >
           <p v-html="lash.body"></p>
+        </b-card-body>
+      </b-card>
+    </b-card-group>
+
+    <hr class="my-5" />
+
+    <p class="lead">Sugaring hair removal</p>
+    <b-card-group deck>
+      <b-card v-for="hair in hairs" :key="hair.title">
+        <b-card-body :title="hair.title" :sub-title="hair.subtitle" title-tag="h6" class="small" >
+          <p v-html="hair.body"></p>
+        </b-card-body>
+      </b-card>
+    </b-card-group>
+
+    <hr class="my-5" />
+
+    <p class="lead">Facials</p>
+    <b-card-group deck>
+      <b-card v-for="facial in facials" :key="facial.title">
+        <b-card-body :title="facial.title" :sub-title="facial.subtitle" title-tag="h6" class="small" >
+          <p v-html="facial.body"></p>
+        </b-card-body>
+      </b-card>
+    </b-card-group>
+
+    <hr class="my-5" />
+
+    <p class="lead">Chemical Peels</p>
+    <div class="font-weight-light">
+      <p>PCA chemical peel is a powerful skin exfoliating solution applied to the face, neck, or hands to reveal the smooth and clear skin underneath. The benefits of chemical peels are included: treat acne, minimize pores, reduce fine lines and wrinkles, fade discoloration, lift skin, soothe scarring, balance texture, smooth skin, even skin tone. The chemical peel procedure involves: cleanser, hot towel, chemical peels, moisturizer, sunscreen, and product to take home. </p>
+    </div>
+    <b-card-group deck>
+      <b-card v-for="peel in peels" :key="peel.title">
+        <b-card-body :title="peel.title" :sub-title="peel.subtitle" title-tag="h6" class="small" >
+          <p v-html="peel.body"></p>
+        </b-card-body>
+      </b-card>
+    </b-card-group>
+
+    <hr class="my-5" />
+
+    <p class="lead">Extractions</p>
+    <b-card-group deck>
+      <b-card v-for="extraction in extractions" :key="extraction.title">
+        <b-card-body :title="extraction.title" :sub-title="extraction.subtitle" title-tag="h6" class="small" >
+          <p v-html="extraction.body"></p>
+        </b-card-body>
+      </b-card>
+    </b-card-group>
+
+    <hr class="my-5" />
+
+    <p class="lead">Nails</p>
+    <b-card-group deck>
+      <b-card v-for="nail in nails" :key="nail.title">
+        <b-card-body :title="nail.title" :sub-title="nail.subtitle" title-tag="h6" class="small" >
+          <p v-html="nail.body"></p>
         </b-card-body>
       </b-card>
     </b-card-group>
@@ -239,57 +269,67 @@ export default {
       ],
       hairs: [
         {
-          title: "",
+          title: "Sugaring Hair Removal",
           subtitle: "",
-          body: ``
+          body: `
+          <p><b>What is sugaring hair removal?</b> <br/> Similar to waxing, sugaring removes body hair quickly pulling the hair from the root. The name of this method comes from the paste itself, which consists of lemon, water, and sugar. The ingredients are all heated together until it reaches a candy-like consistency. Once it cools it’s applied directly to the skin.</p>
+          <p>What are the benefits of sugaring over waxing? Applied at body temperature & will not burn the skin; not adhere to live skin cells; minimal irritation, hair removed in the direction of growth, less likely to get ingrown hair; lasts longer & lead to permanent; skin feels smooth and comfortable; no spatula or cotton strips ever required again.</p>
+          
+          <p><b>Before your appointment:</b> <br/> Grow your hair out to ¼ inch long. This process usually takes about 10-14 days. If it is longer than ½ inch, you might have to trim it before the appointment. A few days before your appointment, lightly exfoliate the area to remove dead skin cells and prevent ingrown hairs. The day before your appointment, lightly exfoliate the area to remove dead ski cells and prevents ingrown hairs. The day before your appointment, come with clean, dry skin. Avoid wearing lotions or creams. To avoid further sensitivity, don’t have any caffeine or alcohol and take an over –the counter pain reliever 30 minutes before.</p>
+          
+          <p><b>After treatment care:</b> <br/> For 24 hours after sugaring or waxing, keep in mind that your skin might be more sensitive. Avoid direct contact with the sun, such as tanning. And avoid hot baths, further exfoliation, and working out. All of these could aggravate the skin. Proper at home care will help to ensure a better experience for you. It is vital to exfoliate, hydrate, and detox your skin on a regular basis in between treatments. When your sin is in the best condition possible, hair is extracted easier and can grow back properly without causing ingrown hairs.</p>
+          <p>What can you do to minimize ingrown hairs and other bumps? You can return to exfoliating about 48 hours after your appointment. Aim to exfoliate two to three times a week to help prevent ingrown hairs between appointments. Some people prefer sugaring because the method cleans out hair follicles, removing dead skin cells and dirt, which can lead to ingrown hairs.</p>
+          
+          <p><b>How long will the results last?</b> On average, results from both sugaring and waxing last around the same time. It ultimately comes down to how fast your hair grows and how dark your hair is, but usually each session will last around 3 to 4 weeks. If you keep up a regular hair removal schedule, the removal process should become less painful and easier overtime. Some people even report less hair growth overtime, though this isn’t true for everyone.</p>
+          `
         }
       ],
       facials: [
         {
-          title: "",
-          subtitle: "",
-          body: ``
+          title: "Cmai Beauty Facial",
+          subtitle: "60 minutes",
+          body: `<p>Something magical happens just by working on the face. During our facial rituals, the whole body will let go and its energy will shift into a balanced and more peaceful place. A BEAUTIFUL GLOW WILL SHINE AGAIN. The treatment included cleanser, exfoliate, custom chemical peel, extraction, infusion with hyaluronic acid and complex peptide, skinceuticals serum, Celluma LED light therapy. This treatment is universal facial, which is suitable for all skin type and condition especially who are suffering from acne.</p><p>The benefits include a more hydrated, bright, plump, and clear complexion. Additional, it can also improve signs of aging. The treatment reduces fine lines, and wrinkles increase firmness, evens tone, texture, and brown spots, as well as reducing enlarged pores.</p>`
         },
         {
-          title: "",
-          subtitle: "",
-          body: ``
+          title: "Nano infusion therapy",
+          subtitle: "60 minutes",
+          body: `<p>The treatment is a cosmetic procedure that involves repeated nano puncturing the skin creating a micro injures to the skin and allow it to regenerate and create collagen for a youthful, smooth, and healthier skin. As the same time, your skin is infused with hyaluronic acid, and complex peptide. Celluma Led Light therapy is included for calming the skin and allows the product to absorb deeper into the skin.  This treatment lasts up to 3 months.</p><p>Nano infusion therapy is a non-invasive effective treatment for skin conditions including fine lines, wrinkles, scarring, and pigmentation. Nano infusion therapy offers immediate and long term results that enhances product absorption and drive active ingredients deep into the skin fro optimal skin restoration. This treatment stimulates circulation, visibly softens fine lines, reduces scarring, improves hydration levels, helps control breakouts, helps brighten up skin, and reduces puffy or sagging eyes.</p>`
         }
       ],
       peels: [
         {
-          title: "",
+          title: "Sensi Peel",
           subtitle: "",
-          body: ``
+          body: `Sensi peel is a unique chemical peel option for all patients, including those with sensitive skin. This universal 6% TCA solution and 12% Lactic Acid will improve surface texture and brighten the skin while helping promote an even skin tone. The multi faceted and skin-brightening treatment is an excellent option for sensitive skin and higher Fitzpatrick skin types.`
         },
         {
-          title: "",
+          title: "Cmai Advanced Peel",
           subtitle: "",
-          body: ``
+          body: `The most potent of Cmai Beauty Studio is a formula consisting of a blend of powerful ingredients that address most of clients concerns such as even out skin tone, improve texture, and clarity; provide more exfoliation for acne, oilier, thicker, and more resilient skin types, soften fine lines, wrinkles by reducing age spots and sun damage. It is extremely effective on sun-damaged and thickened skin. Cmai Beauty Advanced peel reveal a more youthful, glowing complexion.`
         }
       ],
       extractions: [
         {
-          title: "",
-          subtitle: "",
-          body: ``
+          title: "Facial Extraction",
+          subtitle: "30 minutes",
+          body: `Cleanser, hot towel, skin scrubber face spatula is used to remove black and white head, moisturizing.`
         },
         {
-          title: "",
-          subtitle: "",
-          body: ``
+          title: "Advanced facial extraction with chemical peel and Celluma Led light therapy",
+          subtitle: "60 minutes",
+          body: `Cleanser, hot towel, glycolic and salicylic acid peels are applied to soften the comedones and allow the skin to be prepare for the extraction, skin scrubber face spatula is used to remove black and white head, second layer of peel is applied with hyluaronic acid, peptide, moisturizing, Celluma led light therapy to kill the acne bacteria and calm the skin.`
         }
       ],
       nails: [
         {
-          title: "",
+          title: "Manicure",
           subtitle: "",
-          body: ``
+          body: `<p>Classic manicure 25 minutes <br/> Gel manicure 40 minutes <br/> Powder manicure 60 minutes</p>`
         },
         {
-          title: "",
+          title: "Pedicure",
           subtitle: "",
-          body: ``
+          body: `<p>Classic manicure 35 minutes <br/> Hot stone pedicure 50 minutes <br/> Organic pedicure 60 minutes</p>`
         }
       ]
     };

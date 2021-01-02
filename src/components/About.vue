@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 bg">
+  <div class="py-5 bg-light">
     <b-container>
       <h2 class="font-weight-light mb-4">About Me</h2>
       <b-row>
@@ -137,9 +137,3 @@ export default {
   name: "About"
 };
 </script>
-
-<style scoped>
-.bg {
-  background-color: lavender;
-}
-</style>

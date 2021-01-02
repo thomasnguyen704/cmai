@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-5 bg-secondary text-light font-weight-light" id="footer">
+  <footer class="py-5 bg-secondary text-light font-weight-light">
     <b-container class="pb-5">
       <b-row>
         <b-col md="8" class="px-5">

@@ -21,7 +21,7 @@ export default {
 
 <style>
 article {
-  min-height: 50vh;
+  min-height: 45vh;
 }
 footer {
   min-height: 25vh;

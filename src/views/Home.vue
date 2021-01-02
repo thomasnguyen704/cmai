@@ -10,10 +10,7 @@
       ></iframe>
     </div>
 
-    <article
-      class="py-5 d-flex align-items-center bg-dark text-white"
-      id="about"
-    >
+    <article class="py-5 d-flex align-items-center bg-light">
       <b-container>
         <b-row class="text-center">
           <b-col md="12">
@@ -25,26 +22,19 @@
         </b-row>
       </b-container>
     </article>
-
     <Covid />
-    <Terms />
     <About />
-    <Services />
   </div>
 </template>
 
 <script>
 import Covid from "@/components/Covid.vue";
-import Terms from "@/components/Terms.vue";
 import About from "@/components/About.vue";
-import Services from "@/components/Services.vue";
 
 export default {
   name: "Home",
   components: {
-    Services,
     Covid,
-    Terms,
     About
   }
 };

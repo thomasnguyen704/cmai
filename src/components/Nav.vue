@@ -43,10 +43,10 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-container>
           <b-navbar-nav>
-            <b-nav-item href="#home">Home</b-nav-item>
-            <b-nav-item href="#about">About</b-nav-item>
-            <b-nav-item href="#services">Services</b-nav-item>
-            <b-nav-item href="#footer">Contact</b-nav-item>
+            <b-nav-item to="/">Home</b-nav-item>
+            <b-nav-item to="services">Services</b-nav-item>
+            <b-nav-item to="terms">Terms & Policies</b-nav-item>
+            <b-nav-item to="footer">Contact</b-nav-item>
           </b-navbar-nav>
         </b-container>
       </b-collapse>

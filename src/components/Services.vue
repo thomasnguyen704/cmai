@@ -4,8 +4,13 @@
 
     <p class="lead">Permanent Make Up & Microblading</p>
     <b-card-group columns>
-      <b-card v-for="pmu in pmus" :key="pmu.title">
-        <b-card-body :title="pmu.title" :sub-title="pmu.subtitle" title-tag="h6" class="small" >
+      <b-card v-for="pmu in pmus" :key="pmu.title" :img-src="pmu.img" img-top>
+        <b-card-body
+          :title="pmu.title"
+          :sub-title="pmu.subtitle"
+          title-tag="h6"
+          class="small"
+        >
           <p v-html="pmu.body"></p>
         </b-card-body>
       </b-card>
@@ -15,8 +20,13 @@
 
     <p class="lead">Brows</p>
     <b-card-group columns>
-      <b-card v-for="brow in brows" :key="brow.title">
-        <b-card-body :title="brow.title" :sub-title="brow.subtitle" title-tag="h6" class="small" >
+      <b-card v-for="brow in brows" :key="brow.title" :img-src="brow.img" img-top>
+        <b-card-body
+          :title="brow.title"
+          :sub-title="brow.subtitle"
+          title-tag="h6"
+          class="small"
+        >
           <p v-html="brow.body"></p>
         </b-card-body>
       </b-card>
@@ -26,16 +36,33 @@
 
     <p class="lead">Lashes</p>
     <div class="font-weight-light">
-      <p> Eyelash Extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes. </p>
+      <p>
+        Eyelash Extensions are a cosmetic application used to enhance the
+        length, curl, fullness, and thickness of natural eyelashes.
+      </p>
       Products used:<br />
       <ul class="mb-5">
-        <li> Adhesive: Nova Platinum bond lash adhesive: Nova Lash Glue is voted number 1 more than any other lash glue company in the World. Oil-Proof and instantly waterproof! You can go swimming right after get your lashes done without worrying about messing your lashes up. Clients will only require touch up every 4 weeks. </li>
-        <li> Lashes: Extreme Lashes, professional handmade volume lashes from Parish Lash. </li>
+        <li>
+          Adhesive: Nova Platinum bond lash adhesive: Nova Lash Glue is voted
+          number 1 more than any other lash glue company in the World. Oil-Proof
+          and instantly waterproof! You can go swimming right after get your
+          lashes done without worrying about messing your lashes up. Clients
+          will only require touch up every 4 weeks.
+        </li>
+        <li>
+          Lashes: Extreme Lashes, professional handmade volume lashes from
+          Parish Lash.
+        </li>
       </ul>
     </div>
     <b-card-group columns>
-      <b-card v-for="lash in lashes" :key="lash.title">
-        <b-card-body :title="lash.title" :sub-title="lash.subtitle" title-tag="h6" class="small" >
+      <b-card v-for="lash in lashes" :key="lash.title" :img-src="lash.img" img-top>
+        <b-card-body
+          :title="lash.title"
+          :sub-title="lash.subtitle"
+          title-tag="h6"
+          class="small"
+        >
           <p v-html="lash.body"></p>
         </b-card-body>
       </b-card>
@@ -45,8 +72,13 @@
 
     <p class="lead text-capitalize">Sugaring Hair Removal</p>
     <b-card-group deck>
-      <b-card v-for="hair in hairs" :key="hair.title">
-        <b-card-body :title="hair.title" :sub-title="hair.subtitle" title-tag="h6" class="small" >
+      <b-card v-for="hair in hairs" :key="hair.title" :img-src="hair.img" img-top>
+        <b-card-body
+          :title="hair.title"
+          :sub-title="hair.subtitle"
+          title-tag="h6"
+          class="small"
+        >
           <p v-html="hair.body"></p>
         </b-card-body>
       </b-card>
@@ -56,8 +88,18 @@
 
     <p class="lead">Facials</p>
     <b-card-group deck>
-      <b-card v-for="facial in facials" :key="facial.title">
-        <b-card-body :title="facial.title" :sub-title="facial.subtitle" title-tag="h6" class="small" >
+      <b-card
+        v-for="facial in facials"
+        :key="facial.title"
+        :img-src="facial.img"
+        img-top
+      >
+        <b-card-body
+          :title="facial.title"
+          :sub-title="facial.subtitle"
+          title-tag="h6"
+          class="small"
+        >
           <p v-html="facial.body"></p>
         </b-card-body>
       </b-card>
@@ -67,11 +109,24 @@
 
     <p class="lead">Chemical Peels</p>
     <div class="font-weight-light">
-      <p>PCA chemical peel is a powerful skin exfoliating solution applied to the face, neck, or hands to reveal the smooth and clear skin underneath. The benefits of chemical peels are included: treat acne, minimize pores, reduce fine lines and wrinkles, fade discoloration, lift skin, soothe scarring, balance texture, smooth skin, even skin tone. The chemical peel procedure involves: cleanser, hot towel, chemical peels, moisturizer, sunscreen, and product to take home. </p>
+      <p>
+        PCA chemical peel is a powerful skin exfoliating solution applied to the
+        face, neck, or hands to reveal the smooth and clear skin underneath. The
+        benefits of chemical peels are included: treat acne, minimize pores,
+        reduce fine lines and wrinkles, fade discoloration, lift skin, soothe
+        scarring, balance texture, smooth skin, even skin tone. The chemical
+        peel procedure involves: cleanser, hot towel, chemical peels,
+        moisturizer, sunscreen, and product to take home.
+      </p>
     </div>
     <b-card-group deck>
-      <b-card v-for="peel in peels" :key="peel.title">
-        <b-card-body :title="peel.title" :sub-title="peel.subtitle" title-tag="h6" class="small" >
+      <b-card v-for="peel in peels" :key="peel.title" :img-src="peel.img" img-top>
+        <b-card-body
+          :title="peel.title"
+          :sub-title="peel.subtitle"
+          title-tag="h6"
+          class="small"
+        >
           <p v-html="peel.body"></p>
         </b-card-body>
       </b-card>
@@ -81,8 +136,13 @@
 
     <p class="lead">Extractions</p>
     <b-card-group deck>
-      <b-card v-for="extraction in extractions" :key="extraction.title">
-        <b-card-body :title="extraction.title" :sub-title="extraction.subtitle" title-tag="h6" class="small" >
+      <b-card v-for="extraction in extractions" :key="extraction.title" :img-src="extraction.img" img-top>
+        <b-card-body
+          :title="extraction.title"
+          :sub-title="extraction.subtitle"
+          title-tag="h6"
+          class="small"
+        >
           <p v-html="extraction.body"></p>
         </b-card-body>
       </b-card>
@@ -92,8 +152,13 @@
 
     <p class="lead">Nails</p>
     <b-card-group deck>
-      <b-card v-for="nail in nails" :key="nail.title">
-        <b-card-body :title="nail.title" :sub-title="nail.subtitle" title-tag="h6" class="small" >
+      <b-card v-for="nail in nails" :key="nail.title" :img-src="nail.img" img-top>
+        <b-card-body
+          :title="nail.title"
+          :sub-title="nail.subtitle"
+          title-tag="h6"
+          class="small"
+        >
           <p v-html="nail.body"></p>
         </b-card-body>
       </b-card>
@@ -109,6 +174,7 @@ export default {
       pmus: [
         {
           title: "3D Microblading",
+          img: "https://www.dropbox.com/s/zwn8q6y40j0hwfy/IMG_5932.jpg?raw=1",
           subtitle: "Aproximately 2 hours. Cancellation fee $50. Minimal pain.",
           body: `
           <p>Microblading also known as eyebrows embroidery is a semi permanent tattoo that creates hair like-like strokes with the use of a manual pen containing very small needles. These needles implant pigment into the basal layer (bottom layer) of the epidermis. This is a type of cosmetic tattooing and offer realistic results. This method creates very natural appearing eyebrows, and typically you can’t tell the difference between the pigmented lines and natural hair. The results of microblading vary by clients and can last anywhere from 1 to 3 years.</p>
@@ -121,6 +187,7 @@ export default {
         },
         {
           title: "Cmai X Strokes Eyebrows",
+          img: "",
           subtitle: "Aproximately 2 hours and 30 minutes",
           body: `
           <p>Cmai X Strokes Eyebrows are created using a cosmetic tattooing machine with a tiny needle, which injects pigment into the skin.  The pigment is implanted much closer to the surface of the skin than in a traditional tattooing, also the pigment used in cosmetic tattooing is totally different to those used in body tattooing.</p>
@@ -134,6 +201,7 @@ export default {
         },
         {
           title: "Ombre’ Shading Eyebrows",
+          img: "https://www.dropbox.com/s/nj8h3yq62dulp85/IMG_5781.jpg?raw=1",
           subtitle: "Aproximately 2 hours",
           body: `
           <p>Ombre’ shading gives a soft shades brow pencil look. Once healed, it is more natural looking than solid color. It gives great definition and depth to the brows. The form of eyebrow style does not include any hair like strokes to mimic the look of natural brow hair. The head of the eyebrows starts out light and gradually fades darker all the way to the end of the eyebrows’ tail. This style is suitable for people who are looking for a fierce and sharp look.</p>
@@ -141,6 +209,7 @@ export default {
         },
         {
           title: "Ombre’ 3D Microblading",
+          img: "https://www.dropbox.com/s/mkvq56e3nwfq3yb/IMG_5910.jpg?raw=1",
           subtitle: "Aproximately 2 hours and 30 minutes",
           body: `
           <p>The procedure is the great combination between 3D Microblading and Ombre’ shading Eyebrows. The Microblading pigment is insert in the beginning at the eyebrows’ head, which blends into ombre’ shading throughout the tail. It is perfect for those who are looking for a super natural, yet more profound style of eyebrows.</p>
@@ -148,6 +217,7 @@ export default {
         },
         {
           title: "Permanent Make Up Touch Up",
+          img: "",
           subtitle: "",
           body: `
           <ul>
@@ -161,6 +231,7 @@ export default {
         },
         {
           title: "Permanent Make Up Removal",
+          img: "",
           subtitle: "50 minutes per sections.",
           body: `
           <p>It takes up to 6 treatments to remove all the pigment within 6 weeks apart between each treatment. Unlike with laser tattoo removal, any facial permanent make up such as microblading, lips, eyeliners can be removed without fear of scaring or losing your hairs. Magic Removal is effective and safest procedure to remove unwanted/ old permanent makeup for eyebrows, lips, and eyeliners.</p>
@@ -170,6 +241,7 @@ export default {
       brows: [
         {
           title: "Shaping",
+          img: "https://www.dropbox.com/s/z5oplel3bdlf8cf/IMG_5917.jpg?raw=1",
           subtitle: "20 minutes",
           body: `
           <p>One way eyebrows can help you look and feel more beautiful is by shaping them in the form of sugaring. Sugaring remove unwanted hair in a safe and natural way that suits every skin type. Made of organic sugar, lemon, and water, it does not get more natural than that.</p>
@@ -199,6 +271,7 @@ export default {
         },
         {
           title: "Lamination and Tint",
+          img: "https://www.dropbox.com/s/6wk2625b48uz06t/IMG_5924.jpg?raw=1",
           subtitle: "55 minutes",
           body: `<p>Take your eyebrows lamination service up to notch. When you add tinting to your brow lamination, the results are more defined and bolder beautiful brows. (See “brow lamination” for full description of this service alone)</p>`
         }
@@ -206,6 +279,7 @@ export default {
       lashes: [
         {
           title: "Classic Full Set",
+          img: "https://www.dropbox.com/s/lqfido084z5we21/IMG_5911.jpg?raw=1",
           subtitle: "100 minutes",
           body: `Extreme Faux mink lash is used only (never real animal hairs). Mink is laser cut much thinner than silk which gives a lightweight feel and natural look. Mink has a matte finish. Very popular with first timers.`
         },
@@ -216,11 +290,13 @@ export default {
         },
         {
           title: "Volume Full Set",
+          img: "https://www.dropbox.com/s/29e8qtb1326fav8/IMG_5915.jpg?raw=1",
           subtitle: "120 minutes",
           body: `Volume sets are multiple very lightweight extensions, made into a "fan" placed onto one natural lash. These sets create a very full, luxurious look. Perfect for clients with thin and sparse lashes and those who love a full, dense look. All volume sets at Cmai Beauty Studio are created using Parish pro-made fans.`
         },
         {
           title: "Wispy Full Set",
+          img: "https://www.dropbox.com/s/l3cgfl40prta68g/IMG_5913.jpg?raw=1",
           subtitle: "120 minutes",
           body: `Wispy volume full set is a technique where a pro handmade lash fan is created using 2-9 lashes, then applied using alternating lash lengths, which gives them the appearance of a false strip lashes & Kadashian look. Wispy volume full sets are suitable for clients who desire a spikey false lash look. Wispy volume full set is my favorite!`
         },
@@ -258,6 +334,7 @@ export default {
         },
         {
           title: "Lash Lift and Lash Tint ",
+          img: "https://www.dropbox.com/s/lhwsgirir33asya/IMG_5929.jpg?raw=1",
           subtitle: "60 minutes",
           body: `<p>A lash lift and tint treatment involves two separate processes, both designed to give you beautiful, fluttery eyelashes for up to 6 -8 weeks. It makes yours natural lashes bend upwards, leaving them looking longer, and your eyes more open and bright. Meanwhile, a black color tint is applied to make your eyelashes look darker, thicker, and fuller. It is particularly striking on those with naturally blonde or red lashes.	While lashes extensions can give a more dramatic look, a lash lift requires far less maintenance lasts several weeks longer, and the treatment itself is quicker and cheaper.</p><p>Aftercare: keep your lashes clean and dry for 24 hours after the procedure.</p>`
         },
@@ -287,11 +364,12 @@ export default {
       facials: [
         {
           title: "Cmai Beauty Facial",
+          img: "https://www.dropbox.com/s/xcpu3zd3j4rl9r7/IMG_5812.jpg?raw=1",
           subtitle: "60 minutes",
           body: `<p>Something magical happens just by working on the face. During our facial rituals, the whole body will let go and its energy will shift into a balanced and more peaceful place. A BEAUTIFUL GLOW WILL SHINE AGAIN. The treatment included cleanser, exfoliate, custom chemical peel, extraction, infusion with hyaluronic acid and complex peptide, skinceuticals serum, Celluma LED light therapy. This treatment is universal facial, which is suitable for all skin type and condition especially who are suffering from acne.</p><p>The benefits include a more hydrated, bright, plump, and clear complexion. Additional, it can also improve signs of aging. The treatment reduces fine lines, and wrinkles increase firmness, evens tone, texture, and brown spots, as well as reducing enlarged pores.</p>`
         },
         {
-          title: "Nano infusion therapy",
+          title: "Nano Infusion Therapy",
           subtitle: "60 minutes",
           body: `<p>The treatment is a cosmetic procedure that involves repeated nano puncturing the skin creating a micro injures to the skin and allow it to regenerate and create collagen for a youthful, smooth, and healthier skin. As the same time, your skin is infused with hyaluronic acid, and complex peptide. Celluma Led Light therapy is included for calming the skin and allows the product to absorb deeper into the skin.  This treatment lasts up to 3 months.</p><p>Nano infusion therapy is a non-invasive effective treatment for skin conditions including fine lines, wrinkles, scarring, and pigmentation. Nano infusion therapy offers immediate and long term results that enhances product absorption and drive active ingredients deep into the skin fro optimal skin restoration. This treatment stimulates circulation, visibly softens fine lines, reduces scarring, improves hydration levels, helps control breakouts, helps brighten up skin, and reduces puffy or sagging eyes.</p>`
         }
@@ -311,6 +389,7 @@ export default {
       extractions: [
         {
           title: "Facial Extraction",
+          img: "https://www.dropbox.com/s/59evawx7zijymih/IMG_5755.jpg?raw=1",
           subtitle: "30 minutes",
           body: `Cleanser, hot towel, skin scrubber face spatula is used to remove black and white head, moisturizing.`
         },
@@ -323,6 +402,7 @@ export default {
       nails: [
         {
           title: "Manicure",
+          img: "https://www.dropbox.com/s/6ulld7js3pmmvn2/IMG_5934.jpg?raw=1",
           subtitle: "",
           body: `<p>Classic manicure 25 minutes <br/> Gel manicure 40 minutes <br/> Powder manicure 60 minutes</p>`
         },
@@ -341,5 +421,8 @@ export default {
 .card-subtitle {
   font-weight: 400;
   font-size: 0.8rem;
+}
+.card-img-top {
+  padding: 10px;
 }
 </style>

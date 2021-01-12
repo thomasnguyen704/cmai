@@ -5,35 +5,19 @@
         <b-row>
           <b-col>
             <h2 class="cursiveFont">
-              Carolynn Mai
-              <br />
+              Carolynn Mai <br />
               Beauty Studio
             </h2>
           </b-col>
           <b-col class="text-right small">
-            <a href="tel:205-207-2659" class="text-white">
-              Phone: (205)207-2659
-            </a>
-            <br />
-            <a
-              class="text-white"
-              href="https://square.site/book/LMQXQF1APV2XD/cmai-beauty-studio-huntersville-nc"
-            >
-              Book an appointment online on Square Space
-            </a>
-            <br />
-            <div class="mt-2">
-              <a
-                href="https://www.facebook.com/carolynnmai8"
-                class="mx-1 btn btn-light fa fa-facebook"
-                target="_blank"
-              />
-              <a
-                href="https://www.instagram.com/carolynn_mai8/"
-                class="mx-1 btn btn-light fa fa-instagram"
-                target="_blank"
-              />
-            </div>
+            <address>
+              Salons by JC <br />
+              9719 Sam Furr Rd. Unit C<br />
+              Huntersville, NC 28078 <br />
+              <a href="tel:205-207-2659" class="text-white">
+                Phone: (205)207-2659
+              </a>
+            </address>
           </b-col>
         </b-row>
       </b-container>
@@ -48,6 +32,10 @@
             <b-nav-item to="terms">Terms & Policies</b-nav-item>
             <b-nav-item to="footer">Contact</b-nav-item>
           </b-navbar-nav>
+          <b-navbar-nav class="ml-auto">
+            <b-nav-item><a href="https://www.facebook.com/carolynnmai8" class="fa fa-facebook fa-2x" target="_blank" /> </b-nav-item>
+            <b-nav-item><a href="https://www.instagram.com/carolynn_mai8/" class="fa fa-instagram fa-2x" target="_blank" /></b-nav-item>
+          </b-navbar-nav>
         </b-container>
       </b-collapse>
     </b-navbar>
@@ -60,4 +48,6 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .navbar .fa { color: black; }
+</style>

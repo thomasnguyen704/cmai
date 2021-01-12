@@ -14,7 +14,7 @@
           <address class="mt-4">
             Salons by JC <br />
             C Mai Beauty Studio, Room 8<br />
-            9747 Suite A Sam Furr Rd. <br />
+            9719 Sam Furr Rd. Unit C<br />
             Huntersville, NC 28078 <br />
           </address>
         </b-col>
@@ -22,19 +22,7 @@
           <b-row>
             <b-col>
               <p class="lead">Contact</p>
-              Book an appointment
-              <p>
-                <a
-                  class="text-white"
-                  href="https://square.site/book/LMQXQF1APV2XD/cmai-beauty-studio-huntersville-nc"
-                >
-                  online
-                </a>
-                or call me at
-                <a href="tel:205-207-2659" class="text-white">
-                  (205)207-2659
-                </a>
-              </p>
+              <p>Call me at <a href="tel:205-207-2659" class="text-white"> (205)207-2659 </a> to schedule a free phone consulation</p>
             </b-col>
           </b-row>
           <b-row>

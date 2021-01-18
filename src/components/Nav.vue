@@ -10,14 +10,18 @@
             </h2>
           </b-col>
           <b-col class="text-right small">
-            <address>
-              Salons by JC <br />
-              9719 Sam Furr Rd. Unit C<br />
-              Huntersville, NC 28078 <br />
-              <a href="tel:205-207-2659" class="text-white">
-                Phone: (205)207-2659
-              </a>
-            </address>
+            <a
+              href="https://maps.google.com/?q=Salons+by+JC+9747+A+Sam+Furr+Rd.,Huntersville+NC+28078"
+            >
+              <address>
+                Salons by JC, C Mai Beauty Studio, Room 8 <br />
+                9719 Sam Furr Rd. Unit C <br />
+                Huntersville, NC 28078
+              </address>
+            </a>
+            <a href="tel:205-207-2659" class="text-white">
+              Phone: (205)207-2659
+            </a>
           </b-col>
         </b-row>
       </b-container>
@@ -33,8 +37,20 @@
             <b-nav-item to="footer">Contact</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item><a href="https://www.facebook.com/carolynnmai8" class="fa fa-facebook fa-2x" target="_blank" /> </b-nav-item>
-            <b-nav-item><a href="https://www.instagram.com/carolynn_mai8/" class="fa fa-instagram fa-2x" target="_blank" /></b-nav-item>
+            <b-nav-item>
+              <a
+                href="https://www.facebook.com/carolynnmai8"
+                class="fa fa-facebook fa-2x"
+                target="_blank"
+              />
+            </b-nav-item>
+            <b-nav-item>
+              <a
+                href="https://www.instagram.com/carolynn_mai8/"
+                class="fa fa-instagram fa-2x"
+                target="_blank"
+              />
+            </b-nav-item>
           </b-navbar-nav>
         </b-container>
       </b-collapse>
@@ -49,5 +65,11 @@ export default {
 </script>
 
 <style scoped>
-  .navbar .fa { color: black; }
+.navbar .fa {
+  color: black;
+}
+address {
+  color: white;
+  margin: 0;
+}
 </style>

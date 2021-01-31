@@ -87,7 +87,7 @@
     <hr class="my-5" />
 
     <p class="lead">Facials</p>
-    <b-card-group deck>
+    <b-card-group columns>
       <b-card
         v-for="facial in facials"
         :key="facial.title"
@@ -372,6 +372,21 @@ export default {
           title: "Nano Infusion Therapy",
           subtitle: "60 minutes",
           body: `<p>The treatment is a cosmetic procedure that involves repeated nano puncturing the skin creating a micro injures to the skin and allow it to regenerate and create collagen for a youthful, smooth, and healthier skin. As the same time, your skin is infused with hyaluronic acid, and complex peptide. Celluma Led Light therapy is included for calming the skin and allows the product to absorb deeper into the skin.  This treatment lasts up to 3 months.</p><p>Nano infusion therapy is a non-invasive effective treatment for skin conditions including fine lines, wrinkles, scarring, and pigmentation. Nano infusion therapy offers immediate and long term results that enhances product absorption and drive active ingredients deep into the skin fro optimal skin restoration. This treatment stimulates circulation, visibly softens fine lines, reduces scarring, improves hydration levels, helps control breakouts, helps brighten up skin, and reduces puffy or sagging eyes.</p>`
+        },
+        {
+          title: "Sculplla H2 Filler Facial",
+          subtitle: "",
+          body: `
+            <p>The hottest service from Korea, the Carabella “Sculpt” facial utilizes Sculplla™, a serum made of PLLA(Poly-L-Lactic Acid) penetrated ultrasonically and an innovative PLLA/hydrogen mask which further pushes the ingredient deep into the skin. Followed by a 30 minutes Celluma LED light therapy, this facial erases lines, fills in scars and large pores to create smoother, more even- textured brighter skin! Best done 7-10 days apart, see amazing results in as few as 5 visits!</p>
+            <ul>
+              <li>Pain-Free & Needle Free</li>
+              <li>Reduces fine lines & wrinkles</li>
+              <li>Tightens & lifts the skin</li>
+              <li>Stimulates collagen growth</li>
+              <li>Improves skin tone</li>
+              <li>Long lasting</li>
+            </ul>
+          `
         }
       ],
       peels: [

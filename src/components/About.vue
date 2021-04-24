@@ -6,7 +6,7 @@
         <b-col lg="4">
           <b-img
             fluid
-            src="https://www.dropbox.com/s/3k4z8dilv6vux3z/about.jpg?raw=1"
+            src="https://www.dropbox.com/s/gsel8xt3mbjtzdk/IMG_1555.jpg?raw=1"
             class="mb-5"
           />
         </b-col>
@@ -45,7 +45,7 @@
         <b-col lg="4">
           <b-img
             fluid
-            src="https://www.dropbox.com/s/z73l91kilozb2p1/about2.jpg?raw=1"
+            src="https://www.dropbox.com/s/arlsalpwglhft4q/IMG_1553.jpg?raw=1"
             class="my-5"
           />
         </b-col>

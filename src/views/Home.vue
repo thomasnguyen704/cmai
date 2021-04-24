@@ -42,6 +42,6 @@ export default {
 
 <style scoped>
 .embed-responsive {
-  margin-top: -5% !important;
+  height: 80vh;
 }
 </style>

@@ -2,8 +2,8 @@
   <div id="home">
     <article class="py-1 d-flex align-items-center bg-light">
       <b-row class="text-center jumbo-cover">
-        <b-col lg="6"></b-col>
-        <b-col lg="6" class="mb-5">
+        <b-col lg="4"></b-col>
+        <b-col lg="8" class="mb-5">
           <p class="pb-5 mb-5">
             <b-img
               src="https://www.dropbox.com/s/f0wyorwod8ml9ir/cm%20-%20logo%20-%20ff-01b.png?raw=1"

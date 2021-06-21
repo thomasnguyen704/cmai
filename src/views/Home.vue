@@ -1,47 +1,47 @@
 <template>
   <div id="home">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe
-        class="embed-responsive-item"
-        src="https://www.youtube.com/embed/videoseries?list=PL03FPac2MAc9o1KrzhdnFPl5zS9NXivfA&autoplay=1&mute=1&loop=1&rel=0"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-
-    <article class="py-5 d-flex align-items-center bg-light">
-      <b-container>
-        <b-row class="text-center">
-          <b-col md="12">
-            <p class="h1 font-weight-lighter">
-              The website is still in the progress to complete. We are working
-              hard on finishing our website for you to continue enjoying it!
-            </p>
-          </b-col>
-        </b-row>
-      </b-container>
+    <article class="py-1 d-flex align-items-center bg-light">
+      <b-row class="text-center jumbo-cover">
+        <b-col xs="6"></b-col>
+        <b-col xs="6">
+          <p>
+            <b-img
+              src="https://www.dropbox.com/s/f0wyorwod8ml9ir/cm%20-%20logo%20-%20ff-01b.png?raw=1"
+              fluid
+              class="small-logo"
+            /><br />
+            <span class="display-4">START</span> <br />
+            <span class="display-4">YOUR BEAUTY JOURNEY</span> <br />
+            <span class="display-4">HERE</span>
+          </p>
+        </b-col>
+      </b-row>
     </article>
-    <Covid />
     <About />
   </div>
 </template>
 
 <script>
-import Covid from "@/components/Covid.vue";
 import About from "@/components/About.vue";
 
 export default {
   name: "Home",
   components: {
-    Covid,
     About
   }
 };
 </script>
 
 <style scoped>
-.embed-responsive {
-  height: 80vh;
+.jumbo-cover {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url(https://www.dropbox.com/s/u8lddr59lrxze4k/face-bg.png?raw=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.small-logo {
+  max-height: 30vh;
 }
 </style>

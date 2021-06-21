@@ -26,4 +26,7 @@ article {
 footer {
   min-height: 25vh;
 }
+.hidden {
+  display: none;
+}
 </style>

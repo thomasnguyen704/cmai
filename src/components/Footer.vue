@@ -4,20 +4,20 @@
       <b-row>
         <b-col md="8" class="px-5">
           <p class="lead">Location</p>
+          <a href="https://maps.google.com/?q=Salons+by+JC+9747+A+Sam+Furr+Rd.,Huntersville+NC+28078">
+            <address class="mt-4">
+              C Mai Beauty Studio<br />
+              9747_A Sam Furr Rd. Suite 08 Unit C <br />
+              Huntersville, NC 28078
+            </address>
+          </a>
+          <p>Inside Salons by JC between Kohls and Old Navy in Norcorss Shopping Center</p>
           <b-embed
             frameborder="0"
             style="border:0"
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCFKg21pXAn0emYGvr7NJXMNCHEBysL998&q=Salons+by+JC+9747+A+Sam+Furr+Rd.,Huntersville+NC+28078"
             allowfullscreen
           />
-          <a href="https://maps.google.com/?q=Salons+by+JC+9747+A+Sam+Furr+Rd.,Huntersville+NC+28078">
-            <address class="mt-4">
-              Salons by JC <br />
-              C Mai Beauty Studio, Room 8 <br />
-              9719 Sam Furr Rd. Unit C <br />
-              Huntersville, NC 28078
-            </address>
-          </a>
         </b-col>
         <b-col md="4" class="px-5">
           <b-row>
@@ -26,7 +26,7 @@
               <p>
                 Call me at
                 <a href="tel:205-207-2659" class="text-white">
-                  (205)207-2659
+                  (205) 207-2659
                 </a>
                 to schedule a free phone consulation
               </p>

@@ -10,17 +10,15 @@
             </h2>
           </b-col>
           <b-col class="text-right small">
-            <a
-              href="https://maps.google.com/?q=Salons+by+JC+9747+A+Sam+Furr+Rd.,Huntersville+NC+28078"
-            >
-              <address>
-                Salons by JC, C Mai Beauty Studio, Room 8 <br />
-                9719 Sam Furr Rd. Unit C <br />
+            <a href="https://maps.google.com/?q=Salons+by+JC+9747+A+Sam+Furr+Rd.,Huntersville+NC+28078">
+              <address class="mt-1">
+                C Mai Beauty Studio<br />
+                9747_A Sam Furr Rd. Suite 08 Unit C <br />
                 Huntersville, NC 28078
               </address>
             </a>
             <a href="tel:205-207-2659" class="text-white">
-              Phone: (205)207-2659
+              Phone: (205) 207-2659
             </a>
           </b-col>
         </b-row>

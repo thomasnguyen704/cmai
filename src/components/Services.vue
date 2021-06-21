@@ -70,22 +70,6 @@
 
     <hr class="my-5" />
 
-    <p class="lead text-capitalize">Sugaring Hair Removal</p>
-    <b-card-group deck>
-      <b-card v-for="hair in hairs" :key="hair.title" :img-src="hair.img" img-top>
-        <b-card-body
-          :title="hair.title"
-          :sub-title="hair.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="hair.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
-
-    <hr class="my-5" />
-
     <p class="lead">Facials</p>
     <b-card-group columns>
       <b-card
@@ -148,21 +132,6 @@
       </b-card>
     </b-card-group>
 
-    <hr class="my-5" />
-
-    <p class="lead">Nails</p>
-    <b-card-group deck>
-      <b-card v-for="nail in nails" :key="nail.title" :img-src="nail.img" img-top>
-        <b-card-body
-          :title="nail.title"
-          :sub-title="nail.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="nail.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
   </div>
 </template>
 
@@ -174,7 +143,7 @@ export default {
       pmus: [
         {
           title: "3D Microblading",
-          img: "https://www.dropbox.com/s/zwn8q6y40j0hwfy/IMG_5932.jpg?raw=1",
+          //img: "https://www.dropbox.com/s/zwn8q6y40j0hwfy/IMG_5932.jpg?raw=1",
           subtitle: "Aproximately 2 hours. Cancellation fee $50. Minimal pain.",
           body: `
           <p>Microblading also known as eyebrows embroidery is a semi permanent tattoo that creates hair like-like strokes with the use of a manual pen containing very small needles. These needles implant pigment into the basal layer (bottom layer) of the epidermis. This is a type of cosmetic tattooing and offer realistic results. This method creates very natural appearing eyebrows, and typically you can’t tell the difference between the pigmented lines and natural hair. The results of microblading vary by clients and can last anywhere from 1 to 3 years.</p>
@@ -201,7 +170,7 @@ export default {
         },
         {
           title: "Ombre’ Shading Eyebrows",
-          img: "https://www.dropbox.com/s/nj8h3yq62dulp85/IMG_5781.jpg?raw=1",
+          //img: "https://www.dropbox.com/s/nj8h3yq62dulp85/IMG_5781.jpg?raw=1",
           subtitle: "Aproximately 2 hours",
           body: `
           <p>Ombre’ shading gives a soft shades brow pencil look. Once healed, it is more natural looking than solid color. It gives great definition and depth to the brows. The form of eyebrow style does not include any hair like strokes to mimic the look of natural brow hair. The head of the eyebrows starts out light and gradually fades darker all the way to the end of the eyebrows’ tail. This style is suitable for people who are looking for a fierce and sharp look.</p>
@@ -344,38 +313,21 @@ export default {
           body: `Tinting is a process of applying a safe, semi-permanent vegetable dye to your eyelashes. This is done to make your dull lashes appear not only darker, but also longer and fuller. Eyelash tinting lasts up to 5 weeks.`
         }
       ],
-      hairs: [
-        {
-          title: "Sugaring Hair Removal",
-          subtitle: "",
-          body: `
-          <p><b>What is sugaring hair removal?</b> <br/> Similar to waxing, sugaring removes body hair quickly pulling the hair from the root. The name of this method comes from the paste itself, which consists of lemon, water, and sugar. The ingredients are all heated together until it reaches a candy-like consistency. Once it cools it’s applied directly to the skin.</p>
-          <p>What are the benefits of sugaring over waxing? Applied at body temperature & will not burn the skin; not adhere to live skin cells; minimal irritation, hair removed in the direction of growth, less likely to get ingrown hair; lasts longer & lead to permanent; skin feels smooth and comfortable; no spatula or cotton strips ever required again.</p>
-          
-          <p><b>Before your appointment:</b> <br/> Grow your hair out to ¼ inch long. This process usually takes about 10-14 days. If it is longer than ½ inch, you might have to trim it before the appointment. A few days before your appointment, lightly exfoliate the area to remove dead skin cells and prevent ingrown hairs. The day before your appointment, lightly exfoliate the area to remove dead ski cells and prevents ingrown hairs. The day before your appointment, come with clean, dry skin. Avoid wearing lotions or creams. To avoid further sensitivity, don’t have any caffeine or alcohol and take an over –the counter pain reliever 30 minutes before.</p>
-          
-          <p><b>After treatment care:</b> <br/> For 24 hours after sugaring or waxing, keep in mind that your skin might be more sensitive. Avoid direct contact with the sun, such as tanning. And avoid hot baths, further exfoliation, and working out. All of these could aggravate the skin. Proper at home care will help to ensure a better experience for you. It is vital to exfoliate, hydrate, and detox your skin on a regular basis in between treatments. When your sin is in the best condition possible, hair is extracted easier and can grow back properly without causing ingrown hairs.</p>
-          <p>What can you do to minimize ingrown hairs and other bumps? You can return to exfoliating about 48 hours after your appointment. Aim to exfoliate two to three times a week to help prevent ingrown hairs between appointments. Some people prefer sugaring because the method cleans out hair follicles, removing dead skin cells and dirt, which can lead to ingrown hairs.</p>
-          
-          <p><b>How long will the results last?</b> On average, results from both sugaring and waxing last around the same time. It ultimately comes down to how fast your hair grows and how dark your hair is, but usually each session will last around 3 to 4 weeks. If you keep up a regular hair removal schedule, the removal process should become less painful and easier overtime. Some people even report less hair growth overtime, though this isn’t true for everyone.</p>
-          `
-        }
-      ],
       facials: [
         {
           title: "Cmai Beauty Facial",
-          img: "https://www.dropbox.com/s/xcpu3zd3j4rl9r7/IMG_5812.jpg?raw=1",
+          //img: "https://www.dropbox.com/s/xcpu3zd3j4rl9r7/IMG_5812.jpg?raw=1",
           subtitle: "60 minutes",
           body: `<p>Something magical happens just by working on the face. During our facial rituals, the whole body will let go and its energy will shift into a balanced and more peaceful place. A BEAUTIFUL GLOW WILL SHINE AGAIN. The treatment included cleanser, exfoliate, custom chemical peel, extraction, infusion with hyaluronic acid and complex peptide, skinceuticals serum, Celluma LED light therapy. This treatment is universal facial, which is suitable for all skin type and condition especially who are suffering from acne.</p><p>The benefits include a more hydrated, bright, plump, and clear complexion. Additional, it can also improve signs of aging. The treatment reduces fine lines, and wrinkles increase firmness, evens tone, texture, and brown spots, as well as reducing enlarged pores.</p>`
         },
         {
           title: "Nano Infusion Therapy",
-          subtitle: "60 minutes",
+          subtitle: "90 minutes",
           body: `<p>The treatment is a cosmetic procedure that involves repeated nano puncturing the skin creating a micro injures to the skin and allow it to regenerate and create collagen for a youthful, smooth, and healthier skin. As the same time, your skin is infused with hyaluronic acid, and complex peptide. Celluma Led Light therapy is included for calming the skin and allows the product to absorb deeper into the skin.  This treatment lasts up to 3 months.</p><p>Nano infusion therapy is a non-invasive effective treatment for skin conditions including fine lines, wrinkles, scarring, and pigmentation. Nano infusion therapy offers immediate and long term results that enhances product absorption and drive active ingredients deep into the skin fro optimal skin restoration. This treatment stimulates circulation, visibly softens fine lines, reduces scarring, improves hydration levels, helps control breakouts, helps brighten up skin, and reduces puffy or sagging eyes.</p>`
         },
         {
           title: "Sculplla H2 Filler Facial",
-          subtitle: "",
+          subtitle: "90 minutes",
           body: `
             <p>The hottest service from Korea, the Carabella “Sculpt” facial utilizes Sculplla™, a serum made of PLLA(Poly-L-Lactic Acid) penetrated ultrasonically and an innovative PLLA/hydrogen mask which further pushes the ingredient deep into the skin. Followed by a 30 minutes Celluma LED light therapy, this facial erases lines, fills in scars and large pores to create smoother, more even- textured brighter skin! Best done 7-10 days apart, see amazing results in as few as 5 visits!</p>
             <ul>

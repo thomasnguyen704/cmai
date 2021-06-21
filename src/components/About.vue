@@ -3,14 +3,7 @@
     <b-container>
       <h2 class="font-weight-light mb-4">About Me</h2>
       <b-row>
-        <b-col lg="4">
-          <b-img
-            fluid
-            src="https://www.dropbox.com/s/gsel8xt3mbjtzdk/IMG_1555.jpg?raw=1"
-            class="mb-5"
-          />
-        </b-col>
-        <b-col lg="8">
+        <b-col lg="12">
           <h4>Welcome</h4>
           <p>
             Hi Beautiful. Thank you for your continue supporting. My name is
@@ -42,14 +35,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col lg="4">
-          <b-img
-            fluid
-            src="https://www.dropbox.com/s/arlsalpwglhft4q/IMG_1553.jpg?raw=1"
-            class="my-5"
-          />
-        </b-col>
-        <b-col lg="8">
+        <b-col lg="12">
           <h4 class="mt-5">What made me want to be a beauty professional?</h4>
           <p>
             I got passion about beauty since I was in Viet Nam on 2010.

@@ -2,17 +2,17 @@
   <div id="home">
     <article class="py-1 d-flex align-items-center bg-light">
       <b-row class="text-center jumbo-cover">
-        <b-col xs="6"></b-col>
-        <b-col xs="6">
+        <b-col lg="6"></b-col>
+        <b-col lg="6">
           <p>
             <b-img
               src="https://www.dropbox.com/s/f0wyorwod8ml9ir/cm%20-%20logo%20-%20ff-01b.png?raw=1"
               fluid
               class="small-logo"
             /><br />
-            <span class="display-4">START</span> <br />
-            <span class="display-4">YOUR BEAUTY JOURNEY</span> <br />
-            <span class="display-4">HERE</span>
+            <span class="lead">START</span> <br />
+            <span class="display-4">YOUR BEAUTY <br />JOURNEY</span> <br />
+            <span class="lead">HERE</span>
           </p>
         </b-col>
       </b-row>
@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
 .jumbo-cover {
-  min-height: 100vh;
+  min-height: 80vh;
   min-width: 100vw;
   background-image: url(https://www.dropbox.com/s/u8lddr59lrxze4k/face-bg.png?raw=1);
   background-size: cover;
@@ -42,6 +42,6 @@ export default {
   background-position: center center;
 }
 .small-logo {
-  max-height: 30vh;
+  max-height: 40vh;
 }
 </style>

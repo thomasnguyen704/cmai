@@ -2,7 +2,16 @@
   <div class="container py-5">
     <h2 class="font-weight-light my-5">Services</h2>
 
-    <p class="lead">Permanent Make Up & Microblading</p>
+    <p class="lead">Permanent Make Up, Eyebrows, Lip Blushing, and Eyeliners</p>
+    <div class="font-weight-light">
+      <p>
+        Eyebrows, lips blushing, or eyeliners permanent makeup procedure
+        normally requires multiple treatment sessions. For best results, clients
+        will be required to return for at least one touch-up appointment. This
+        will take place within 4-8 weeks after the initial procedure. Those with
+        oily skin may require an additional touch-up.
+      </p>
+    </div>
     <b-card-group columns>
       <b-card v-for="pmu in pmus" :key="pmu.title" :img-src="pmu.img" img-top>
         <b-card-body
@@ -132,15 +141,49 @@
       </b-card>
     </b-card-group>
 
+    <hr class="my-5" />
+
+    <p class="lead">Nails</p>
+    <b-card-group columns>
+      <b-card v-for="nail in nails" :key="nail.title" :img-src="nail.img" img-top>
+        <b-card-body
+          :title="nail.title"
+          :sub-title="nail.subtitle"
+          title-tag="h6"
+          class="small"
+        >
+          <p v-html="nail.body"></p>
+        </b-card-body>
+      </b-card>
+    </b-card-group>
   </div>
 </template>
 
 <script>
+/*
+title: "",
+img: "",
+subtitle: "",
+body: ``
+*/
 export default {
   name: "Services",
   data() {
     return {
       pmus: [
+        {
+          title: "Lip Blushing",
+          img: "",
+          subtitle: "",
+          body: `<p>	Lip Blushing is a form of semi-permanent makeup that enhances and defines both the natural shape and color of a client’s natural lips. It can also be used to help mask scars and imperfections of the lips and to create asymmetry. Lip blushing is for you if: You have pale or dark to black natural lips. You want to redefine the contours of your lips. You want to achieve a fuller lip look without fillers.</p>`
+        },
+        {
+          title: "Eyeliners Permanent Makeup",
+          img: "",
+          subtitle: "",
+          body: `<p>Cmai Beauty Studio provides eyeliners permanent make up included: no side effects, no scarring, safe & easy, save time, no more smeared eyeliner, extremely natural looking results that last up to 3 years.</p>
+          <p>Most of us aren’t so blessed as to have eyes that stand out without wearing eyeliner. However, if your eyeliner is less than perfect, it will create the appearance of premature aging. Cmai Beauty Eyeliners creates natural-looking defined eyes 24/7 no matter what you are doing. Pencil liners are so inconvenient — smearing and smudging constantly — and impossible to use in any situation that involves water, sweating, or humidity.</p>`
+        },
         {
           title: "3D Microblading",
           //img: "https://www.dropbox.com/s/zwn8q6y40j0hwfy/IMG_5932.jpg?raw=1",
@@ -368,15 +411,58 @@ export default {
       ],
       nails: [
         {
-          title: "Manicure",
-          img: "https://www.dropbox.com/s/6ulld7js3pmmvn2/IMG_5934.jpg?raw=1",
-          subtitle: "",
-          body: `<p>Classic manicure 25 minutes <br/> Gel manicure 40 minutes <br/> Powder manicure 60 minutes</p>`
+          title: "Classic Manicure",
+          img: "",
+          subtitle: "$17 (25 minutes, add on)",
+          body: `Relax and enjoy soaking your fingers. The nails are shaped, cuticles are cleaned up, and the hand is massaged with refreshing lotion. Finish with buff shine or custom regular polish.`
         },
         {
-          title: "Pedicure",
-          subtitle: "",
-          body: `<p>Classic manicure 35 minutes <br/> Hot stone pedicure 50 minutes <br/> Organic pedicure 60 minutes</p>`
+          title: "Milk and Honey Manicure",
+          img: "",
+          subtitle: "$25 (30 minutes)",
+          body: `All the benefits of a Classic Manicure plus an exfoliating hand massage with real homemade honey sugar scrub to remove dry dead skin, revealing new smooth skin, moist milk masque wrapped in warm towels. Finish with custom regular polish or buff shine.`
+        },
+        {
+          title: "Hawaii Organic Manicure ",
+          img: "",
+          subtitle: "$35 (40 minutes)",
+          body: `For those with dry hands, enjoy our lavender aromatherapy with organic lavender scrub, real fresh orange fruit, moist Collagen cream masque wrap with warm towels, extended massage with collagen lotion, finish with custom regular polish or buff shine.`
+        },
+        {
+          title: "Gel Maicure",
+          img: "",
+          subtitle: "$38 (45 minutes)",
+          body: `Are you gelling? Say hello to gel nails and goodbye to chips, smudges and drying time. Gel nails wear flawlessly up to 14 days of gloss shine. Treatment includes cleansing, shaping, cuticle care, custom gel polished, finish with nourishing lotion massage and warm towels.`
+        },
+        {
+          title: "Dipping Powder & SNS",
+          img: "",
+          subtitle: "45+ (60 minutes)",
+          body: `<p>Are you looking for something a little different than your traditional manicure? We can provide you with SNS powder. Includes everything in basic manicure but finish with dipping power. I do NOT dip anyone’s fingers into the same container. We promote healthy nails and want to give an option for those of you who want a better alternative. To learn more about SNS nails, please reach out to our nail salon today!</p>
+          <p>Add on: Manicure| Artificial tip $10 | French $7 Ombre’ $10  | Design $10+ </p>`
+        },
+        {
+          title: "Classic Pedicure ",
+          img: "",
+          subtitle: "$30 (35 minutes). Get $5 discount for any Pedi & Mani combo",
+          body: `<p>When the time is essence, we can help you renew your feet and relax by: soaking feet to sea salt whirlpool bath, nails and cuticles are carefully groomed, basic callus removal, exfoliate sugar scrub, moisturizing mini massage, hot towel wraps, custom polish or buff shine.</p><p>Add on: Gel on toenails $25</p>`
+        },
+        {
+          title: "Milk and Honey Pedicure ",
+          img: "",
+          subtitle: "$45 (50 minutes). Get $5 discount for any Pedi & Mani combo.",
+          body: `<p>Treat yourself with our finest products and extended massage start with soaking your feet in warm milk bath, nails and cuticles are nicely trimmed, callus and dead skin removal treatment, homemade exfoliating sugar scrub with real honey, moist milk masque wrapped in warm towels, extended massage with honey butter lotion, custom polished or buff shine.</p>
+          <p>Benefits from milk and honey for anti-fungal: Honey is anti-bacterial, anti-fungal, reduces inflammation, possesses, helps the skin to heal quickly, and contains many vitamins and minerals. Milk contains lactic acid, a gentle, effective alpha-hydroxyl acid that is very efficient in eliminating toxins from your skin. It also exfoliates the top layer of your skin, resulting in a soft and smooth feel and look, which translates into a marvelous, youthful glow.</p>
+          <p>Add on: Exfoliate with real orange fruit ($10) Hot Stone Massage ($10) |Gel pedicure ($25)</p>`
+        },
+        {
+          title: "Hawaii Organic Pedicure",
+          img: "",
+          subtitle: "$70 (80 minutes). Get $5 discount for any Pedi & Mani combo",
+          body: `<p>Our top of the line signature spa pedicure designed to give you an extraordinary spa experience with the finest nature and organic ingredients. We use real fresh fruit to bring you an ultimate experience by natural goodness. We promise, it is a pedicure you will not forget! This includes: your feet are soak in lavender detox bubbling volcano eruption warm bath, nails and cuticles are trimmed beautifully, callus and dead skin removal treatment, exfoliate lavender scrub and fresh real orange fruit, moist collagen cream masque wrap with warm towels, extended massage with collagen lotion and volcanic hot stones, custom polished or buff shine.</p>
+          <p>	Benefits of Orange kiss for walking all day feet: Being an excellent source of vitamin C, orange can do wonders for your skin. It helps in restoring collagen in your body, which is responsible for skin firming and prevents premature aging of skin. The topical application of orange on the skin removes dead cells and dirt as well as keeps the skin moisturized and providing the appearance of healthy, glowing skin.</p>
+          <p>Add on: Gel on toenails ($25)</p>
+          `
         }
       ]
     };

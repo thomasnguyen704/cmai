@@ -32,7 +32,7 @@
             <b-nav-item to="/">Home</b-nav-item>
             <b-nav-item to="services">Services</b-nav-item>
             <b-nav-item to="clients">Clients</b-nav-item>
-            <b-nav-item to="products">Products</b-nav-item>
+            <b-nav-item href="https://carolynn-mai.square.site/">Products</b-nav-item> 
             <b-nav-item to="terms">Terms & Policies</b-nav-item>
             <!--<b-nav-item to="faq">FAQ</b-nav-item>-->
             <b-nav-item to="footer">Contact</b-nav-item>

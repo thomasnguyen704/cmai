@@ -3,7 +3,10 @@
     <b-container>
       <h2 class="font-weight-light mb-4">About Me</h2>
       <b-row>
-        <b-col lg="12">
+        <b-col lg="4">
+          <b-img fluid src="https://www.dropbox.com/s/o0fvmr3at3x1976/MiaRosePhotography-575.png?raw=1" />
+        </b-col>
+        <b-col lg="8">
           <h4>Welcome</h4>
           <p>
             Hi Beautiful. Thank you for your continue supporting. My name is

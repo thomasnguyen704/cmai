@@ -23,7 +23,7 @@
               class="mb-2"
             >
               <b-button
-                href="https://square.site/book/LMQXQF1APV2XD/cmai-beauty-studio-huntersville-nc"
+                href="https://squareup.com/appointments/book/kiz99xt2bir5gr/LMQXQF1APV2XD/services"
                 variant="danger"
               >
                 Book Appointment

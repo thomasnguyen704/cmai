@@ -105,16 +105,6 @@
             can do more harm than good and can damage your skin. I am so happy
             that I finally got rid of my acne.
           </p>
-
-          <h4 class="mt-5">Cmai Beauty Studio - "Where Beauty Meets Science"</h4>
-          <p>
-            At Cmai Beauty Studio, I offer cutting edge permanent make up
-            procedure, skin care, lashes extensions, and nails services that
-            meet your beauty needs. I will listen to yours concerns and offer
-            the individualized; high level of client care you seek. I believe in
-            making care accessible, comfortable, quality, valuable, affordable,
-            and I will go out of your way to accommodate your visit.
-          </p>
         </b-col>
       </b-row>
     </b-container>

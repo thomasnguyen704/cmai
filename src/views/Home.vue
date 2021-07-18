@@ -17,6 +17,23 @@
         </b-col>
       </b-row>
     </article>
+    <b-container>
+      <div class="row text-center" id="banner">
+        <div class="col-sm-12 my-auto">
+          <h4 class="mt-5">
+            Cmai Beauty Studio - "Where Beauty Meets Science"
+          </h4>
+          <p class="lead">
+            At Cmai Beauty Studio, I offer cutting edge permanent make up
+            procedure, skin care, lashes extensions, and nails services that
+            meet your beauty needs. I will listen to yours concerns and offer
+            the individualized; high level of client care you seek. I believe in
+            making care accessible, comfortable, quality, valuable, affordable,
+            and I will go out of your way to accommodate your visit.
+          </p>
+        </div>
+      </div>
+    </b-container>
     <About />
   </div>
 </template>
@@ -43,5 +60,8 @@ export default {
 }
 .small-logo {
   max-height: 40vh;
+}
+#banner {
+  min-height: 50vh;
 }
 </style>

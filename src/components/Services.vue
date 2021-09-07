@@ -1,8 +1,21 @@
 <template>
-  <div class="container py-5">
-    <h2 class="font-weight-light my-5">Services</h2>
+  <div class="container">
+    <div class="my-5">
+      <h2 class="font-weight-light">Services</h2>
+      <b-nav small>
+        <b-nav-item href="#brows">Brows</b-nav-item>
+        <b-nav-item href="#peels">Chemical Peels</b-nav-item>
+        <b-nav-item href="#extract">Extractions</b-nav-item>
+        <b-nav-item href="#facials">Facials</b-nav-item>
+        <b-nav-item href="#lashes">Lashes</b-nav-item>
+        <b-nav-item href="#nails">Nails</b-nav-item>
+        <b-nav-item href="#pmu">Permanent Makeup</b-nav-item>
+      </b-nav>
+    </div>
 
-    <p class="lead">Permanent Make Up, Eyebrows, Lip Blushing, and Eyeliners</p>
+    <p class="lead" id="pmu">
+      Permanent Make Up, Eyebrows, Lip Blushing, and Eyeliners
+    </p>
     <div class="font-weight-light">
       <p>
         Eyebrows, lips blushing, or eyeliners permanent makeup procedure
@@ -27,9 +40,14 @@
 
     <hr class="my-5" />
 
-    <p class="lead">Brows</p>
+    <p class="lead" id="brows">Brows</p>
     <b-card-group columns>
-      <b-card v-for="brow in brows" :key="brow.title" :img-src="brow.img" img-top>
+      <b-card
+        v-for="brow in brows"
+        :key="brow.title"
+        :img-src="brow.img"
+        img-top
+      >
         <b-card-body
           :title="brow.title"
           :sub-title="brow.subtitle"
@@ -43,7 +61,7 @@
 
     <hr class="my-5" />
 
-    <p class="lead">Lashes</p>
+    <p class="lead" id="lashes">Lashes</p>
     <div class="font-weight-light">
       <p>
         Eyelash Extensions are a cosmetic application used to enhance the
@@ -65,7 +83,12 @@
       </ul>
     </div>
     <b-card-group columns>
-      <b-card v-for="lash in lashes" :key="lash.title" :img-src="lash.img" img-top>
+      <b-card
+        v-for="lash in lashes"
+        :key="lash.title"
+        :img-src="lash.img"
+        img-top
+      >
         <b-card-body
           :title="lash.title"
           :sub-title="lash.subtitle"
@@ -79,7 +102,7 @@
 
     <hr class="my-5" />
 
-    <p class="lead">Facials</p>
+    <p class="lead" id="facials">Facials</p>
     <b-card-group columns>
       <b-card
         v-for="facial in facials"
@@ -100,7 +123,7 @@
 
     <hr class="my-5" />
 
-    <p class="lead">Chemical Peels</p>
+    <p class="lead" id="peels">Chemical Peels</p>
     <div class="font-weight-light">
       <p>
         PCA chemical peel is a powerful skin exfoliating solution applied to the
@@ -113,7 +136,12 @@
       </p>
     </div>
     <b-card-group deck>
-      <b-card v-for="peel in peels" :key="peel.title" :img-src="peel.img" img-top>
+      <b-card
+        v-for="peel in peels"
+        :key="peel.title"
+        :img-src="peel.img"
+        img-top
+      >
         <b-card-body
           :title="peel.title"
           :sub-title="peel.subtitle"
@@ -127,9 +155,14 @@
 
     <hr class="my-5" />
 
-    <p class="lead">Extractions</p>
+    <p class="lead" id="extract">Extractions</p>
     <b-card-group deck>
-      <b-card v-for="extraction in extractions" :key="extraction.title" :img-src="extraction.img" img-top>
+      <b-card
+        v-for="extraction in extractions"
+        :key="extraction.title"
+        :img-src="extraction.img"
+        img-top
+      >
         <b-card-body
           :title="extraction.title"
           :sub-title="extraction.subtitle"
@@ -143,9 +176,14 @@
 
     <hr class="my-5" />
 
-    <p class="lead">Nails</p>
+    <p class="lead" id="nails">Nails</p>
     <b-card-group columns>
-      <b-card v-for="nail in nails" :key="nail.title" :img-src="nail.img" img-top>
+      <b-card
+        v-for="nail in nails"
+        :key="nail.title"
+        :img-src="nail.img"
+        img-top
+      >
         <b-card-body
           :title="nail.title"
           :sub-title="nail.subtitle"
@@ -404,7 +442,8 @@ export default {
           body: `Cleanser, hot towel, skin scrubber face spatula is used to remove black and white head, moisturizing.`
         },
         {
-          title: "Advanced facial extraction with chemical peel and Celluma Led light therapy",
+          title:
+            "Advanced facial extraction with chemical peel and Celluma Led light therapy",
           subtitle: "60 minutes",
           body: `Cleanser, hot towel, glycolic and salicylic acid peels are applied to soften the comedones and allow the skin to be prepare for the extraction, skin scrubber face spatula is used to remove black and white head, second layer of peel is applied with hyluaronic acid, peptide, moisturizing, Celluma led light therapy to kill the acne bacteria and calm the skin.`
         }
@@ -444,13 +483,15 @@ export default {
         {
           title: "Classic Pedicure ",
           img: "",
-          subtitle: "$30 (35 minutes). Get $5 discount for any Pedi & Mani combo",
+          subtitle:
+            "$30 (35 minutes). Get $5 discount for any Pedi & Mani combo",
           body: `<p>When the time is essence, we can help you renew your feet and relax by: soaking feet to sea salt whirlpool bath, nails and cuticles are carefully groomed, basic callus removal, exfoliate sugar scrub, moisturizing mini massage, hot towel wraps, custom polish or buff shine.</p><p>Add on: Gel on toenails $25</p>`
         },
         {
           title: "Milk and Honey Pedicure ",
           img: "",
-          subtitle: "$45 (50 minutes). Get $5 discount for any Pedi & Mani combo.",
+          subtitle:
+            "$45 (50 minutes). Get $5 discount for any Pedi & Mani combo.",
           body: `<p>Treat yourself with our finest products and extended massage start with soaking your feet in warm milk bath, nails and cuticles are nicely trimmed, callus and dead skin removal treatment, homemade exfoliating sugar scrub with real honey, moist milk masque wrapped in warm towels, extended massage with honey butter lotion, custom polished or buff shine.</p>
           <p>Benefits from milk and honey for anti-fungal: Honey is anti-bacterial, anti-fungal, reduces inflammation, possesses, helps the skin to heal quickly, and contains many vitamins and minerals. Milk contains lactic acid, a gentle, effective alpha-hydroxyl acid that is very efficient in eliminating toxins from your skin. It also exfoliates the top layer of your skin, resulting in a soft and smooth feel and look, which translates into a marvelous, youthful glow.</p>
           <p>Add on: Exfoliate with real orange fruit ($10) Hot Stone Massage ($10) |Gel pedicure ($25)</p>`
@@ -458,7 +499,8 @@ export default {
         {
           title: "Hawaii Organic Pedicure",
           img: "",
-          subtitle: "$70 (80 minutes). Get $5 discount for any Pedi & Mani combo",
+          subtitle:
+            "$70 (80 minutes). Get $5 discount for any Pedi & Mani combo",
           body: `<p>Our top of the line signature spa pedicure designed to give you an extraordinary spa experience with the finest nature and organic ingredients. We use real fresh fruit to bring you an ultimate experience by natural goodness. We promise, it is a pedicure you will not forget! This includes: your feet are soak in lavender detox bubbling volcano eruption warm bath, nails and cuticles are trimmed beautifully, callus and dead skin removal treatment, exfoliate lavender scrub and fresh real orange fruit, moist collagen cream masque wrap with warm towels, extended massage with collagen lotion and volcanic hot stones, custom polished or buff shine.</p>
           <p>	Benefits of Orange kiss for walking all day feet: Being an excellent source of vitamin C, orange can do wonders for your skin. It helps in restoring collagen in your body, which is responsible for skin firming and prevents premature aging of skin. The topical application of orange on the skin removes dead cells and dirt as well as keeps the skin moisturized and providing the appearance of healthy, glowing skin.</p>
           <p>Add on: Gel on toenails ($25)</p>
@@ -477,5 +519,8 @@ export default {
 }
 .card-img-top {
   padding: 10px;
+}
+.nav-link {
+  padding-left: 0px;
 }
 </style>

@@ -20,6 +20,9 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 article {
   min-height: 45vh;
 }

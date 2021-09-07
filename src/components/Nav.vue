@@ -47,7 +47,7 @@
             </b-nav-item>
             <b-nav-item>
               <a
-                href="https://www.instagram.com/carolynn_mai8/"
+                href="https://www.instagram.com/Cmai.beauty.studio/"
                 class="fa fa-instagram fa-2x"
                 target="_blank"
               />

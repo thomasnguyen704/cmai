@@ -42,7 +42,7 @@
                   class="mx-1 btn btn-light fa fa-facebook"
                 />
                 <a
-                  href="https://www.instagram.com/carolynn_mai8/"
+                  href="https://www.instagram.com/Cmai.beauty.studio/"
                   target="_blank"
                   class="mx-1 btn btn-light fa fa-instagram"
                 />

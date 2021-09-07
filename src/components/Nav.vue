@@ -38,19 +38,17 @@
             <b-nav-item to="footer">Contact</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item>
-              <a
-                href="https://www.facebook.com/carolynnmai8"
-                class="fa fa-facebook fa-2x"
-                target="_blank"
-              />
+            <b-nav-item 
+              href="https://www.facebook.com/carolynnmai8" 
+              target="_blank"
+            >
+              <span class="fa fa-facebook fa-2x" target="_blank"></span>
             </b-nav-item>
-            <b-nav-item>
-              <a
-                href="https://www.instagram.com/Cmai.beauty.studio/"
-                class="fa fa-instagram fa-2x"
-                target="_blank"
-              />
+            <b-nav-item
+              href="https://www.instagram.com/Cmai.beauty.studio/" 
+              target="_blank"
+            >
+              <span class="fa fa-instagram fa-2x"></span>
             </b-nav-item>
           </b-navbar-nav>
         </b-container>

@@ -45,7 +45,7 @@
               <span class="fa fa-facebook fa-2x" target="_blank"></span>
             </b-nav-item>
             <b-nav-item
-              href="https://www.instagram.com/Cmai.beauty.studio/" 
+              href="https://www.instagram.com/cmaibeautystudio/" 
               target="_blank"
             >
               <span class="fa fa-instagram fa-2x"></span>

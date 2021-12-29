@@ -22,27 +22,6 @@
       </b-container>
     </b-jumbotron>
 
-    <!--
-    <div class="text-center py-5">
-      <b-container class="py-5">
-        <b-row class="section">
-          <b-col md="12" class="my-auto">
-            <h1 class="pink-font">C Mai Beauty Studio</h1>
-            <p class="lead-lg">
-              At C Mai Beauty Studio, I offer cutting edge permanent make up
-              procedure, skin care, lashes extensions, and nails services that
-              meet your beauty needs. I will listen to yours concerns and offer
-              the individualized; high level of client care you seek. I believe
-              in making care accessible, comfortable, quality, valuable,
-              affordable, and I will go out of your way to accommodate your
-              visit.
-            </p>
-          </b-col>
-        </b-row>
-      </b-container>
-    </div>
-    -->
-
     <div>
       <div class="bg-danger">
         <b-container>
@@ -187,7 +166,7 @@ p {
   margin: 0px;
 }
 .j-bg {
-  background: url(https://www.dropbox.com/s/dnqg7zudaanq997/models.jpeg?raw=1) no-repeat left center fixed;
+  background: url(https://www.dropbox.com/s/dnqg7zudaanq997/models.jpeg?raw=1) no-repeat center center fixed;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;

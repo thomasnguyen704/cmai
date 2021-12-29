@@ -1,208 +1,178 @@
 <template>
   <div class="container">
-    <div class="pb-5">
-      <b-nav small class="position-fixed pb-3">
-        <b-nav-item href="#brows">Brows</b-nav-item>
-        <b-nav-item href="#peels">Chemical Peels</b-nav-item>
-        <b-nav-item href="#extract">Extractions</b-nav-item>
-        <b-nav-item href="#facials">Facials</b-nav-item>
-        <b-nav-item href="#lashes">Lashes</b-nav-item>
-        <b-nav-item href="#nails">Nails</b-nav-item>
-        <b-nav-item href="#pmu">Permanent Makeup</b-nav-item>
-      </b-nav>
-    </div>
-
-    <p class="lead" id="pmu">
-      Permanent Make Up, Eyebrows, Lip Blushing, and Eyeliners
-    </p>
-    <div class="font-weight-light">
-      <p>
-        Eyebrows, lips blushing, or eyeliners permanent makeup procedure
-        normally requires multiple treatment sessions. For best results, clients
-        will be required to return for at least one touch-up appointment. This
-        will take place within 4-8 weeks after the initial procedure. Those with
-        oily skin may require an additional touch-up.
-      </p>
-    </div>
-    <b-card-group columns>
-      <b-card v-for="pmu in pmus" :key="pmu.title" :img-src="pmu.img" img-top>
-        <b-card-body
-          :title="pmu.title"
-          :sub-title="pmu.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="pmu.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
-
-    <hr class="my-5" />
-
-    <p class="lead" id="brows">Brows</p>
-    <b-card-group columns>
-      <b-card
-        v-for="brow in brows"
-        :key="brow.title"
-        :img-src="brow.img"
-        img-top
-      >
-        <b-card-body
-          :title="brow.title"
-          :sub-title="brow.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="brow.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
-
-    <hr class="my-5" />
-
-    <p class="lead" id="lashes">Lashes</p>
-    <div class="font-weight-light">
-      <p>
-        Eyelash Extensions are a cosmetic application used to enhance the
-        length, curl, fullness, and thickness of natural eyelashes.
-      </p>
-      Products used:<br />
-      <ul class="mb-5">
-        <li>
-          Adhesive: Nova Platinum bond lash adhesive: Nova Lash Glue is voted
-          number 1 more than any other lash glue company in the World. Oil-Proof
-          and instantly waterproof! You can go swimming right after get your
-          lashes done without worrying about messing your lashes up. Clients
-          will only require touch up every 4 weeks.
-        </li>
-        <li>
-          Lashes: Extreme Lashes, professional handmade volume lashes from
-          Parish Lash.
-        </li>
-      </ul>
-    </div>
-    <b-card-group columns>
-      <b-card
-        v-for="lash in lashes"
-        :key="lash.title"
-        :img-src="lash.img"
-        img-top
-      >
-        <b-card-body
-          :title="lash.title"
-          :sub-title="lash.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="lash.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
-
-    <hr class="my-5" />
-
-    <p class="lead" id="facials">Facials</p>
-    <b-card-group columns>
-      <b-card
-        v-for="facial in facials"
-        :key="facial.title"
-        :img-src="facial.img"
-        img-top
-      >
-        <b-card-body
-          :title="facial.title"
-          :sub-title="facial.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="facial.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
-
-    <hr class="my-5" />
-
-    <p class="lead" id="peels">Chemical Peels</p>
-    <div class="font-weight-light">
-      <p>
-        PCA chemical peel is a powerful skin exfoliating solution applied to the
-        face, neck, or hands to reveal the smooth and clear skin underneath. The
-        benefits of chemical peels are included: treat acne, minimize pores,
-        reduce fine lines and wrinkles, fade discoloration, lift skin, soothe
-        scarring, balance texture, smooth skin, even skin tone. The chemical
-        peel procedure involves: cleanser, hot towel, chemical peels,
-        moisturizer, sunscreen, and product to take home.
-      </p>
-    </div>
-    <b-card-group deck>
-      <b-card
-        v-for="peel in peels"
-        :key="peel.title"
-        :img-src="peel.img"
-        img-top
-      >
-        <b-card-body
-          :title="peel.title"
-          :sub-title="peel.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="peel.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
-
-    <hr class="my-5" />
-
-    <p class="lead" id="extract">Extractions</p>
-    <b-card-group deck>
-      <b-card
-        v-for="extraction in extractions"
-        :key="extraction.title"
-        :img-src="extraction.img"
-        img-top
-      >
-        <b-card-body
-          :title="extraction.title"
-          :sub-title="extraction.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="extraction.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
-
-    <hr class="my-5" />
-
-    <p class="lead" id="nails">Nails</p>
-    <b-card-group columns>
-      <b-card
-        v-for="nail in nails"
-        :key="nail.title"
-        :img-src="nail.img"
-        img-top
-      >
-        <b-card-body
-          :title="nail.title"
-          :sub-title="nail.subtitle"
-          title-tag="h6"
-          class="small"
-        >
-          <p v-html="nail.body"></p>
-        </b-card-body>
-      </b-card>
-    </b-card-group>
+    <b-card no-body class="nav-card pt-4">
+      <b-tabs pills small>
+        <b-tab title="Brows" active>
+          <b-card-group columns>
+            <b-card
+              v-for="brow in brows"
+              :key="brow.title"
+              :img-src="brow.img"
+              img-top
+            >
+              <b-card-body
+                :title="brow.title"
+                :sub-title="brow.subtitle"
+                title-tag="h6"
+                class="small"
+              >
+                <p v-html="brow.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+        <b-tab title="Chemical Peels">
+          <div class="font-weight-light">
+            <p>
+              PCA chemical peel is a powerful skin exfoliating solution applied
+              face, neck, or hands to reveal the smooth and clear skin
+              underneath. The benefits of chemical peels are included: treat
+              acne, minimize pores, reduce fine lines and wrinkles, fade
+              discoloration, lift skin, soothe scarring, balance texture, smooth
+              skin, even skin tone. The chemical peel procedure involves:
+              cleanser, hot towel, chemical peels, moisturizer, sunscreen, and
+              product to take home.
+            </p>
+          </div>
+          <b-card-group deck>
+            <b-card
+              v-for="peel in peels"
+              :key="peel.title"
+              :img-src="peel.img"
+              img-top
+            >
+              <b-card-body
+                :title="peel.title"
+                :sub-title="peel.subtitle"
+                title-tag="h6"
+                class="small"
+              >
+                <p v-html="peel.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+        <b-tab title="Extractions">
+          <b-card-group deck>
+            <b-card
+              v-for="extraction in extractions"
+              :key="extraction.title"
+              :img-src="extraction.img"
+              img-top
+            >
+              <b-card-body
+                :title="extraction.title"
+                :sub-title="extraction.subtitle"
+                title-tag="h6"
+                class="small"
+              >
+                <p v-html="extraction.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+        <b-tab title="Facials">
+          <b-card-group columns>
+            <b-card
+              v-for="facial in facials"
+              :key="facial.title"
+              :img-src="facial.img"
+              img-top
+            >
+              <b-card-body
+                :title="facial.title"
+                :sub-title="facial.subtitle"
+                title-tag="h6"
+                class="small"
+              >
+                <p v-html="facial.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+        <b-tab title="Lashes">
+          <div class="font-weight-light">
+            <p>
+              Eyelash Extensions are a cosmetic application used to enhance the
+              length, curl, fullness, and thickness of natural eyelashes.
+            </p>
+            Products used:<br />
+            <ul class="mb-5">
+              <li>
+                Adhesive: Nova Platinum bond lash adhesive: Nova Lash Glue is voted
+                number 1 more than any other lash glue company in the World. Oil-Proof
+                and instantly waterproof! You can go swimming right after get your
+                lashes done without worrying about messing your lashes up. Clients
+                will only require touch up every 4 weeks.
+              </li>
+              <li>
+                Lashes: Extreme Lashes, professional handmade volume lashes from
+                Parish Lash.
+              </li>
+            </ul>
+          </div>
+          <b-card-group columns>
+            <b-card
+              v-for="lash in lashes"
+              :key="lash.title"
+              :img-src="lash.img"
+              img-top
+            >
+              <b-card-body
+                :title="lash.title"
+                :sub-title="lash.subtitle"
+                title-tag="h6"
+                class="small"
+              >
+                <p v-html="lash.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+        <b-tab title="Nails">
+          <b-card-group columns>
+            <b-card
+              v-for="nail in nails"
+              :key="nail.title"
+              :img-src="nail.img"
+              img-top
+            >
+              <b-card-body
+                :title="nail.title"
+                :sub-title="nail.subtitle"
+                title-tag="h6"
+                class="small"
+              >
+                <p v-html="nail.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+        <b-tab title="Permanent Makeup">
+          <div class="font-weight-light">
+            <p>
+              Eyebrows, lips blushing, or eyeliners permanent makeup procedure
+              normally requires multiple treatment sessions. For best results,
+              clients will be required to return for at least one touch-up
+              appointment. This will take place within 4-8 weeks after the
+              initial procedure. Those with oily skin may require an additional
+              touch-up.
+            </p>
+          </div>
+          <b-card-group columns>
+            <b-card v-for="pmu in pmus" :key="pmu.title" :img-src="pmu.img" img-top>
+              <b-card-body :title="pmu.title" :sub-title="pmu.subtitle" title-tag="h6" class="small" >
+                <p v-html="pmu.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+      </b-tabs>
+    </b-card>
   </div>
 </template>
 
 <script>
-/*
-title: "",
-img: "",
-subtitle: "",
-body: ``
-*/
 export default {
   name: "Services",
   data() {
@@ -512,6 +482,10 @@ export default {
 </script>
 
 <style scoped>
+.body-scroll {
+  height: 60vh;
+  overflow-x: scroll;
+}
 .card-subtitle {
   font-weight: 400;
   font-size: 0.8rem;
@@ -519,12 +493,21 @@ export default {
 .card-img-top {
   padding: 10px;
 }
+.tab-pane {
+  margin: 1rem 0 1rem 0;
+  height: 75vh;
+  overflow-x: scroll;
+}
 .nav {
   background-color: #f8f9fa;
   width: 100%;
   z-index: 1;
 }
-.nav-link {
-  padding-left: 0px;
+.nav-card {
+  border: none;
+  background-color: #f8f9fa;
+}
+.pill-pad {
+  padding-top: 50px;
 }
 </style>

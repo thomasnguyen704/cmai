@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-    <div class="my-5">
-      <h2 class="font-weight-light">Services</h2>
-      <b-nav small>
+    <div class="pb-5">
+      <b-nav small class="position-fixed pb-3">
         <b-nav-item href="#brows">Brows</b-nav-item>
         <b-nav-item href="#peels">Chemical Peels</b-nav-item>
         <b-nav-item href="#extract">Extractions</b-nav-item>
@@ -519,6 +518,11 @@ export default {
 }
 .card-img-top {
   padding: 10px;
+}
+.nav {
+  background-color: #f8f9fa;
+  width: 100%;
+  z-index: 1;
 }
 .nav-link {
   padding-left: 0px;

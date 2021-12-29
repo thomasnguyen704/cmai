@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-container>
-      <b-row class="my-5 section">
+      <b-row class="py-5 section">
         <b-col lg="8">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdpz5g3FyC6c1LG5D6oyVgoMj0pVzOZe_Aq6rd8Gp-iVlgrPA/viewform?embedded=true"

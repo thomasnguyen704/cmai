@@ -1,7 +1,7 @@
 <template>
   <div>
-    <b-container class="my-5">
-      <h1 class="lead mt-5">
+    <b-container class="py-5">
+      <h1 class="lead">
         Permanent Make-up (Eyebrows, Lips Blushing, Eyeliners)
       </h1>
       <hr />

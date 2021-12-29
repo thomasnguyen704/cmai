@@ -1,7 +1,7 @@
 <template>
   <div class="py-5 bg-light small">
     <b-container>
-      <h2 class="font-weight-light my-5">Terms and Policies</h2>
+      <h2 class="font-weight-light mb-5">Terms and Policies</h2>
       <b-card-group columns>
         <b-card v-for="term in terms" :key="term.title">
           <b-card-body :title="term.title" title-tag="h6">

@@ -12,7 +12,6 @@
             >
               <b-card-body
                 :title="brow.title"
-                :sub-title="brow.subtitle"
                 title-tag="h6"
                 class="small"
               >
@@ -43,7 +42,6 @@
             >
               <b-card-body
                 :title="peel.title"
-                :sub-title="peel.subtitle"
                 title-tag="h6"
                 class="small"
               >
@@ -62,7 +60,6 @@
             >
               <b-card-body
                 :title="extraction.title"
-                :sub-title="extraction.subtitle"
                 title-tag="h6"
                 class="small"
               >
@@ -81,7 +78,6 @@
             >
               <b-card-body
                 :title="facial.title"
-                :sub-title="facial.subtitle"
                 title-tag="h6"
                 class="small"
               >
@@ -120,7 +116,6 @@
             >
               <b-card-body
                 :title="lash.title"
-                :sub-title="lash.subtitle"
                 title-tag="h6"
                 class="small"
               >
@@ -139,7 +134,6 @@
             >
               <b-card-body
                 :title="nail.title"
-                :sub-title="nail.subtitle"
                 title-tag="h6"
                 class="small"
               >
@@ -160,8 +154,16 @@
             </p>
           </div>
           <b-card-group columns>
-            <b-card v-for="pmu in pmus" :key="pmu.title" :img-src="pmu.img" img-top>
-              <b-card-body :title="pmu.title" :sub-title="pmu.subtitle" title-tag="h6" class="small" >
+            <b-card v-for="pmu in pmus" 
+              :key="pmu.title" 
+              :img-src="pmu.img" 
+              img-top
+            >
+              <b-card-body 
+                :title="pmu.title" 
+                title-tag="h6" 
+                class="small" 
+              >
                 <p v-html="pmu.body"></p>
               </b-card-body>
             </b-card>
@@ -446,34 +448,27 @@ export default {
           title: "Dipping Powder & SNS",
           img: "",
           subtitle: "45+ (60 minutes)",
-          body: `<p>Are you looking for something a little different than your traditional manicure? We can provide you with SNS powder. Includes everything in basic manicure but finish with dipping power. I do NOT dip anyone’s fingers into the same container. We promote healthy nails and want to give an option for those of you who want a better alternative. To learn more about SNS nails, please reach out to our nail salon today!</p>
-          <p>Add on: Manicure| Artificial tip $10 | French $7 Ombre’ $10  | Design $10+ </p>`
+          body: `<p>Are you looking for something a little different than your traditional manicure? We can provide you with SNS powder. Includes everything in basic manicure but finish with dipping power. I do NOT dip anyone’s fingers into the same container. We promote healthy nails and want to give an option for those of you who want a better alternative. To learn more about SNS nails, please reach out to our nail salon today!</p>`
         },
         {
           title: "Classic Pedicure ",
           img: "",
-          subtitle:
-            "$30 (35 minutes). Get $5 discount for any Pedi & Mani combo",
-          body: `<p>When the time is essence, we can help you renew your feet and relax by: soaking feet to sea salt whirlpool bath, nails and cuticles are carefully groomed, basic callus removal, exfoliate sugar scrub, moisturizing mini massage, hot towel wraps, custom polish or buff shine.</p><p>Add on: Gel on toenails $25</p>`
+          subtitle: "$30 (35 minutes). Get $5 discount for any Pedi & Mani combo",
+          body: `<p>When the time is essence, we can help you renew your feet and relax by: soaking feet to sea salt whirlpool bath, nails and cuticles are carefully groomed, basic callus removal, exfoliate sugar scrub, moisturizing mini massage, hot towel wraps, custom polish or buff shine.</p>`
         },
         {
           title: "Milk and Honey Pedicure ",
           img: "",
-          subtitle:
-            "$45 (50 minutes). Get $5 discount for any Pedi & Mani combo.",
+          subtitle: "$45 (50 minutes). Get $5 discount for any Pedi & Mani combo.",
           body: `<p>Treat yourself with our finest products and extended massage start with soaking your feet in warm milk bath, nails and cuticles are nicely trimmed, callus and dead skin removal treatment, homemade exfoliating sugar scrub with real honey, moist milk masque wrapped in warm towels, extended massage with honey butter lotion, custom polished or buff shine.</p>
-          <p>Benefits from milk and honey for anti-fungal: Honey is anti-bacterial, anti-fungal, reduces inflammation, possesses, helps the skin to heal quickly, and contains many vitamins and minerals. Milk contains lactic acid, a gentle, effective alpha-hydroxyl acid that is very efficient in eliminating toxins from your skin. It also exfoliates the top layer of your skin, resulting in a soft and smooth feel and look, which translates into a marvelous, youthful glow.</p>
-          <p>Add on: Exfoliate with real orange fruit ($10) Hot Stone Massage ($10) |Gel pedicure ($25)</p>`
+          <p>Benefits from milk and honey for anti-fungal: Honey is anti-bacterial, anti-fungal, reduces inflammation, possesses, helps the skin to heal quickly, and contains many vitamins and minerals. Milk contains lactic acid, a gentle, effective alpha-hydroxyl acid that is very efficient in eliminating toxins from your skin. It also exfoliates the top layer of your skin, resulting in a soft and smooth feel and look, which translates into a marvelous, youthful glow.</p>`
         },
         {
           title: "Hawaii Organic Pedicure",
           img: "",
-          subtitle:
-            "$70 (80 minutes). Get $5 discount for any Pedi & Mani combo",
+          subtitle: "$70 (80 minutes). Get $5 discount for any Pedi & Mani combo",
           body: `<p>Our top of the line signature spa pedicure designed to give you an extraordinary spa experience with the finest nature and organic ingredients. We use real fresh fruit to bring you an ultimate experience by natural goodness. We promise, it is a pedicure you will not forget! This includes: your feet are soak in lavender detox bubbling volcano eruption warm bath, nails and cuticles are trimmed beautifully, callus and dead skin removal treatment, exfoliate lavender scrub and fresh real orange fruit, moist collagen cream masque wrap with warm towels, extended massage with collagen lotion and volcanic hot stones, custom polished or buff shine.</p>
-          <p>	Benefits of Orange kiss for walking all day feet: Being an excellent source of vitamin C, orange can do wonders for your skin. It helps in restoring collagen in your body, which is responsible for skin firming and prevents premature aging of skin. The topical application of orange on the skin removes dead cells and dirt as well as keeps the skin moisturized and providing the appearance of healthy, glowing skin.</p>
-          <p>Add on: Gel on toenails ($25)</p>
-          `
+          <p>	Benefits of Orange kiss for walking all day feet: Being an excellent source of vitamin C, orange can do wonders for your skin. It helps in restoring collagen in your body, which is responsible for skin firming and prevents premature aging of skin. The topical application of orange on the skin removes dead cells and dirt as well as keeps the skin moisturized and providing the appearance of healthy, glowing skin.</p>`
         }
       ]
     };

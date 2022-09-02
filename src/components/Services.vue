@@ -142,7 +142,7 @@ export default {
       brows: [
         {
           title: "Shaping",
-          img: "https://www.dropbox.com/s/z5oplel3bdlf8cf/IMG_5917.jpg?raw=1",
+          //img: "https://www.dropbox.com/s/z5oplel3bdlf8cf/IMG_5917.jpg?raw=1",
           subtitle: "20 minutes",
           body: `
           <p>One way eyebrows can help you look and feel more beautiful is by shaping them in the form of sugaring. Sugaring remove unwanted hair in a safe and natural way that suits every skin type. Made of organic sugar, lemon, and water, it does not get more natural than that.</p>
@@ -172,7 +172,6 @@ export default {
         },
         {
           title: "Lamination and Tint",
-          img: "https://www.dropbox.com/s/6wk2625b48uz06t/IMG_5924.jpg?raw=1",
           subtitle: "55 minutes",
           body: `<p>Take your eyebrows lamination service up to notch. When you add tinting to your brow lamination, the results are more defined and bolder beautiful brows. (See “brow lamination” for full description of this service alone)</p>`
         }

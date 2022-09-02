@@ -4,83 +4,17 @@
       <b-tabs pills small>
         <b-tab title="Brows" active>
           <b-card-group columns>
-            <b-card
-              v-for="brow in brows"
-              :key="brow.title"
-              :img-src="brow.img"
-              img-top
-            >
-              <b-card-body
-                :title="brow.title"
-                title-tag="h6"
-                class="small"
-              >
+            <b-card v-for="brow in brows" :key="brow.title" :img-src="brow.img" img-top>
+              <b-card-body :title="brow.title" title-tag="h6" class="small">
                 <p v-html="brow.body"></p>
-              </b-card-body>
-            </b-card>
-          </b-card-group>
-        </b-tab>
-        <b-tab title="Chemical Peels">
-          <div class="font-weight-light">
-            <p>
-              PCA chemical peel is a powerful skin exfoliating solution applied
-              face, neck, or hands to reveal the smooth and clear skin
-              underneath. The benefits of chemical peels are included: treat
-              acne, minimize pores, reduce fine lines and wrinkles, fade
-              discoloration, lift skin, soothe scarring, balance texture, smooth
-              skin, even skin tone. The chemical peel procedure involves:
-              cleanser, hot towel, chemical peels, moisturizer, sunscreen, and
-              product to take home.
-            </p>
-          </div>
-          <b-card-group deck>
-            <b-card
-              v-for="peel in peels"
-              :key="peel.title"
-              :img-src="peel.img"
-              img-top
-            >
-              <b-card-body
-                :title="peel.title"
-                title-tag="h6"
-                class="small"
-              >
-                <p v-html="peel.body"></p>
-              </b-card-body>
-            </b-card>
-          </b-card-group>
-        </b-tab>
-        <b-tab title="Extractions">
-          <b-card-group deck>
-            <b-card
-              v-for="extraction in extractions"
-              :key="extraction.title"
-              :img-src="extraction.img"
-              img-top
-            >
-              <b-card-body
-                :title="extraction.title"
-                title-tag="h6"
-                class="small"
-              >
-                <p v-html="extraction.body"></p>
               </b-card-body>
             </b-card>
           </b-card-group>
         </b-tab>
         <b-tab title="Facials">
           <b-card-group columns>
-            <b-card
-              v-for="facial in facials"
-              :key="facial.title"
-              :img-src="facial.img"
-              img-top
-            >
-              <b-card-body
-                :title="facial.title"
-                title-tag="h6"
-                class="small"
-              >
+            <b-card v-for="facial in facials" :key="facial.title" :img-src="facial.img" img-top>
+              <b-card-body :title="facial.title" title-tag="h6" class="small">
                 <p v-html="facial.body"></p>
               </b-card-body>
             </b-card>
@@ -88,83 +22,49 @@
         </b-tab>
         <b-tab title="Lashes">
           <div class="font-weight-light">
-            <p>
-              Eyelash Extensions are a cosmetic application used to enhance the
-              length, curl, fullness, and thickness of natural eyelashes.
-            </p>
-            Products used:<br />
+            <p>Cmai’s Eyelashes Extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes.</p>
+            Products used: Cmai’s adhesive and Cmai’s Lashes<br />
             <ul class="mb-5">
-              <li>
-                Adhesive: Nova Platinum bond lash adhesive: Nova Lash Glue is voted
-                number 1 more than any other lash glue company in the World. Oil-Proof
-                and instantly waterproof! You can go swimming right after get your
-                lashes done without worrying about messing your lashes up. Clients
-                will only require touch up every 4 weeks.
-              </li>
-              <li>
-                Lashes: Extreme Lashes, professional handmade volume lashes from
-                Parish Lash.
-              </li>
+              <li>Cmai‘s adhesive: The best lashes adhesive on the market! Cmai’s adhesive included instant oil proof, water proof, heat resistant, latex free, formaldehyde free, paraben free. You can go swimming right after the lashes appointment without worrying bout messing up your lashes like other adhesive that you have to wait 24 hours for them to dry completely. </li>
+              <li>Cmai’s lashes: Cmai’s 100% handmade luxury ellipse flat 0.15 classic lashes with split tips offer great retention due to their wider bonding surface. They are also softer, lighter, causing less damage to the natural lashes. Cmai‘s premium handmade cashmere lashes 0.03 mm volume lashes creates a larger contact area between natural lashes and an extension, providing a stronger, longer lasting bond. Cashmere lashes are also thinner from top to bottom, making them more flexible and incredible soft to touch. Cashmere eyelashes extensions are the newest trend in the lash industry.</li>
             </ul>
           </div>
           <b-card-group columns>
-            <b-card
-              v-for="lash in lashes"
-              :key="lash.title"
-              :img-src="lash.img"
-              img-top
-            >
-              <b-card-body
-                :title="lash.title"
-                title-tag="h6"
-                class="small"
-              >
+            <b-card v-for="lash in lashes" :key="lash.title" :img-src="lash.img" img-top>
+              <b-card-body :title="lash.title" title-tag="h6" class="small">
                 <p v-html="lash.body"></p>
-              </b-card-body>
-            </b-card>
-          </b-card-group>
-        </b-tab>
-        <b-tab title="Nails">
-          <b-card-group columns>
-            <b-card
-              v-for="nail in nails"
-              :key="nail.title"
-              :img-src="nail.img"
-              img-top
-            >
-              <b-card-body
-                :title="nail.title"
-                title-tag="h6"
-                class="small"
-              >
-                <p v-html="nail.body"></p>
               </b-card-body>
             </b-card>
           </b-card-group>
         </b-tab>
         <b-tab title="Permanent Makeup">
           <div class="font-weight-light">
-            <p>
-              Eyebrows, lips blushing, or eyeliners permanent makeup procedure
-              normally requires multiple treatment sessions. For best results,
-              clients will be required to return for at least one touch-up
-              appointment. This will take place within 4-8 weeks after the
-              initial procedure. Those with oily skin may require an additional
-              touch-up.
-            </p>
+            <p>Eyebrows, lips blushing, or eyeliners permanent makeup procedure normally requires multiple treatment sessions. For best results, clients will be required to return for at least one touch-up appointment. This will take place within 4-8 weeks after the initial procedure. Those with oily skin may require an additional touch-up.</p>
           </div>
           <b-card-group columns>
-            <b-card v-for="pmu in pmus" 
-              :key="pmu.title" 
-              :img-src="pmu.img" 
-              img-top
-            >
-              <b-card-body 
-                :title="pmu.title" 
-                title-tag="h6" 
-                class="small" 
-              >
+            <b-card v-for="pmu in pmus" :key="pmu.title" :img-src="pmu.img" img-top>
+              <b-card-body :title="pmu.title" title-tag="h6" class="small">
                 <p v-html="pmu.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+        <b-tab title="Waxing">
+          <div class="font-weight-light"></div>
+          <b-card-group>
+            <b-card v-for="waxing in waxings" :key="waxing.title" :img-src="waxing.img" img-top>
+              <b-card-body :title="waxing.title" title-tag="h6" class="small">
+                <p v-html="waxing.body"></p>
+              </b-card-body>
+            </b-card>
+          </b-card-group>
+        </b-tab>
+        <b-tab title="Makeup">
+          <div class="font-weight-light"></div>
+          <b-card-group columns>
+            <b-card v-for="makeup in makeups" :key="makeup.title" :img-src="makeup.img" img-top>
+              <b-card-body :title="makeup.title" title-tag="h6" class="small">
+                <p v-html="makeup.body"></p>
               </b-card-body>
             </b-card>
           </b-card-group>
@@ -181,81 +81,61 @@ export default {
     return {
       pmus: [
         {
-          title: "Lip Blushing",
-          img: "",
+          title: "Microblading",
           subtitle: "",
-          body: `<p>	Lip Blushing is a form of semi-permanent makeup that enhances and defines both the natural shape and color of a client’s natural lips. It can also be used to help mask scars and imperfections of the lips and to create asymmetry. Lip blushing is for you if: You have pale or dark to black natural lips. You want to redefine the contours of your lips. You want to achieve a fuller lip look without fillers.</p>`
-        },
-        {
-          title: "Eyeliners Permanent Makeup",
-          img: "",
-          subtitle: "",
-          body: `<p>Cmai Beauty Studio provides eyeliners permanent make up included: no side effects, no scarring, safe & easy, save time, no more smeared eyeliner, extremely natural looking results that last up to 3 years.</p>
-          <p>Most of us aren’t so blessed as to have eyes that stand out without wearing eyeliner. However, if your eyeliner is less than perfect, it will create the appearance of premature aging. Cmai Beauty Eyeliners creates natural-looking defined eyes 24/7 no matter what you are doing. Pencil liners are so inconvenient — smearing and smudging constantly — and impossible to use in any situation that involves water, sweating, or humidity.</p>`
-        },
-        {
-          title: "3D Microblading",
-          //img: "https://www.dropbox.com/s/zwn8q6y40j0hwfy/IMG_5932.jpg?raw=1",
-          subtitle: "Aproximately 2 hours. Cancellation fee $50. Minimal pain.",
           body: `
-          <p>Microblading also known as eyebrows embroidery is a semi permanent tattoo that creates hair like-like strokes with the use of a manual pen containing very small needles. These needles implant pigment into the basal layer (bottom layer) of the epidermis. This is a type of cosmetic tattooing and offer realistic results. This method creates very natural appearing eyebrows, and typically you can’t tell the difference between the pigmented lines and natural hair. The results of microblading vary by clients and can last anywhere from 1 to 3 years.</p>
-          <p>Microblading is ideal for anyone wanting to enhance the look of your eyebrows. People suffering from alopecia or any other condition that causes hair loss benefit greatly from Microblading, as well as people who simply are not happy with their eyebrows. This method is not recommended for heavily oily and large pores skin. The drier the skin, the longer eyebrows are going to last.</p>
-          <p>Why is microblading only semi-permanent? Traditional method of permanent makeup consists of implanting pigment to the dermis. The dermis is live skin made up of blood vessels, sebaceous glands, sweat glands and nerves. Since this layer of skin is alive, it usually retains pigments permanently. In microblading, pigment is deposited right above the dermis into the basal layer of the epidermis. Because the cells of the basal layer continuously divide, the pigment is then broken down and eventually migrates to the surface causing the pigment to fade away.</p>
-          <p>What is the maintenance for Microblading PMU?  A mandatory 4-8 week touch up is required to ensure the skin has retained the pigment and/or to insert additional strokes for a fuller look. We recommend that clients schedule a touch up visit once a year to maintain the shape and ensure pigment retention.</p>
-          <p>Clients who are NOT eligible: Women who are breastfeeding. Clients who are keloid prone. Clients who are currently using Accutane. Clients who are currently receiving chemotherapy. Skin treatments that include the exfoliation of the brow area (such as microdermabrasion), certain chemical, fruit peeling or laser treatments may affect the result of microblading. Clients must abstain from retinols for 30 days after the treatment. Sunlight – both natural and artificial – can also affect the results.</p>
-          <p>During and after treatment. It is normal for your new brows to go through several phases. Immediately following the procedure, they may seem dark and the strokes will appear very crisp. Throughout the weeks, the pigment will soften gradually as it settles into the skin. Once the skin starts to heal, it may appear dry and flake a bit. This is a normal healing process. Once your results are healed completely, the use of SPF is strongly recommended in order to prevent premature fading.</p>
+            <p>Microblading also known as eyebrows embroidery or 3D Microblading is a semi permanent tattoo that creates hair like-like strokes with the use of a handheld manual tool containing very small needles. This method creates very natural appearing eyebrows, and typically you can’t tell the difference between the pigmented lines and natural hair. The results of microblading vary by clients last around 1 year.</p>
+            
+            <p>During and after treatment, it is normal for your new brows to go through several phases. Immediately following the procedure, they may seem dark and the strokes will appear very crisp. Throughout the weeks, the pigment will soften gradually as it settles into the skin. Once the skin starts to heal, it may appear dry and flake a bit. This is a normal healing process. Once your results are healed completely, the use of SPF is strongly recommended in order to prevent premature fading. Microblading is best suites for clients who have dry skin type.</p>
           `
         },
         {
-          title: "Cmai X Strokes Eyebrows",
-          img: "",
-          subtitle: "Aproximately 2 hours and 30 minutes",
-          body: `
-          <p>Cmai X Strokes Eyebrows are created using a cosmetic tattooing machine with a tiny needle, which injects pigment into the skin.  The pigment is implanted much closer to the surface of the skin than in a traditional tattooing, also the pigment used in cosmetic tattooing is totally different to those used in body tattooing.</p>
-          <p>Cmai X Strokes Eyebrows technique to be much less traumatic to the skin than microblading, so causes less bruising and bleeding, saying this depending which needles are used, it can be more uncomfortable, and can take longer than Microblading as you have to work very slowly to ensure the pigment is implanted accurately.</p>
-          <p>Cmai X Strokes Eyebrows creates natural hair strokes with digital technique using tiny 1 point needles or Nano needles, but can also add depth and strength easily.</p>
-          <p>Results can vary from dramatic looks, mimicking the look of makeup or individual hair strokes for a subtler more natural look.</p>
-          <p>Cmai X Strokes Eyebrows tend to retain pigment and last longer in the skin than microblading, after the initial treatment from 4 - 6 weeks touch up I would recommend a color boost at around 9-12 months.</p>
-          <p>What's the difference? So, to conclude there isn’t a great deal of difference between 4 techniques, your skin type and life style will ultimately dictate which treatment will work best for you. Feedback from my clients seems to favor X strokes eyebrows because it lasts longer, also there is a distinctive grating noise with Microblading, most clients cringe at, which your don’t get with digital.</p>
-          <p>Which do I prefer doing? I prefer the Cmai X strokes eyebrows method, the grating noise and physically cutting someone’s skin isn’t the most pleasant part of my job, whereas the buzzing noise (like and electric toothbrush) and sensation you get with the digital technique I find quite relaxing, I have had clients nod off during the digital treatment because the buzzing is like white noise to a baby!</p>
-          `
+          title: "Cmai ‘s Hairstrokes Eyebrows",
+          subtitle: "",
+          body: `<p>Cmai ‘s Hairstrokes Eyebrows also known as machine nano hairstrokes, or Hairstrokes eyebrows is the most advance and latest eyebrows pmu technique, which creates natural hair strokes with digital technique using tiny 1- 9 point needles. Cmai Hairstrokes Eyebrows technique to be much less traumatic to the skin than Microblading, so causes less bruising and bleeding, better healing process, better pigment retention, longer lasting result up to 3 years or more. Cmai ‘s Hairstrokes Eyebrows are best suite for individuals looking for the most natural results possible and often recommended for those with thicker, oily skin or have previous eyebrows done.</p>`
         },
         {
           title: "Ombre’ Shading Eyebrows",
-          //img: "https://www.dropbox.com/s/nj8h3yq62dulp85/IMG_5781.jpg?raw=1",
-          subtitle: "Aproximately 2 hours",
+          //img: "https://www.dropbox.com/s/zwn8q6y40j0hwfy/IMG_5932.jpg?raw=1",
+          subtitle: "",
           body: `
-          <p>Ombre’ shading gives a soft shades brow pencil look. Once healed, it is more natural looking than solid color. It gives great definition and depth to the brows. The form of eyebrow style does not include any hair like strokes to mimic the look of natural brow hair. The head of the eyebrows starts out light and gradually fades darker all the way to the end of the eyebrows’ tail. This style is suitable for people who are looking for a fierce and sharp look.</p>
+            <p>Ombre’ shading gives a soft shades brow pencil look. Once healed, it is more natural looking than solid color. It gives great definition and depth to the brows. The form of eyebrow style does not include any hair like strokes to mimic the look of natural brow hair. The head of the eyebrows starts out light and gradually fades darker all the way to the end of the eyebrows’ tail. The Ombre’ shading eyebrows last from 2- 5 years. This style is suitable for people who are looking for a fierce and sharp makeup look.</p>
           `
         },
         {
-          title: "Ombre’ 3D Microblading",
-          img: "https://www.dropbox.com/s/mkvq56e3nwfq3yb/IMG_5910.jpg?raw=1",
+          title: "Ombre’ Microblading",
+          subtitle: "",
+          body: `
+          <p>The procedure is the great combination between Microblading and Ombre’ shading Eyebrows. The Microblading pigment is insert in the beginning at the eyebrows’ head, which blends into Ombre’ shading throughout the tail. Ombre’ Microblading lasts around 2 years. It is perfect for those who are looking for a super natural, yet more profound style of eyebrows.</p>
+          `
+        },
+        {
+          title: "Lips Blushing",
+          subtitle: "",
+          body: `
+            <p>Lips Blushing is a form of semi-permanent makeup that enhances and defines both the natural shape and color of a client’s natural lips. It can also be used to help mask scars and imperfections of the lips and to create asymmetry. Lip blushing is for you if: You have pale or dark to black natural lips. You want to redefine the contours of your lips. You want to achieve a fuller lip look without fillers.</p>
+          `
+        },
+        {
+          title: "Eyeliners Permanent Makeup",
           subtitle: "Aproximately 2 hours and 30 minutes",
           body: `
-          <p>The procedure is the great combination between 3D Microblading and Ombre’ shading Eyebrows. The Microblading pigment is insert in the beginning at the eyebrows’ head, which blends into ombre’ shading throughout the tail. It is perfect for those who are looking for a super natural, yet more profound style of eyebrows.</p>
+            <p>Eyeliners permanent make up eliminates the need to apply eyeliner with makeup, and can be done on the upper and lower lashes lines. Permanent eyeliners can also frame the eyes and make eyelashes appear thicker, darker, and fuller. There are no side effects, no scarring, safe &amp; easy, save time, no more smeared eyeliner, extremely natural looking results that last up to 5 years or more.</p>
+
+            <p>Most of us aren’t so blessed as to have eyes that stand out without wearing eyeliner. However, if your eyeliner is less than perfect, it will create the appearance of premature aging. Cmai Beauty Eyeliners creates natural-looking defined eyes 24/7 no matter what you are doing.</p>
           `
         },
         {
           title: "Permanent Make Up Touch Up",
-          img: "",
           subtitle: "",
           body: `
-          <ul>
-            <li>First touch up from 4 -8 weeks | 60 minutes | free</li>
-            <li>Yearly touch up between 12 months – 18 months | 90 minutes</li>
-            <li>Touch up after 18 months -24 months | 100 minutes | 80% of full price</li>
-            <li>Touch up after 24 months | 2 hours | full price</li>
-          </ul>
-          <p><strong>Please Note:</strong> First touch up is included for the initial procedure price. All permanent make up procedures require two sections to complete the final look. Sometimes third session is required at an extra cost. Almost every Permanent make up cancellation fee is $50. The prices of Microblading PMU are subject to increase in the near future.</p>
-          `
-        },
-        {
-          title: "Permanent Make Up Removal",
-          img: "",
-          subtitle: "50 minutes per sections.",
-          body: `
-          <p>It takes up to 6 treatments to remove all the pigment within 6 weeks apart between each treatment. Unlike with laser tattoo removal, any facial permanent make up such as microblading, lips, eyeliners can be removed without fear of scaring or losing your hairs. Magic Removal is effective and safest procedure to remove unwanted/ old permanent makeup for eyebrows, lips, and eyeliners.</p>
+            <ul>
+              <li>First touch up from 4 -8 weeks | 60 minutes | free</li>
+              <li>Yearly touch up between 12 months – 18 months | 90 minutes</li>
+              <li>Touch up after 18 months -24 months | 100 minutes | 80% of full price</li>
+              <li>Touch up after 24 months | 2 hours | full price</li>
+            </ul>
+            <p><strong>Please Note:</strong> First touch up is included for the initial procedure price. All permanent make up procedures require two sections to complete the final look. Sometimes third session is required at an extra cost. Almost every Permanent make up cancellation fee is up to $100. The prices of Permanent make up are subject to increase in the near future.</p>
           `
         }
       ],
@@ -299,97 +179,86 @@ export default {
       ],
       lashes: [
         {
-          title: "Classic Full Set",
-          img: "https://www.dropbox.com/s/lqfido084z5we21/IMG_5911.jpg?raw=1",
-          subtitle: "100 minutes",
-          body: `Extreme Faux mink lash is used only (never real animal hairs). Mink is laser cut much thinner than silk which gives a lightweight feel and natural look. Mink has a matte finish. Very popular with first timers.`
+          title: "Classic Lashes",
+          img: "",
+          subtitle: "",
+          body: `Cmai’s 100% handmade luxury ellipse flat 0.15 lashes are used to give a lightweight soft feel, natural look, longer lasting. Best suites for clients who has great amount of natural medium length lashes, get lashes for the first time and those who love natural looking lashes.`
         },
         {
-          title: "Hybrid Full Set",
-          subtitle: "100 minutes",
-          body: `Hybrid sets are a mix between classic and volume. Perfect for clients with sparse lashes, gaps or just anyone looking for a little more fullness than classic but not quite as dense as a volume set. Hybrid sets at CMai Beauty Studio are created using pro-made fans.`
+          title: "Hybrid Lashes",
+          subtitle: "",
+          body: `Hybrid sets are a mixture between classic and volume. Perfect for clients with sparse lashes, gaps or just anyone looking for a little more fullness than classic but not quite as dense as a volume set. Cmai ‘s premium handmade cashmere lashes 0.03 and Cmai’s 100% handmade luxury ellipse flat 0.15 are used.`
         },
         {
-          title: "Volume Full Set",
-          img: "https://www.dropbox.com/s/29e8qtb1326fav8/IMG_5915.jpg?raw=1",
-          subtitle: "120 minutes",
-          body: `Volume sets are multiple very lightweight extensions, made into a "fan" placed onto one natural lash. These sets create a very full, luxurious look. Perfect for clients with thin and sparse lashes and those who love a full, dense look. All volume sets at Cmai Beauty Studio are created using Parish pro-made fans.`
+          title: "Wet Hybrid Lashes",
+          /*img: "https://www.dropbox.com/s/29e8qtb1326fav8/IMG_5915.jpg?raw=1",*/
+          subtitle: "",
+          body: `Wet hybrid sets are a mixture between classic and volume lash extensions that are wet. Imagine what your set of extensions would look like after you step out of your shower. Yep, this is when all the volume fans close up. Perfect for clients with short, sparse lashes, or just anyone looking for a little more fullness than classic but still want natural looking. Cmai ‘s premium handmade cashmere lashes 0.03 and Cmai’s 100% handmade luxury ellipse flat 0.15 are used.`
         },
         {
-          title: "Wispy Full Set",
-          img: "https://www.dropbox.com/s/l3cgfl40prta68g/IMG_5913.jpg?raw=1",
-          subtitle: "120 minutes",
-          body: `Wispy volume full set is a technique where a pro handmade lash fan is created using 2-9 lashes, then applied using alternating lash lengths, which gives them the appearance of a false strip lashes & Kadashian look. Wispy volume full sets are suitable for clients who desire a spikey false lash look. Wispy volume full set is my favorite!`
+          title: "Volume Lashes",
+          img: "",
+          subtitle: "",
+          body: `Volume lashes extensions are multiple very lightweight extensions, made into a &quot;fan&quot; placed onto one natural lash. These sets create a very full, luxurious look. Perfect for clients with thin and sparse lashes and those who love a full, dense look. All volume sets at Cmai Beauty Studio are created by 100% handmade that using Cmai ‘s premium handmade cashmere lashes 0.03.`
         },
         {
-          title: "Mega Volume Full Set",
-          subtitle: "120 - 150 minutes",
-          body: `Mega Volume sets are created with upwards of 10 super tiny, lightweight extensions applied to one natural lash.  The lash extensions used for volume & mega volume are so tiny that they weight nearly nothing so there is no potential damage to your natural lash. Mega Volume lashes create very dark and dramatic sets. All volume sets at Cmai Beauty Studio are created using Parish Lash pro-handmade fans.`
+          title: "Wispy Lashes",
+          subtitle: "",
+          body: `Wispy lashes are the trendiest style because they look fluffy and feathery, so very natural. They are perfect for people who prefer a dramatic, makeup look and eyelashes that stand out. Wispy lashes set is my favorite! Wispy lashes are created by combining of 5-9 wet lashes to create spikes to apply on the first layer of natural lashes. For the second and third layers of natural lashes, either hybrid or volume lashes base are applied. Spikes are 2-4 mm longer than the base. Cmai ‘s premium handmade cashmere lashes 0.03 and/or Cmai’s 100% handmade luxury ellipse flat 0.15 are used.`
         },
         {
-          title: "Partial Set",
-          subtitle: "60 minutes",
-          body: `This set is subtle and flirty with 50%-75% of your natural lashes filled. This option is for new clients who have not have a refill in over 28-30 days. Partial set takes 60 minutes. It cost 55% of the full set.`
+          title: "Mega Volume Lashes",
+          subtitle: "",
+          body: `Mega Volume sets are created with around 10 super tiny, lightweight extensions applied to one natural lash. The lash extensions used for volume &amp; mega volume are so tiny that they weight nearly nothing so there is no potential damage to your natural lash. Mega Volume lashes create very dark and dramatic sets. All volume sets at Cmai Beauty Studio are created using Cmai ‘s premium 100% handmade cashmere lashes 0.03.`
         },
         {
-          title: "Classic Refill",
-          subtitle:
-            "Mini 45 minutes, Standard 60 minutes, Extended refill 75 minutes.",
-          body: `Refills are exactly that intermittent appointments to fill in the lashes you've lost due to shedding and natural lash growth cycle or to add more on top of the set you already have. Prices are based on time so the better you care for your lashes, the less time you'll need!  Check out my care guide for tips.  Also, make sure to come to your lash appointment without any eye makeup to maximize your appointment time.`
-        },
-        {
-          title: "Volume or Wispy Refill",
-          subtitle:
-            "Mini 45 minutes, Standard 60 minutes, Extended refill 75 minutes.",
-          body: `Refills are exactly that intermittent appointments to fill in the lashes you've lost due to shedding and natural lash growth cycle or to add more on top of the set you already have. Prices are based on time so the better you care for your lashes, the less time you'll need!  Check out my care guide for tips.  Also, make sure to come to your lash appointment without any eye makeup to maximize your appointment time.`
-        },
-        {
-          title: "Mega Refill",
-          subtitle: "75 minutes",
-          body: `Refills are exactly that intermittent appointments to fill in the lashes you've lost due to shedding and natural lash growth cycle or to add more on top of the set you already have. Prices are based on time so the better you care for your lashes, the less time you'll need!  Check out my care guide for tips.  Also, make sure to come to your lash appointment without any eye makeup to maximize your appointment time.`
+          title: "Refill Lashes",
+          subtitle: "",
+          body: `Refill lashes are exactly that intermittent appointments to fill in the lashes you&#39;ve lost due to shedding and natural lash growth cycle or to add more on top of the set you already have. Prices are based on time so the better you care for your lashes, the less time you&#39;ll need! Check out my care guide for tips. Also, make sure to come every 2-3 weeks to your lash appointment without any eye makeup to maximize your appointment time.`
         },
         {
           title: "Lash Extensions Removal",
-          subtitle: "25 minutes",
-          body: `Cmai Beauty Studio uses cream clash remover to soften the hard bonds from the adhesive so that the extensions slide off. It does not hurt a bit and is actually much quicker then getting the lash extensions put on in the first place. I do not do refill other artist’s work. Instead, I would recommend you to get the lashes extensions removal and full set done.`
+          subtitle: "",
+          body: `Cmai Beauty Studio uses cream clash remover to soften the hard bonds from the adhesive so that the extensions slide off. It does not hurt a bit and is actually much quicker then getting the lash extensions put on in the first place.`
         },
         {
-          title: "Lash Lift and Lash Tint ",
-          img: "https://www.dropbox.com/s/lhwsgirir33asya/IMG_5929.jpg?raw=1",
-          subtitle: "60 minutes",
-          body: `<p>A lash lift and tint treatment involves two separate processes, both designed to give you beautiful, fluttery eyelashes for up to 6 -8 weeks. It makes yours natural lashes bend upwards, leaving them looking longer, and your eyes more open and bright. Meanwhile, a black color tint is applied to make your eyelashes look darker, thicker, and fuller. It is particularly striking on those with naturally blonde or red lashes.	While lashes extensions can give a more dramatic look, a lash lift requires far less maintenance lasts several weeks longer, and the treatment itself is quicker and cheaper.</p><p>Aftercare: keep your lashes clean and dry for 24 hours after the procedure.</p>`
-        },
-        {
-          title: "Eyelash Tinting",
-          subtitle: "20 minutes",
-          body: `Tinting is a process of applying a safe, semi-permanent vegetable dye to your eyelashes. This is done to make your dull lashes appear not only darker, but also longer and fuller. Eyelash tinting lasts up to 5 weeks.`
+          title: "Lash Lift and Tint",
+          subtitle: "",
+          body: `A lash lift and tint treatment involves two separate processes, both designed to give you beautiful, fluttery eyelashes for up to 6 - 8 weeks. It makes yours natural lashes bend upwards, leaving them looking longer, and your eyes more open and bright. Meanwhile, a black color tint is applied to make your eyelashes look darker, thicker, and fuller. It is particularly striking on those with naturally blonde or red lashes. While lashes extensions can give a more dramatic look, a lash lift requires far less maintenance lasts several weeks longer, and the treatment itself is quicker and cheaper. Aftercare: keep your lashes clean and dry for 24 hours after the procedure. Best suites for clients who have medium to long, thick, downward natural lashes.`
         }
       ],
       facials: [
         {
-          title: "Cmai Beauty Facial",
+          title: "The “Glow Better” Facial (50 minutes)",
           //img: "https://www.dropbox.com/s/xcpu3zd3j4rl9r7/IMG_5812.jpg?raw=1",
-          subtitle: "60 minutes",
-          body: `<p>Something magical happens just by working on the face. During our facial rituals, the whole body will let go and its energy will shift into a balanced and more peaceful place. A BEAUTIFUL GLOW WILL SHINE AGAIN. The treatment included cleanser, exfoliate, custom chemical peel, extraction, infusion with hyaluronic acid and complex peptide, skinceuticals serum, Celluma LED light therapy. This treatment is universal facial, which is suitable for all skin type and condition especially who are suffering from acne.</p><p>The benefits include a more hydrated, bright, plump, and clear complexion. Additional, it can also improve signs of aging. The treatment reduces fine lines, and wrinkles increase firmness, evens tone, texture, and brown spots, as well as reducing enlarged pores.</p>`
+          subtitle: "50 minutes",
+          body: `<p>A customized facial that includes dual exfoliation treatments! We will combine dermaplaning and our sensi peel to improve uneven skin tone &amp; texture. This facial is great for anyone who wants to rejuvenate their skin. You will leave with your face feeling fresh, plump, and glowing. This facial is great for all skin types including those with rosacea with no downtime post treatment.</p>`
         },
         {
-          title: "Nano Infusion Therapy",
-          subtitle: "90 minutes",
-          body: `<p>The treatment is a cosmetic procedure that involves repeated nano puncturing the skin creating a micro injures to the skin and allow it to regenerate and create collagen for a youthful, smooth, and healthier skin. As the same time, your skin is infused with hyaluronic acid, and complex peptide. Celluma Led Light therapy is included for calming the skin and allows the product to absorb deeper into the skin.  This treatment lasts up to 3 months.</p><p>Nano infusion therapy is a non-invasive effective treatment for skin conditions including fine lines, wrinkles, scarring, and pigmentation. Nano infusion therapy offers immediate and long term results that enhances product absorption and drive active ingredients deep into the skin fro optimal skin restoration. This treatment stimulates circulation, visibly softens fine lines, reduces scarring, improves hydration levels, helps control breakouts, helps brighten up skin, and reduces puffy or sagging eyes.</p>`
+          title: "Cmai Beauty Facial",
+          subtitle: "75 minutes",
+          body: `
+            <p>Something magical happens just by working on the face. During our facial rituals, the whole body will let go and its energy will shift into a balanced and more peaceful place. A beautiful glow will shine. This treatment includes cleanser, microdermabrasion, extractions, custom PCA chemical peel, hydro jelly mask under Celluma LED light therapy, massage from hands to head and shoulder, hyaluronic acid and complex peptide, retinol, moisturizer, and sunscreen. This treatment is universal facial, which is suitable for all skin type and condition especially who is suffering from acne.</p>
+          
+            <p>The benefits include hydrated, bright, plump, and clear complexion skin. The treatment reduces fine lines, and wrinkles increase firmness, evens tone, texture, and sunspots, as well as reducing enlarged pores, especially for oil and active acne skin.</p>
+          `
         },
         {
           title: "Sculplla H2 Filler Facial",
           subtitle: "90 minutes",
           body: `
-            <p>The hottest service from Korea, the Carabella “Sculpt” facial utilizes Sculplla™, a serum made of PLLA(Poly-L-Lactic Acid) penetrated ultrasonically and an innovative PLLA/hydrogen mask which further pushes the ingredient deep into the skin. Followed by a 30 minutes Celluma LED light therapy, this facial erases lines, fills in scars and large pores to create smoother, more even- textured brighter skin! Best done 7-10 days apart, see amazing results in as few as 5 visits!</p>
-            <ul>
-              <li>Pain-Free & Needle Free</li>
-              <li>Reduces fine lines & wrinkles</li>
-              <li>Tightens & lifts the skin</li>
-              <li>Stimulates collagen growth</li>
-              <li>Improves skin tone</li>
-              <li>Long lasting</li>
-            </ul>
+            <p>The latest wrinkles earing facial treatment from South Korea. This new treatment serum contains the same Poly L Lactic acid found in the injectable face filler Sculptra used by dermatologists. It has been doubled in dosage along with a blend of anti-aging favorites of caffeine and niacinamide that absorb into the top layer of the skin to plump wrinkles. The mask applied over the serum contains Hydrogen which drives these active ingredients deep into the skin’s layers.</p>
+
+            <p>Visible results after just a single treatment! This facial included cleanser, microdermabrasion, goat milk peel, a serum made of PLLA(Poly-L-Lactic Acid) penetrated ultrasonically and an innovative PLLA/hydrogen mask which further pushes the ingredient deep into the skin. Followed by jelly mask under Celluma LED light therapy for calming the skin and allows the product to absorb deeper into the skin. At the same time, you will get massage from hands to head and shoulders. Finishing with Scullplla stem cell mist, Sculplla caviplla O2 multi serum, Promoter repair cell cream containing PLLA + 4 GF + snail mucus filtrate + PGA of plant collagen. Best done 7-10 days apart, see amazing results in as few as 5 visits! This facial tighten &amp; lift the skin, stimulate collagen growth, improves skin tone, reduce fines lines &amp; wrinkles, fills in scars and large pores to create smoother, more even- textured brighter skin especially for dry and mature skin.</p>
+          `
+        },
+        {
+          title: "Microneedling",
+          subtitle: "90 minutes",
+          body: `
+            <p>Nano infusion therapy is a non-invasive effective treatment for skin conditions including fine lines, wrinkles, scarring, and pigmentation. Nano infusion therapy offers immediate and long- term results that enhance product absorption and drive active ingredients deep into the skin optimal skin restoration. This treatment stimulates circulation, visibly softens fine lines, reduces scarring, improves hydration levels, helps control breakouts, helps brighten up skin, and reduces puffy or sagging eyes especially for client who has acne scarring.</p>
+
+            <p>The treatment includes cleanser, numbing, another cleanser with warm towel, repeated nano puncturing the skin creating a micro injures to the skin and allow it to regenerate and create collagen for a youthful, smooth, and healthier skin. At the same time, your skin is infused with hyaluronic acid, and complex peptide, growth factors, PCA sensi peel, brightening agent. Jelly mask under Celluma Led Light therapy is included for calming the skin and allows the product to absorb deeper into the skin. In addition, you will get massage from hands to head and shoulders. This treatment lasts up to 3 months!</p>
           `
         }
       ],
@@ -469,6 +338,39 @@ export default {
           subtitle: "$70 (80 minutes). Get $5 discount for any Pedi & Mani combo",
           body: `<p>Our top of the line signature spa pedicure designed to give you an extraordinary spa experience with the finest nature and organic ingredients. We use real fresh fruit to bring you an ultimate experience by natural goodness. We promise, it is a pedicure you will not forget! This includes: your feet are soak in lavender detox bubbling volcano eruption warm bath, nails and cuticles are trimmed beautifully, callus and dead skin removal treatment, exfoliate lavender scrub and fresh real orange fruit, moist collagen cream masque wrap with warm towels, extended massage with collagen lotion and volcanic hot stones, custom polished or buff shine.</p>
           <p>	Benefits of Orange kiss for walking all day feet: Being an excellent source of vitamin C, orange can do wonders for your skin. It helps in restoring collagen in your body, which is responsible for skin firming and prevents premature aging of skin. The topical application of orange on the skin removes dead cells and dirt as well as keeps the skin moisturized and providing the appearance of healthy, glowing skin.</p>`
+        }
+      ],
+      waxings: [
+        {
+          title: "Waxing",
+          img: "",
+          subtitle: "",
+          body: `
+            <p>Waxing is the process of temporary hair removal from the root by using a covering and pulling out the hair from the follicle. Cmai Beauty Studio offers Ezee turmeric hard wax and Ezze turmeric soft wax from head to toes.</p>
+            <p>Aftercare: Avoid touching treated area for 24 hours. No hot showers or bath (use lukewarm or cold water). Wear clean, loose fitting clothes. No exfoliating for 72 hours, after exfoliate twice a week. Avoid working out or swimming for at least 24 hours. No tanning, sunbathing, sun beds, or fake tans. Avoid swimming pool, sauna and spa environment. Only apply products recommended by your therapist.</p>
+          `
+        }
+      ],
+      makeups: [
+        {
+          title: "Special Occasion Make up",
+          subtitle: "1 hour",
+          body: `From parties to photo shoots or any special day that you want to look glamorous. (Lash application additional $15) 1 hour`
+        },
+        {
+          title: "Bridal Trial Make up",
+          subtitle: "1 hour 15 minutes",
+          body: `Recommended for any soon to be bride to create that perfect look before the perfect day that required service before a “Bridal Makeup session”. (lashes application included)`
+        },
+        {
+          title: "Bridal Makeup",
+          subtitle: "1 hour 30 minutes",
+          body: `The perfect look for the perfect day! Best bundled with the trail with lash application included. Extra $100 for bundled.`
+        },
+        {
+          title: "Make Up Lesson 1hr",
+          subtitle: "1 hour",
+          body: `You bring the tools and I will provide the technique. Together we will learn new ways to best flatter your features with makeup. It is available in person or virtually. (Lash application technique included for in person).`
         }
       ]
     };

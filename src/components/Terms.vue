@@ -48,7 +48,7 @@ export default {
         },
         {
           title: "Existing Brow Tattoos",
-          body: "I am extremely selective when working over existing tattoos and other tattoo artists' work. If you have had your eyebrows previously tattooed, I request that you email me carolynnmai@gmail.com a clear photos of your brows for approval. After sending your photos, please give me 1-3 business days for me to get back to you. If for any reason you schedule an appointment without approval from me, your deposit will be forfeited."
+          body: "I am extremely selective when working over existing tattoos and other tattoo artists' work. If you have had your eyebrows previously tattooed, I request that you email me via cmaibeautystudio@gmail.com a clear photos of your brows for approval. After sending your photos, please give me 1-3 business days for me to get back to you. If for any reason you schedule an appointment without approval from me, your deposit will be forfeited."
         },
         {
           title: "Important for all Permanent Makeup & Microblading Clients",
@@ -62,11 +62,11 @@ export default {
         },
         {
           title: "Late",
-          body: "Please familiarize yourself with my location and prepare yourself for the traffic. I know sometimes things can happen so plan to arrive about 10 minutes EARLIER to avoid being late. Give yourself plenty of time for the length of your appointment. Out of respect for everyone's time we have a strict no-tolerance policy for late arrivals. Over 10 minutes late arrivals will be a no-show and deposits will be forfeited. If your appointment is complimentary, then your subsequent appointment will no longer be complimentary. An additional deposit will be required to reschedule your appointment if you arrive late for your scheduled appointment time."
+          body: "Please familiarize yourself with my location and prepare yourself for the traffic. I know sometimes things can happen so plan to arrive about 10 minutes EARLIER to avoid being late. Give yourself plenty of time for the length of your appointment. Out of respect for everyone's time we have a strict no-tolerance policy for late arrivals. Over 8 minutes late arrivals will be a no-show and and you will need to pay up to $100 to rebook.. If your appointment is complimentary, then your subsequent appointment will no longer be complimentary. An additional deposit will be required to reschedule your appointment if you arrive late for your scheduled appointment time."
         },
         {
           title: "Cancellation & Rescheduling",
-          body: "Appointments are strongly encouraged, though I do accept walk-ins when possible. I look forward to meeting you in the not too distant future. Cmai Beauty Studio is 100% committed to holding your preferred reservation date and time. In an effort to ensure the same 100% commitment from our guests we do kindly request 48 hours (2 days / I close on Sunday and Monday) notice when rescheduling or cancelling your appointment. Our services deposits/payments will be forfeited when outside of this time. Additional deposits will be required to reschedule your appointment if you give less than 48 hours’ notice. In the event you are unable to cancel at least two days in advance you could be charged a 50% cancellation fee. Maximum fee charge is $50. We know some day-to-day issues are unavoidable so we do consider each situation on a case-by-case basis."
+          body: "Appointments are strongly encouraged, though I do accept walk-ins when possible. I look forward to meeting you in the not too distant future. Cmai Beauty Studio is 100% committed to holding your preferred reservation date and time. In an effort to ensure the same 100% commitment from our guests we do kindly request at least 48 hours (2 days, I close on Saturday, Sunday, and Monday) notice when rescheduling or cancelling your appointment. You can reschedule twice per appointment. Additional $100 charge for permanent make up appointment or $50 charge for any other services will be required to reschedule your appointment if you give less than 48 hours notice. We know some day-to-day issues are unavoidable so we do consider each situation on a case-by-case basis."
         },
         {
           title: "Appointment & Consultation",
@@ -74,7 +74,7 @@ export default {
         },
         {
           title: "No Show",
-          body: "Please understand that when a guest doesn’t show for a scheduled appointment. I do not have an opportunity to replace the appointment. A “No Show” results in a direct loss of my income. To avoid this, I have a very strict No Show policy. You will be charge up to $ 50 for no show appointment. Should you no show for a reserved appointment more than one time—you will be subject to a charge to your credit card for the full appointment amount. I review each situation carefully and it is my desire not to ever enforce this. Please don’t make me enforce this policy and simply do the right thing and cancel at least two days prior to your appointment."
+          body: "Please understand that when a guest doesn’t show for a scheduled appointment. I do not have an opportunity to replace the appointment. A “No Show” results in a direct loss of my income. To avoid this, I have a very strict No Show policy. You will be charge $100 for permanent make up appointment or $50 for any other services for no show appointment to rebook. 3 no show within 12 months, you will be banned from booking. I review each situation carefully and it is my desire not to ever enforce this. Please don’t make me enforce this policy and simply do the right thing and cancel at least two days prior to your appointment."
         },
         {
           title: "Guests",

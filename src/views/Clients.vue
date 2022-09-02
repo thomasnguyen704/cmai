@@ -32,38 +32,16 @@
           </div>
 
           <h1 class="lead mt-5">Consent Forms</h1>
-          <p>
-            Please read and sign the consent forms below 24-48 hours before your
-            appointment. Forms can be signed on your mobile/smart device.
-          </p>
+          <p> Please read and sign the consent forms below 24-48 hours before your appointment. Forms can be signed on your mobile/smart device. </p>
           <ul>
             <li>
-              <a
-                href="https://www.jotform.com/build/202914287619058"
-                target="_blank"
-                >Eyebrows, Lip Blush, Eyeliners Permanent Make Up
-              </a>
+              <a href="https://www.jotform.com/build/202914287619058" target="_blank" >Eyebrows, Lip Blush, Eyeliners Permanent Make Up </a>
             </li>
             <li>
-              <a
-                href="https://www.jotform.com/build/203066788062055"
-                target="_blank"
-                >Lashes Extensions, Brows Lamination, Lash Lift, Tint, Waxing
-              </a>
+              <a href="https://www.jotform.com/build/203066788062055" target="_blank" >Lashes Extensions, Brows Lamination, Lash Lift, Tint, Waxing </a>
             </li>
             <li>
-              <a
-                href="https://www.jotform.com/build/203506010848044"
-                target="_blank"
-                >Facials and Skincare
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.jotform.com/build/210497421489058"
-                target="_blank"
-                >Manicure and Pedicure
-              </a>
+              <a href="https://www.jotform.com/build/203506010848044" target="_blank" >Facials and Skincare </a>
             </li>
           </ul>
         </b-col>

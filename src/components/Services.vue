@@ -22,12 +22,21 @@
         </b-tab>
         <b-tab title="Lashes">
           <div class="font-weight-light">
-            <p>Cmai’s Eyelashes Extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes.</p>
-            Products used: Cmai’s adhesive and Cmai’s Lashes<br />
-            <ul class="mb-5">
-              <li>Cmai‘s adhesive: The best lashes adhesive on the market! Cmai’s adhesive included instant oil proof, water proof, heat resistant, latex free, formaldehyde free, paraben free. You can go swimming right after the lashes appointment without worrying bout messing up your lashes like other adhesive that you have to wait 24 hours for them to dry completely. </li>
-              <li>Cmai’s lashes: Cmai’s 100% handmade luxury ellipse flat 0.15 classic lashes with split tips offer great retention due to their wider bonding surface. They are also softer, lighter, causing less damage to the natural lashes. Cmai‘s premium handmade cashmere lashes 0.03 mm volume lashes creates a larger contact area between natural lashes and an extension, providing a stronger, longer lasting bond. Cashmere lashes are also thinner from top to bottom, making them more flexible and incredible soft to touch. Cashmere eyelashes extensions are the newest trend in the lash industry.</li>
-            </ul>
+            <b-row>
+              <b-col md="4">
+                <b-img src="https://www.dropbox.com/s/yytd1x11u6uaxd9/image8.jpeg?raw=1" fluid />
+              </b-col>
+              <b-col md="8">
+                <p>Cmai’s Eyelashes Extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes.</p>
+                <p>
+                  Products used: Cmai’s adhesive and Cmai’s Lashes<br />
+                  <ul class="mb-5">
+                    <li>Cmai‘s adhesive: The best lashes adhesive on the market! Cmai’s adhesive included instant oil proof, water proof, heat resistant, latex free, formaldehyde free, paraben free. You can go swimming right after the lashes appointment without worrying bout messing up your lashes like other adhesive that you have to wait 24 hours for them to dry completely. </li>
+                    <li>Cmai’s lashes: Cmai’s 100% handmade luxury ellipse flat 0.15 classic lashes with split tips offer great retention due to their wider bonding surface. They are also softer, lighter, causing less damage to the natural lashes. Cmai‘s premium handmade cashmere lashes 0.03 mm volume lashes creates a larger contact area between natural lashes and an extension, providing a stronger, longer lasting bond. Cashmere lashes are also thinner from top to bottom, making them more flexible and incredible soft to touch. Cashmere eyelashes extensions are the newest trend in the lash industry.</li>
+                  </ul>
+                </p>
+              </b-col>
+            </b-row>
           </div>
           <b-card-group columns>
             <b-card v-for="lash in lashes" :key="lash.title" :img-src="lash.img" img-top>
@@ -51,7 +60,7 @@
         </b-tab>
         <b-tab title="Waxing">
           <div class="font-weight-light"></div>
-          <b-card-group>
+          <b-card-group columns>
             <b-card v-for="waxing in waxings" :key="waxing.title" :img-src="waxing.img" img-top>
               <b-card-body :title="waxing.title" title-tag="h6" class="small">
                 <p v-html="waxing.body"></p>
@@ -83,6 +92,7 @@ export default {
         {
           title: "Microblading",
           subtitle: "",
+          img: "https://www.dropbox.com/s/b4xezhj0d4gijge/image13.jpeg?raw=1",
           body: `
             <p>Microblading also known as eyebrows embroidery or 3D Microblading is a semi permanent tattoo that creates hair like-like strokes with the use of a handheld manual tool containing very small needles. This method creates very natural appearing eyebrows, and typically you can’t tell the difference between the pigmented lines and natural hair. The results of microblading vary by clients last around 1 year.</p>
             
@@ -92,11 +102,12 @@ export default {
         {
           title: "Cmai ‘s Hairstrokes Eyebrows",
           subtitle: "",
+          img: "https://www.dropbox.com/s/ejxt1vi48gbuckx/image3.jpeg?raw=1",
           body: `<p>Cmai ‘s Hairstrokes Eyebrows also known as machine nano hairstrokes, or Hairstrokes eyebrows is the most advance and latest eyebrows pmu technique, which creates natural hair strokes with digital technique using tiny 1- 9 point needles. Cmai Hairstrokes Eyebrows technique to be much less traumatic to the skin than Microblading, so causes less bruising and bleeding, better healing process, better pigment retention, longer lasting result up to 3 years or more. Cmai ‘s Hairstrokes Eyebrows are best suite for individuals looking for the most natural results possible and often recommended for those with thicker, oily skin or have previous eyebrows done.</p>`
         },
         {
           title: "Ombre’ Shading Eyebrows",
-          //img: "https://www.dropbox.com/s/zwn8q6y40j0hwfy/IMG_5932.jpg?raw=1",
+          img: "https://www.dropbox.com/s/gjbc7bpp8sgflpc/image7.jpeg?raw=1",
           subtitle: "",
           body: `
             <p>Ombre’ shading gives a soft shades brow pencil look. Once healed, it is more natural looking than solid color. It gives great definition and depth to the brows. The form of eyebrow style does not include any hair like strokes to mimic the look of natural brow hair. The head of the eyebrows starts out light and gradually fades darker all the way to the end of the eyebrows’ tail. The Ombre’ shading eyebrows last from 2- 5 years. This style is suitable for people who are looking for a fierce and sharp makeup look.</p>
@@ -105,13 +116,21 @@ export default {
         {
           title: "Ombre’ Microblading",
           subtitle: "",
+          img: "https://www.dropbox.com/s/5vi4j4rjsuapkws/image2.jpeg?raw=1",
           body: `
           <p>The procedure is the great combination between Microblading and Ombre’ shading Eyebrows. The Microblading pigment is insert in the beginning at the eyebrows’ head, which blends into Ombre’ shading throughout the tail. Ombre’ Microblading lasts around 2 years. It is perfect for those who are looking for a super natural, yet more profound style of eyebrows.</p>
           `
         },
         {
+          title: "Eyebrows Lamination",
+          subtitle: "",
+          img: "https://www.dropbox.com/s/56vm7k7tfqfqnir/image1.jpeg?raw=1",
+          body: "This latest brow grooming procedure enables the brow hairs to be redirected and set in an even shape—creating a thicker, fuller feel to the brow. It&#39;s almost like a perm for the brows that last up to 6 weeks. This is not a semi permanent make up and best suite for clients who has good amount of un rules natural eyebrows and those to get the microblading look temporary."
+        },
+        {
           title: "Lips Blushing",
           subtitle: "",
+          img: "https://www.dropbox.com/s/88qui8m8fp9n820/image4.jpeg?raw=1",
           body: `
             <p>Lips Blushing is a form of semi-permanent makeup that enhances and defines both the natural shape and color of a client’s natural lips. It can also be used to help mask scars and imperfections of the lips and to create asymmetry. Lip blushing is for you if: You have pale or dark to black natural lips. You want to redefine the contours of your lips. You want to achieve a fuller lip look without fillers.</p>
           `
@@ -119,6 +138,7 @@ export default {
         {
           title: "Eyeliners Permanent Makeup",
           subtitle: "Aproximately 2 hours and 30 minutes",
+          img: "https://www.dropbox.com/s/zskwug373glfr4j/image6.jpeg?raw=1",
           body: `
             <p>Eyeliners permanent make up eliminates the need to apply eyeliner with makeup, and can be done on the upper and lower lashes lines. Permanent eyeliners can also frame the eyes and make eyelashes appear thicker, darker, and fuller. There are no side effects, no scarring, safe &amp; easy, save time, no more smeared eyeliner, extremely natural looking results that last up to 5 years or more.</p>
 
@@ -186,28 +206,30 @@ export default {
         {
           title: "Hybrid Lashes",
           subtitle: "",
+          img: "https://www.dropbox.com/s/0lnuwbcrp4bs52x/image17.jpeg?raw=1",
           body: `Hybrid sets are a mixture between classic and volume. Perfect for clients with sparse lashes, gaps or just anyone looking for a little more fullness than classic but not quite as dense as a volume set. Cmai ‘s premium handmade cashmere lashes 0.03 and Cmai’s 100% handmade luxury ellipse flat 0.15 are used.`
         },
         {
           title: "Wet Hybrid Lashes",
-          /*img: "https://www.dropbox.com/s/29e8qtb1326fav8/IMG_5915.jpg?raw=1",*/
-          subtitle: "",
+          img: "https://www.dropbox.com/s/fu0x33mcd84svjd/image18.jpeg?raw=1",
           body: `Wet hybrid sets are a mixture between classic and volume lash extensions that are wet. Imagine what your set of extensions would look like after you step out of your shower. Yep, this is when all the volume fans close up. Perfect for clients with short, sparse lashes, or just anyone looking for a little more fullness than classic but still want natural looking. Cmai ‘s premium handmade cashmere lashes 0.03 and Cmai’s 100% handmade luxury ellipse flat 0.15 are used.`
         },
         {
           title: "Volume Lashes",
-          img: "",
+          img: "https://www.dropbox.com/s/0lnuwbcrp4bs52x/image17.jpeg?raw=1",
           subtitle: "",
           body: `Volume lashes extensions are multiple very lightweight extensions, made into a &quot;fan&quot; placed onto one natural lash. These sets create a very full, luxurious look. Perfect for clients with thin and sparse lashes and those who love a full, dense look. All volume sets at Cmai Beauty Studio are created by 100% handmade that using Cmai ‘s premium handmade cashmere lashes 0.03.`
         },
         {
           title: "Wispy Lashes",
           subtitle: "",
+          img: "https://www.dropbox.com/s/k8ab05hun1ozanf/image9.jpeg?raw=1",
           body: `Wispy lashes are the trendiest style because they look fluffy and feathery, so very natural. They are perfect for people who prefer a dramatic, makeup look and eyelashes that stand out. Wispy lashes set is my favorite! Wispy lashes are created by combining of 5-9 wet lashes to create spikes to apply on the first layer of natural lashes. For the second and third layers of natural lashes, either hybrid or volume lashes base are applied. Spikes are 2-4 mm longer than the base. Cmai ‘s premium handmade cashmere lashes 0.03 and/or Cmai’s 100% handmade luxury ellipse flat 0.15 are used.`
         },
         {
           title: "Mega Volume Lashes",
           subtitle: "",
+          img: "https://www.dropbox.com/s/4sqo73byxfsluq8/image10.jpeg?raw=1",
           body: `Mega Volume sets are created with around 10 super tiny, lightweight extensions applied to one natural lash. The lash extensions used for volume &amp; mega volume are so tiny that they weight nearly nothing so there is no potential damage to your natural lash. Mega Volume lashes create very dark and dramatic sets. All volume sets at Cmai Beauty Studio are created using Cmai ‘s premium 100% handmade cashmere lashes 0.03.`
         },
         {
@@ -223,13 +245,14 @@ export default {
         {
           title: "Lash Lift and Tint",
           subtitle: "",
+          img: "https://www.dropbox.com/s/9of82yjd5j5244g/image11.jpeg?raw=1",
           body: `A lash lift and tint treatment involves two separate processes, both designed to give you beautiful, fluttery eyelashes for up to 6 - 8 weeks. It makes yours natural lashes bend upwards, leaving them looking longer, and your eyes more open and bright. Meanwhile, a black color tint is applied to make your eyelashes look darker, thicker, and fuller. It is particularly striking on those with naturally blonde or red lashes. While lashes extensions can give a more dramatic look, a lash lift requires far less maintenance lasts several weeks longer, and the treatment itself is quicker and cheaper. Aftercare: keep your lashes clean and dry for 24 hours after the procedure. Best suites for clients who have medium to long, thick, downward natural lashes.`
         }
       ],
       facials: [
         {
           title: "The “Glow Better” Facial (50 minutes)",
-          //img: "https://www.dropbox.com/s/xcpu3zd3j4rl9r7/IMG_5812.jpg?raw=1",
+          img: "https://www.dropbox.com/s/iafxnp1arql10kx/image16.jpeg?raw=1",
           subtitle: "50 minutes",
           body: `<p>A customized facial that includes dual exfoliation treatments! We will combine dermaplaning and our sensi peel to improve uneven skin tone &amp; texture. This facial is great for anyone who wants to rejuvenate their skin. You will leave with your face feeling fresh, plump, and glowing. This facial is great for all skin types including those with rosacea with no downtime post treatment.</p>`
         },
@@ -244,6 +267,7 @@ export default {
         },
         {
           title: "Sculplla H2 Filler Facial",
+          img: "https://www.dropbox.com/s/xfj6bvvap5jb4p1/image12.jpeg?raw=1",
           subtitle: "90 minutes",
           body: `
             <p>The latest wrinkles earing facial treatment from South Korea. This new treatment serum contains the same Poly L Lactic acid found in the injectable face filler Sculptra used by dermatologists. It has been doubled in dosage along with a blend of anti-aging favorites of caffeine and niacinamide that absorb into the top layer of the skin to plump wrinkles. The mask applied over the serum contains Hydrogen which drives these active ingredients deep into the skin’s layers.</p>
@@ -254,6 +278,7 @@ export default {
         {
           title: "Microneedling",
           subtitle: "90 minutes",
+          img: "https://www.dropbox.com/s/t2saxhnmh39gur9/image14.jpeg?raw=1",
           body: `
             <p>Nano infusion therapy is a non-invasive effective treatment for skin conditions including fine lines, wrinkles, scarring, and pigmentation. Nano infusion therapy offers immediate and long- term results that enhance product absorption and drive active ingredients deep into the skin optimal skin restoration. This treatment stimulates circulation, visibly softens fine lines, reduces scarring, improves hydration levels, helps control breakouts, helps brighten up skin, and reduces puffy or sagging eyes especially for client who has acne scarring.</p>
 
@@ -271,6 +296,16 @@ export default {
           title: "Cmai Advanced Peel",
           subtitle: "",
           body: `The most potent of Cmai Beauty Studio is a formula consisting of a blend of powerful ingredients that address most of clients concerns such as even out skin tone, improve texture, and clarity; provide more exfoliation for acne, oilier, thicker, and more resilient skin types, soften fine lines, wrinkles by reducing age spots and sun damage. It is extremely effective on sun-damaged and thickened skin. Cmai Beauty Advanced peel reveal a more youthful, glowing complexion.`
+        },
+        {
+          title: "Sculplla H2 Filler Facial",
+          subtitle: "90 minutes",
+          img: "",
+          body: `
+            <p>The latest wrinkles earing facial treatment from South Korea. This new treatment serum contains the same Poly L Lactic acid found in the injectable face filler Sculptra used by dermatologists. It has been doubled in dosage along with a blend of anti-aging favorites of caffeine and niacinamide that absorb into the top layer of the skin to plump wrinkles. The mask applied over the serum contains Hydrogen which drives these active ingredients deep into the skin’s layers.</p>
+
+            <p>Visible results after just a single treatment! This facial included cleanser, microdermabrasion, goat milk peel, a serum made of PLLA(Poly-L-Lactic Acid) penetrated ultrasonically and an innovative PLLA/hydrogen mask which further pushes the ingredient deep into the skin. Followed by jelly mask under Celluma LED light therapy for calming the skin and allows the product to absorb deeper into the skin. At the same time, you will get massage from hands to head and shoulders. Finishing with Scullplla stem cell mist, Sculplla caviplla O2 multi serum, Promoter repair cell cream containing PLLA + 4 GF + snail mucus filtrate + PGA of plant collagen. Best done 7-10 days apart, see amazing results in as few as 5 visits! This facial tighten &amp; lift the skin, stimulate collagen growth, improves skin tone, reduce fines lines &amp; wrinkles, fills in scars and large pores to create smoother, more even- textured brighter skin especially for dry and mature skin.</p>
+          `
         }
       ],
       extractions: [
@@ -342,7 +377,7 @@ export default {
       waxings: [
         {
           title: "Waxing",
-          img: "",
+          img: "https://www.dropbox.com/s/m8b6cyy92w663jm/image0.jpeg?raw=1",
           subtitle: "",
           body: `
             <p>Waxing is the process of temporary hair removal from the root by using a covering and pulling out the hair from the follicle. Cmai Beauty Studio offers Ezee turmeric hard wax and Ezze turmeric soft wax from head to toes.</p>
@@ -386,13 +421,13 @@ export default {
   font-weight: 400;
   font-size: 0.8rem;
 }
-.card-img-top {
+.card-img-top, .card-img-bottom {
   padding: 10px;
 }
 .tab-pane {
   margin: 1rem 0 1rem 0;
-  height: 75vh;
-  overflow-x: scroll;
+  /*height: 75vh;
+  overflow-x: scroll;*/
 }
 .nav {
   background-color: #f8f9fa;

@@ -2,16 +2,7 @@
   <div class="container">
     <b-card no-body class="nav-card pt-4">
       <b-tabs pills small>
-        <b-tab title="Brows" active>
-          <b-card-group columns>
-            <b-card v-for="brow in brows" :key="brow.title" :img-src="brow.img" img-top>
-              <b-card-body :title="brow.title" title-tag="h6" class="small">
-                <p v-html="brow.body"></p>
-              </b-card-body>
-            </b-card>
-          </b-card-group>
-        </b-tab>
-        <b-tab title="Facials">
+        <b-tab title="Facials" active>
           <b-card-group columns>
             <b-card v-for="facial in facials" :key="facial.title" :img-src="facial.img" img-top>
               <b-card-body :title="facial.title" title-tag="h6" class="small">
@@ -21,23 +12,21 @@
           </b-card-group>
         </b-tab>
         <b-tab title="Lashes">
-          <div class="font-weight-light">
-            <b-row>
-              <b-col md="4">
-                <b-img src="https://www.dropbox.com/s/yytd1x11u6uaxd9/image8.jpeg?raw=1" fluid />
-              </b-col>
-              <b-col md="8">
-                <p>Cmai’s Eyelashes Extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes.</p>
-                <p>
-                  Products used: Cmai’s adhesive and Cmai’s Lashes<br />
-                  <ul class="mb-5">
-                    <li>Cmai‘s adhesive: The best lashes adhesive on the market! Cmai’s adhesive included instant oil proof, water proof, heat resistant, latex free, formaldehyde free, paraben free. You can go swimming right after the lashes appointment without worrying bout messing up your lashes like other adhesive that you have to wait 24 hours for them to dry completely. </li>
-                    <li>Cmai’s lashes: Cmai’s 100% handmade luxury ellipse flat 0.15 classic lashes with split tips offer great retention due to their wider bonding surface. They are also softer, lighter, causing less damage to the natural lashes. Cmai‘s premium handmade cashmere lashes 0.03 mm volume lashes creates a larger contact area between natural lashes and an extension, providing a stronger, longer lasting bond. Cashmere lashes are also thinner from top to bottom, making them more flexible and incredible soft to touch. Cashmere eyelashes extensions are the newest trend in the lash industry.</li>
-                  </ul>
-                </p>
-              </b-col>
-            </b-row>
-          </div>
+          <b-row class="font-weight-light">
+            <b-col md="4">
+              <b-img src="https://www.dropbox.com/s/yytd1x11u6uaxd9/image8.jpeg?raw=1" fluid />
+            </b-col>
+            <b-col md="8">
+              <p>Cmai’s Eyelashes Extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes.</p>
+              <div>
+                Products used: Cmai’s adhesive and Cmai’s Lashes<br />
+                <ul class="mb-5">
+                  <li>Cmai‘s adhesive: The best lashes adhesive on the market! Cmai’s adhesive included instant oil proof, water proof, heat resistant, latex free, formaldehyde free, paraben free. You can go swimming right after the lashes appointment without worrying bout messing up your lashes like other adhesive that you have to wait 24 hours for them to dry completely. </li>
+                  <li>Cmai’s lashes: Cmai’s 100% handmade luxury ellipse flat 0.15 classic lashes with split tips offer great retention due to their wider bonding surface. They are also softer, lighter, causing less damage to the natural lashes. Cmai‘s premium handmade cashmere lashes 0.03 mm volume lashes creates a larger contact area between natural lashes and an extension, providing a stronger, longer lasting bond. Cashmere lashes are also thinner from top to bottom, making them more flexible and incredible soft to touch. Cashmere eyelashes extensions are the newest trend in the lash industry.</li>
+                </ul>
+              </div>
+            </b-col>
+          </b-row>
           <b-card-group columns>
             <b-card v-for="lash in lashes" :key="lash.title" :img-src="lash.img" img-top>
               <b-card-body :title="lash.title" title-tag="h6" class="small">

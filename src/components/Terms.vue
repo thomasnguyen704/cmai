@@ -3,9 +3,9 @@
     <b-container>
       <h2 class="font-weight-light mb-5">Terms and Policies</h2>
       <b-card-group columns>
-        <b-card v-for="term in terms" :key="term.title">
-          <b-card-body :title="term.title" title-tag="h6">
-            {{ term.body }}
+        <b-card v-for="item in policies_2023" :key="item.policy">
+          <b-card-body :title="item.title" title-tag="h6">
+            {{ item.body }}
           </b-card-body>
         </b-card>
       </b-card-group>
@@ -33,6 +33,28 @@ export default {
   name: "Terms",
   data() {
     return {
+      policies_2023: [
+        {
+          title: "48 Hours Notice",
+          body: "If you need to cancel or reschedule, you can make any changes online up to 48 hours prior to your scheduled appointment. You can reach twice per appointment. Canceling within 48 hours of your appointment will result in a 50% of the appointment fee to rebook. Canceling because of emergency or medical reasons with proof is pictures or doctors note will result in a 30% of the appointment fee to rebook."
+        },
+        {
+          title: "No Call, No Show",
+          body: "Please understand that when a guest doesn’t show for a scheduled appointment. We do not have an opportunity to replace the appointment. A no show results in a direct loss of our income. Therefore we have a strictly skin calls, no show policies: No calls or no shows will be charged 70% of the appointment fee to rebook. 3 no calls no shows within 12 months, you will be banned from booking."
+        },
+        {
+          title: "Late Grace Period",
+          body: "We have a 5 minute grace period. If you arrive 6-14 minutes late, you will be charged  extra for the late fee with every 1 minute late for $2 extra. After 15 mins late, your appointment will be canceled and you will need to pay 50% of the appointment fee to rebook. We try our best to accommodate late clients but most times it is not possible"
+        },
+        {
+          title: "Preparation and Guests",
+          body: "Appointments are reserved especially for you. We understand that sometimes schedule adjustments are necessary, therefore, We respectfully ask you to plan ahead. Plan on traffic and come 5 minutes earlier than your actual appointment time. Due to the nature and attention of detailed treatment we provide, we kindly request that you do NOT bring extra guests, children, or pets. Unless you are the parent/ guardian or receiving a service together. "
+        },
+        {
+          title: "Thank You!",
+          body: "We are thankful, grateful and truly  blessed. We appreciate everyone who enters our studio and trusts us with your beauty needs. We hope you understand and respect these policies. Thank you for your love and  continuing to support our small business. Carolynn and Cmai Beauty Team"
+        },
+      ],
       mblades: [
         {
           title: "Complimentary Sessions",

@@ -188,7 +188,7 @@ export default {
       lashes: [
         {
           title: "Classic Lashes",
-          img: "",
+          img: "https://www.dropbox.com/s/eoaz2ila2crauti/classic%20lash.jpeg?raw=1",
           subtitle: "",
           body: `Cmai’s 100% handmade luxury ellipse flat 0.15 lashes are used to give a lightweight soft feel, natural look, longer lasting. Best suites for clients who has great amount of natural medium length lashes, get lashes for the first time and those who love natural looking lashes.`
         },
@@ -205,7 +205,7 @@ export default {
         },
         {
           title: "Volume Lashes",
-          img: "https://www.dropbox.com/s/0lnuwbcrp4bs52x/image17.jpeg?raw=1",
+          img: "https://www.dropbox.com/s/a1cfgfi8zzr10ye/volume%20lash.jpeg?raw=1",
           subtitle: "",
           body: `Volume lashes extensions are multiple very lightweight extensions, made into a &quot;fan&quot; placed onto one natural lash. These sets create a very full, luxurious look. Perfect for clients with thin and sparse lashes and those who love a full, dense look. All volume sets at Cmai Beauty Studio are created by 100% handmade that using Cmai ‘s premium handmade cashmere lashes 0.03.`
         },
@@ -248,9 +248,9 @@ export default {
         {
           title: "Cmai Beauty Facial",
           subtitle: "75 minutes",
+          img: 'https://www.dropbox.com/s/ha3qpax6j95z78k/Cmai%20Beauty%20Facial.jpeg?raw=1',
           body: `
             <p>Something magical happens just by working on the face. During our facial rituals, the whole body will let go and its energy will shift into a balanced and more peaceful place. A beautiful glow will shine. This treatment includes cleanser, microdermabrasion, extractions, custom PCA chemical peel, hydro jelly mask under Celluma LED light therapy, massage from hands to head and shoulder, hyaluronic acid and complex peptide, retinol, moisturizer, and sunscreen. This treatment is universal facial, which is suitable for all skin type and condition especially who is suffering from acne.</p>
-          
             <p>The benefits include hydrated, bright, plump, and clear complexion skin. The treatment reduces fine lines, and wrinkles increase firmness, evens tone, texture, and sunspots, as well as reducing enlarged pores, especially for oil and active acne skin.</p>
           `
         },
@@ -260,7 +260,6 @@ export default {
           subtitle: "90 minutes",
           body: `
             <p>The latest wrinkles earing facial treatment from South Korea. This new treatment serum contains the same Poly L Lactic acid found in the injectable face filler Sculptra used by dermatologists. It has been doubled in dosage along with a blend of anti-aging favorites of caffeine and niacinamide that absorb into the top layer of the skin to plump wrinkles. The mask applied over the serum contains Hydrogen which drives these active ingredients deep into the skin’s layers.</p>
-
             <p>Visible results after just a single treatment! This facial included cleanser, microdermabrasion, goat milk peel, a serum made of PLLA(Poly-L-Lactic Acid) penetrated ultrasonically and an innovative PLLA/hydrogen mask which further pushes the ingredient deep into the skin. Followed by jelly mask under Celluma LED light therapy for calming the skin and allows the product to absorb deeper into the skin. At the same time, you will get massage from hands to head and shoulders. Finishing with Scullplla stem cell mist, Sculplla caviplla O2 multi serum, Promoter repair cell cream containing PLLA + 4 GF + snail mucus filtrate + PGA of plant collagen. Best done 7-10 days apart, see amazing results in as few as 5 visits! This facial tighten &amp; lift the skin, stimulate collagen growth, improves skin tone, reduce fines lines &amp; wrinkles, fills in scars and large pores to create smoother, more even- textured brighter skin especially for dry and mature skin.</p>
           `
         },
@@ -270,7 +269,6 @@ export default {
           img: "https://www.dropbox.com/s/t2saxhnmh39gur9/image14.jpeg?raw=1",
           body: `
             <p>Nano infusion therapy is a non-invasive effective treatment for skin conditions including fine lines, wrinkles, scarring, and pigmentation. Nano infusion therapy offers immediate and long- term results that enhance product absorption and drive active ingredients deep into the skin optimal skin restoration. This treatment stimulates circulation, visibly softens fine lines, reduces scarring, improves hydration levels, helps control breakouts, helps brighten up skin, and reduces puffy or sagging eyes especially for client who has acne scarring.</p>
-
             <p>The treatment includes cleanser, numbing, another cleanser with warm towel, repeated nano puncturing the skin creating a micro injures to the skin and allow it to regenerate and create collagen for a youthful, smooth, and healthier skin. At the same time, your skin is infused with hyaluronic acid, and complex peptide, growth factors, PCA sensi peel, brightening agent. Jelly mask under Celluma Led Light therapy is included for calming the skin and allows the product to absorb deeper into the skin. In addition, you will get massage from hands to head and shoulders. This treatment lasts up to 3 months!</p>
           `
         }

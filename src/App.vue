@@ -15,6 +15,11 @@
             <b-nav-item to="terms" @click="scrollMeTo('navbar')" >Terms & Policies</b-nav-item>
             <b-nav-item to="faq" @click="scrollMeTo('navbar')">FAQ</b-nav-item>
             <b-nav-item @click="scrollMeTo('footer')">Contact & Location</b-nav-item>
+            <b-nav-item 
+              href="https://squareup.com/appointments/book/kiz99xt2bir5gr/LMQXQF1APV2XD/services"
+              target="blank"
+              ><span class="text-danger">Book an Appointment</span>
+            </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item href="https://www.facebook.com/carolynnmai8" target="_blank">

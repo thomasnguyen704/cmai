@@ -133,19 +133,6 @@ export default {
 
             <p>Most of us aren’t so blessed as to have eyes that stand out without wearing eyeliner. However, if your eyeliner is less than perfect, it will create the appearance of premature aging. Cmai Beauty Eyeliners creates natural-looking defined eyes 24/7 no matter what you are doing.</p>
           `
-        },
-        {
-          title: "Permanent Make Up Touch Up",
-          subtitle: "",
-          body: `
-            <ul>
-              <li>First touch up from 4 -8 weeks | 60 minutes | free</li>
-              <li>Yearly touch up between 12 months – 18 months | 90 minutes</li>
-              <li>Touch up after 18 months -24 months | 100 minutes | 80% of full price</li>
-              <li>Touch up after 24 months | 2 hours | full price</li>
-            </ul>
-            <p><strong>Please Note:</strong> First touch up is included for the initial procedure price. All permanent make up procedures require two sections to complete the final look. Sometimes third session is required at an extra cost. Almost every Permanent make up cancellation fee is up to $100. The prices of Permanent make up are subject to increase in the near future.</p>
-          `
         }
       ],
       brows: [

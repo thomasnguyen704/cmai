@@ -358,28 +358,6 @@ export default {
             <p>Aftercare: Avoid touching treated area for 24 hours. No hot showers or bath (use lukewarm or cold water). Wear clean, loose fitting clothes. No exfoliating for 72 hours, after exfoliate twice a week. Avoid working out or swimming for at least 24 hours. No tanning, sunbathing, sun beds, or fake tans. Avoid swimming pool, sauna and spa environment. Only apply products recommended by your therapist.</p>
           `
         }
-      ],
-      makeups: [
-        {
-          title: "Special Occasion Make up",
-          subtitle: "1 hour",
-          body: `From parties to photo shoots or any special day that you want to look glamorous. (Lash application additional $15) 1 hour`
-        },
-        {
-          title: "Bridal Trial Make up",
-          subtitle: "1 hour 15 minutes",
-          body: `Recommended for any soon to be bride to create that perfect look before the perfect day that required service before a “Bridal Makeup session”. (lashes application included)`
-        },
-        {
-          title: "Bridal Makeup",
-          subtitle: "1 hour 30 minutes",
-          body: `The perfect look for the perfect day! Best bundled with the trail with lash application included. Extra $100 for bundled.`
-        },
-        {
-          title: "Make Up Lesson 1hr",
-          subtitle: "1 hour",
-          body: `You bring the tools and I will provide the technique. Together we will learn new ways to best flatter your features with makeup. It is available in person or virtually. (Lash application technique included for in person).`
-        }
       ]
     };
   }

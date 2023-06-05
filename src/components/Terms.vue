@@ -57,12 +57,8 @@ export default {
       ],
       mblades: [
         {
-          title: "Complimentary Sessions",
-          body: "Initial procedure appointments receive a complimentary touch up. This appointment must be scheduled between 4 to 8 weeks following your first session. If you need to book this appointment after 8 weeks, it is no longer complimentary and will incur an additional charge. Complimentary touchup is not mandatory, nor is it necessary for every client, but we offer it for those clients who would need a follow up. Healing can be unpredictable. If additional touch-up appointment is needed fees will apply."
-        },
-        {
           title: "Future Touch ups for return clients",
-          body: "If you are a returning client of ours and you need to schedule a touch up appointment, please call directly to me at (205) 207-2659. Touch-up price is calculated since your last paid appointment, this appointment does not include a complimentary touch-up."
+          body: "If you are a returning client of ours and you need to schedule a touch up appointment, please call directly to me at (205) 207-2659."
         },
         {
           title: "Waitlist",

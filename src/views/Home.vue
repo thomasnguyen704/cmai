@@ -7,7 +7,7 @@
             <h1 class="pink-font cursiveFont">C Mai Beauty Studio</h1>
             <p class="lead-lg">
               At C Mai Beauty Studio, I offer cutting edge permanent make up
-              procedure, skin care, lashes extensions, and nails services that
+              procedure, skin care, lashes extensions, and waxing services that
               meet your beauty needs. I will listen to yours concerns and offer
               the individualized; high level of client care you seek. I believe
               in making care accessible, comfortable, quality, valuable,

@@ -15,7 +15,9 @@
               visit.
             </p>
             <p>
-              <b-button pill variant="outline-danger" class="mx-1" to="clients">Click For Free Consultation</b-button>
+              <b-button pill variant="outline-danger" class="mx-1" to="clients"
+                >Click For Free Consultation</b-button
+              >
             </p>
           </b-col>
         </b-row>
@@ -50,101 +52,137 @@
 
       <b-container>
         <b-row class="pt-5 section">
-          <b-col class="section-scroll">
-            <h1 class="lead strong">Work, education, and training.</h1>
-            <p>
-              Manicurist from Charlotte Nails Academy; Microblading from
-              Phibrows Academy in Miami; advanced male and female Microblading
-              and Phicontour Permanent Make Up Line in Viet Nam; Lashes
-              Extension from The Esthetic Loft in Bimingham, Alabama;
-              MediClinical Aesthetician from Institut’ Dermed Clinical Skincare
-              in Atlanta; Laser from Aliaesthetic Solution in Atlanta, Advanced
-              Education Conference Program from Skin Inc Face & Body Southeast.
-            </p>
-            <p>
-              Additionally, I have graduated of the esthetician program from
-              Aveda Institute Birmingham, Alabama with 1000 credit hours and got
-              the second highest rank in my esthetician class. Especially, I was
-              awarded by the Aveda Institute at Birmingham with a Degree in
-              Esthiology and received the Director’s Award. I had been working
-              for Venetian Nails Spa, Speed Spa, and Nova Essence Medi Spa under
-              Doctor Nova Law for the past few years.
-            </p>
+          <b-col>
+            <h2>About Carolynn Mai</h2>
+            <div class="section-scroll">
+              <h1 class="lead strong">Work, education, and training.</h1>
+              <p>
+                Manicurist from Charlotte Nails Academy; Microblading from
+                Phibrows Academy in Miami; advanced male and female Microblading
+                and Phicontour Permanent Make Up Line in Viet Nam; Lashes
+                Extension from The Esthetic Loft in Bimingham, Alabama;
+                MediClinical Aesthetician from Institut’ Dermed Clinical
+                Skincare Skincare in Atlanta; Laser from Aliaesthetic Solution
+                in Atlanta, Advanced Education Conference Program from Skin Inc
+                Face & Body Southeast.
+              </p>
+              <p>
+                Additionally, I have graduated of the esthetician program from
+                Aveda Institute Birmingham, Alabama with 1000 credit hours and
+                got the second highest rank in my esthetician class. Especially,
+                I was awarded by the Aveda Institute at Birmingham with a Degree
+                in Esthiology and received the Director’s Award. I had been
+                working for Venetian Nails Spa, Speed Spa, and Nova Essence Medi
+                Spa under Doctor Nova Law for the past few years.
+              </p>
 
-            <h1 class="lead strong mt-5">
-              What made me want to be a beauty professional?
-            </h1>
-            <p>
-              I got passion about beauty since I was in Viet Nam on 2010.
-              Microblading was very new topic. When I first saw the Microblading
-              advertising sign on the street. It is so natural looking, perfect,
-              and beautiful eyebrows. I would love to have it done and wanted to
-              do microblading for my future clients. As many people know, Korea
-              is popular for plastic surgery, Viet Nam is popular for permanent
-              make up especially eyebrow shading.
-            </p>
-            <p>
-              This is because, Vietnamese women does not have a full and arched
-              eyebrows. Therefore the need of get the eyebrows are huge.
-              Thousands eyebrows permanent make up procedures are done everyday.
-              This is why Vietnamese tattoo artists are very popular around the
-              world. When I moved to United States in 2011, I have been a
-              manicurist since then. I really wanted to do microblading as an
-              additional to my services. Microblading leading me to go to the
-              Aveda Institute to finish esthetic school.
-            </p>
+              <h1 class="lead strong mt-5">
+                What made me want to be a beauty professional?
+              </h1>
+              <p>
+                I got passion about beauty since I was in Viet Nam on 2010.
+                Microblading was very new topic. When I first saw the
+                Microblading advertising sign on the street. It is so natural
+                looking, perfect, and beautiful eyebrows. I would love to have
+                it done and wanted to do microblading for my future clients. As
+                many people know, Korea is popular for plastic surgery, Viet Nam
+                is popular for permanent make up especially eyebrow shading.
+              </p>
+              <p>
+                This is because, Vietnamese women does not have a full and
+                arched eyebrows. Therefore the need of get the eyebrows are
+                huge. Thousands eyebrows permanent make up procedures are done
+                everyday. This is why Vietnamese tattoo artists are very popular
+                around the world. When I moved to United States in 2011, I have
+                been a manicurist since then. I really wanted to do microblading
+                as an additional to my services. Microblading leading me to go
+                to the Aveda Institute to finish esthetic school.
+              </p>
 
-            <h1 class="lead strong">How did I get passion in skincare?</h1>
-            <p>
-              I graduated from Aveda Institute Birmingham in 2018. I would like
-              to reveal my true story about my acne and how I got rid of them. I
-              have suffered from acne since I was 12 years old. At 20 years old.
-              I used Accutane - the strongest medicine for acne for total 18
-              months. It cleared up my face but I got a lot of side affect from
-              the medicine. 7 years later, I visited my country in Viet Nam. I
-              made a mistake that I bleached and dyed my hair from black to
-              blonde. With the allergy to the hair products, the changing of
-              environment, and the stress of life and work, my acne came back
-              and got worse. I had low self-esteem and did not want to go
-              outside of the house. I also picked at my acne and left a lot of
-              scaring.
-            </p>
-            <p>
-              A year later, I attended Aveda beauty Institute and became a
-              licensed esthetician. Indeed in my studies, I was a guinea pig for
-              my beauty industry. I tried everything from skin care, facial,
-              micro-dermabrasion, led light therapy, chemical peel,
-              microneedling prp, blood tested for hormones (which was normal),
-              e2, IPL, elite, laser, but refused to dink Accutane again. This is
-              because, I have been marriage since 2010 and wanted to have baby
-              before our 9 years anniversary. By the way, I would like to
-              introduce my husband Thomas. He is an risk manager for Regions
-              Bank downtown Birmingham. He has over 10 years experience in
-              finance. He graduated from Harvard University with the master
-              degree in digital designer. Thomas helps me a lot with my career.
-              He also created this website for me.
-            </p>
-            <p>
-              Back to the skincare, my skin got better and less acne after
-              spending thousands of dollars and suffering from the pain of the
-              treatments on trying everything that I could to clear up my acne
-              skin. Then, I got pregnant with Emma. Emma turns 13 months on
-              Christmas 2020. She is a smart and happy baby. Everyone as well as
-              her teaches enjoyed spending time with her. In the first
-              trimester, I got more acne. My dermatologist told me to get
-              glycolic acid peel once a month and it is safe for pregnancy. I
-              knew I had glycolic acid peel 30% at home that I bought when I
-              attended Skin Inc Face and Body Southeast and also attended
-              medical esthetician at Institudermed in Atlanta for my continuing
-              esthetic education. I used a little bit of glycolic acid 30% 2
-              times per day for 3 consecutive months at home. My face totally
-              cleared up of acne and transformed. I would not recommend anyone
-              who does not have appropriate training on chemical peel trying
-              this at home because it can do more harm than good and can damage
-              your skin. I am so happy that I finally got rid of my acne.
-            </p>
+              <h1 class="lead strong">How did I get passion in skincare?</h1>
+              <p>
+                I graduated from Aveda Institute Birmingham in 2018. I would
+                like to reveal my true story about my acne and how I got rid of
+                them. I have suffered from acne since I was 12 years old. At 20
+                years old. I used Accutane - the strongest medicine for acne for
+                total 18 months. It cleared up my face but I got a lot of side
+                affect from the medicine. 7 years later, I visited my country in
+                Viet Nam. I made a mistake that I bleached and dyed my hair from
+                black to blonde. With the allergy to the hair products, the
+                changing of environment, and the stress of life and work, my
+                acne came back and got worse. I had low self-esteem and did not
+                want to go outside of the house. I also picked at my acne and
+                left a lot of scaring.
+              </p>
+              <p>
+                A year later, I attended Aveda beauty Institute and became a
+                licensed esthetician. Indeed in my studies, I was a guinea pig
+                for my beauty industry. I tried everything from skin care,
+                facial, micro-dermabrasion, led light therapy, chemical peel,
+                microneedling prp, blood tested for hormones (which was normal),
+                e2, IPL, elite, laser, but refused to dink Accutane again. This
+                is because, I have been marriage since 2010 and wanted to have
+                baby before our 9 years anniversary. By the way, I would like to
+                introduce my husband Thomas. He is an risk manager for Regions
+                Bank downtown Birmingham. He has over 10 years experience in
+                finance. He graduated from Harvard University with the master
+                degree in digital designer. Thomas helps me a lot with my
+                career. He also created this website for me.
+              </p>
+              <p>
+                Back to the skincare, my skin got better and less acne after
+                spending thousands of dollars and suffering from the pain of the
+                treatments on trying everything that I could to clear up my acne
+                skin. Then, I got pregnant with Emma. Emma turns 13 months on
+                Christmas 2020. She is a smart and happy baby. Everyone as well
+                as her teaches enjoyed spending time with her. In the first
+                trimester, I got more acne. My dermatologist told me to get
+                glycolic acid peel once a month and it is safe for pregnancy. I
+                knew I had glycolic acid peel 30% at home that I bought when I
+                attended Skin Inc Face and Body Southeast and also attended
+                medical esthetician at Institudermed in Atlanta for my
+                continuing esthetic education. I used a little bit of glycolic
+                acid 30% 2 times per day for 3 consecutive months at home. My
+                face totally cleared up of acne and transformed. I would not
+                recommend anyone who does not have appropriate training on
+                chemical peel trying this at home because it can do more harm
+                than good and can damage your skin. I am so happy that I finally
+                got rid of my acne.
+              </p>
+            </div>
           </b-col>
           <b-col class="section-bg"></b-col>
+        </b-row>
+
+        <hr class="section-spacer" />
+
+        <b-row class="pt-5 section">
+          <b-col>
+            <h2>About Shayla Austin</h2>
+            <div class="section-scroll">
+              <h1 class="lead strong">Work, education, and training.</h1>
+              <p>
+                Greetings, everyone! It brings me immense joy to introduce
+                myself as Shayla Austin, a proud native of the enchanting city
+                of Akron, Ohio. As a highly skilled esthetician, I take immense
+                pride in my craft, with a particular passion for enhancing
+                beauty through the artistry of lashes. Over the course of the
+                past 8 years, I have embarked on a dedicated journey as a
+                self-employed esthetician, continuously striving for perfection
+                in every aspect of my work. As a result, I have emerged as the
+                preferred choice for clients seeking exceptional lash services.
+              </p>
+              <p>
+                My unwavering dedication to precision and unwavering attention
+                to detail have garnered the trust and admiration of discerning
+                individuals who expect nothing short of the best. I extend a
+                warm invitation to you to join me on this journey of elevating
+                your lash game to new heights, where beauty and perfection
+                seamlessly intertwine.
+              </p>
+            </div>
+          </b-col>
+          <b-col class="section-bg2"></b-col>
         </b-row>
       </b-container>
     </div>
@@ -166,16 +204,17 @@ p {
   margin: 0px;
 }
 .j-bg {
-  background: url(https://www.dropbox.com/s/dnqg7zudaanq997/models.jpeg?raw=1) no-repeat center center fixed;
+  background: url(https://www.dropbox.com/s/dnqg7zudaanq997/models.jpeg?raw=1)
+    no-repeat center center fixed;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.j-bg::before{
+.j-bg::before {
   background-color: rgba(255, 255, 255, 0.9);
-  content: '';
+  content: "";
   display: block;
   height: 100%;
   position: absolute;
@@ -207,5 +246,13 @@ p {
   background: url(https://www.dropbox.com/s/3k4z8dilv6vux3z/about.jpg?raw=1)
     no-repeat center top;
   background-size: cover;
+}
+.section-bg2 {
+  background: url(https://www.dropbox.com/scl/fi/x1a4qkwk4pwx9gvv9rcpq/ShaylaAustin.jpg?rlkey=o2lp4zznikb4b9ix0dws99tjg&raw=1)
+    no-repeat center top;
+  background-size: cover;
+}
+.section-spacer {
+  margin: 6rem 0 5rem 0;
 }
 </style>

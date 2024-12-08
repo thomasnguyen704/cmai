@@ -3,7 +3,7 @@
     <b-container>
       <h2 class="font-weight-light mb-5">Terms and Policies</h2>
       <b-card-group columns>
-        <b-card v-for="item in policies_2023" :key="item.policy">
+        <b-card v-for="item in appointment_2024" :key="item.title">
           <b-card-body :title="item.title" title-tag="h6">
             {{ item.body }}
           </b-card-body>
@@ -17,9 +17,35 @@
       </h2>
       <b-card-group columns>
         <div>
-          <b-card v-for="mblade in mblades" :key="mblade.title">
-            <b-card-body :title="mblade.title" title-tag="h6">
-              {{ mblade.body }}
+          <b-card v-for="item in pmu_2024" :key="item.title">
+            <b-card-body :title="item.title" title-tag="h6">
+              {{ item.body }}
+            </b-card-body>
+          </b-card>
+        </div>
+      </b-card-group>
+
+      <h2 class="font-weight-light my-5">
+        Important for all Permanent Makeup & Microblading Clients
+      </h2>
+      <b-card-group columns>
+        <div>
+          <b-card v-for="item in important_2024" :key="item.important_2024">
+            <b-card-body>
+              {{ item.body }}
+            </b-card-body>
+          </b-card>
+        </div>
+      </b-card-group>
+
+      <h2 class="font-weight-light my-5">
+        Sales and Promotion
+      </h2>
+      <b-card-group columns>
+        <div>
+          <b-card v-for="item in promo_2024" :key="item.promo_2024">
+            <b-card-body>
+              {{ item.body }}
             </b-card-body>
           </b-card>
         </div>
@@ -33,6 +59,74 @@ export default {
   name: "Terms",
   data() {
     return {
+      appointment_2024: [
+        {
+          title: "48 Hours Notice",
+          body: "Changes can be made online twice per appointment up to 48 hours before the scheduled time. Canceling within 48 hours or not showing up will result in a 70% fee to rebook. Emergency or medical reasons with proof result in a 30% fee."
+        },
+        {
+          title: " No Call, No Show",
+          body: "A no-show directly impacts income and results in a 70% fee to rebook if late or canceled within 48 hours. Three instances of no show within 12 months lead to a booking ban."
+        },
+        {
+          title: "Late Grace Period",
+          body: "Arrive on time or 5 minutes early. 5-minute grace period with additional charges $1/1 minute for being late. After 15 minutes, the appointment may be canceled, and up to a 70% fee is charged for rescheduling."
+        },
+        {
+          title: "Preparation and Guests",
+          body: "Appointments are reserved for individual attention, so please plan accordingly. Extra guests, children, or pets are discouraged unless receiving a service together."
+        },
+        {
+          title: "Thank You",
+          body: "Express gratitude for clients' trust and support. Request understanding and adherence to the policies. Appreciation for ongoing support from the Carolynn and Cmai Beauty Team."
+        },
+      ],
+      pmu_2024: [
+        {
+          title: "Microblading Client",
+          body: "Future Touch-ups for Return Clients: Returning clients needing touch-up appointments should call directly at (205) 207-2659."
+        },
+        {
+          title: "Waitlist",
+          body: "Recommended to book appointments in advance to secure a slot. Waitlist available for clients seeking earlier appointment times. Contact to be added, but availability is not guaranteed."
+        },
+        {
+          title: "Existing Brow Permanent Make Up",
+          body: "Selective when working over existing tattoos or others' work. Prior brow permanent make-up approval required by emailing clear photos to (205) 207- 2659 Appointment scheduling without approval may forfeit the deposit."
+        },
+      ],
+      important_2024: [
+        {
+          title: "",
+          body: "Multiple-step process with healed results varying for each client."
+        },
+        {
+          title: "",
+          body: "Additional sessions may be necessary for optimal results at an extra charge."
+        },
+        {
+          title: "",
+          body: "No guarantees due to individual healing variations influenced by factors like skin type, age, scarring, diet, stress, skincare products, sun exposure, etc."
+        },
+        {
+          title: "",
+          body: "Compliance with Pre-Appointment Restrictions and After Care crucial for proper healing and best results."
+        },
+        {
+          title: "",
+          body: "Excessive bleeding during the procedure may impact pigment retention and results."
+        },
+        {
+          title: "",
+          body: "Cmai Beauty Studio reserves the right to refuse service, and prices are subject to change at any time."
+        },
+      ],
+      promo_2024: [
+        {
+          title: "Sale/ Promotion ",
+          body: "New clients can enjoy a 15% discount, while returning clients receive a 10% discount on services when you book with Shayla Austin. This promotion is ongoing until further notice."
+        }
+      ],
       policies_2023: [
         {
           title: "48 Hours Notice",

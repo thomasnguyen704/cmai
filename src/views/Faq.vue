@@ -2,14 +2,14 @@
   <div>
     <b-container class="py-5">
       <h1 class="lead">
-        Permanent Make-up (Eyebrows, Lips Blushing, Eyeliners)
+        Frequent Questions and Answers for Permanent Make-up (Eyebrows, Lips Blushing, Eyeliners,Scar Camouflage, Solution PMU removal)
       </h1>
       <hr />
-      <div v-for="item in faq_pmu" :key="item.title">
+      <div v-for="item in faq_2024" :key="item.title">
         <p class="strong">{{ item.title }}</p>
         <p v-html="item.body"></p>
       </div>
-
+<!--
       <h1 class="lead mt-5">Lip Blushing</h1>
       <hr />
       <div v-for="item in faq_lip" :key="item.title">
@@ -23,6 +23,7 @@
         <p class="strong">{{ item.title }}</p>
         <p v-html="item.body"></p>
       </div>
+-->
     </b-container>
   </div>
 </template>
@@ -32,6 +33,24 @@ export default {
   name: "Faq",
   data() {
     return {
+      faq_2024: [
+        {
+          title: "What should I prepare 1-2 weeks before the procedure?",
+          body: "Avoid antibiotics, shaping/waxing/tinting brows, Botox, AHA products, and retinoids. Consult with your doctor regarding stopping blood thinner medication 2 days prior. For cold sores/fever blisters prone individuals, take anti-viral medicine (lip blushing appointment). Ensure eyes are free from eyelashes or eyes make up (eyeliners appointment)"
+        },
+        {
+          title: "What should I do 24-48 hours before the procedure?",
+          body: "Avoid alcohol, caffeine, antibiotics, aspirin except Tylenol."
+        },
+        {
+          title: "What to expect during the procedure?",
+          body: "Appointment lasts 2-3 hours with touch-up lasting 1-2 hours. Area cleaned, before photo taken, shape drawn with pencil for client's approval. It is noted that most faces are not completely symmetrical; results will not be identical. Artist shapes and decides on color after numbing. Pigment deposited with aftercare instructions provided post-procedure."
+        },
+        {
+          title: "What are the aftercare instructions?",
+          body: `Day 1 Right After Procedure: Gently blot the area with tissue to absorb excess fluid every 10 mins within first 3 hours. Apply aftercare gel 3-5 times a day. Keep the area clean, dry, and avoid sweating, steaming, or getting wet. <br/><br/> Day 2-10 After Procedure: Clean with gentle cleanser 2 times a day, Apply aftercare gel 3-5 times a day. Do not pick or scratch the area to prevent pigment loss or scarring. Avoid makeup, swimming, sun exposure, exercise, hot activities or products.`
+        }
+      ],
       faq_pmu: [
         {
           title: "What should you prepare 1-2 weeks before the procedure?",

@@ -4,6 +4,8 @@
       id="my-modal" 
       ref="myModal"
       title="New Location"
+      header-bg-variant="danger"
+      header-text-variant="light"
       hide-footer
     >
       <p>
@@ -123,6 +125,9 @@
 
 <script>
 export default {
+  mounted() {
+    this.$refs.myModal.show();
+  },
   methods: {
     scrollMeTo(refName) {
       var element = this.$refs[refName];
@@ -134,10 +139,7 @@ export default {
       var top = element.offsetTop;
       window.scrollTo(0, top);
     }
-  },
-    mounted() {
-      this.$refs.myModal.show();
-    }
+  }
 };
 </script>
 

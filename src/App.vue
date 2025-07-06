@@ -1,5 +1,41 @@
 <template>
   <div>
+    <b-modal 
+      id="my-modal" 
+      ref="myModal"
+      title="New Location"
+      hide-footer
+    >
+      <p>
+        Starting July 11, I’ll be accepting Friday & Saturday appointments at my brand-new South End location!
+      </p>
+      <a href="https://maps.app.goo.gl/RQcJRaxeUDecR7f86" target="_blank">
+        <address class="ml-4">
+          C Mai Beauty <br/>
+          316 East Blvd #204 <br/>
+          Charlotte, NC 28203
+        </address>
+      </a>
+      <p>
+        But that’s not all — my Huntersville location (Exit 25) will remain open through October. After that, we’re moving just a few minutes down the road to: 
+      </p>
+      <a href="https://maps.app.goo.gl/ig5GseUrqHnurKxDA" target="_blank">
+        <address class="ml-4">
+          Carolina Lashes <br/>
+          13111 Rosedale Hill Ave <br/>
+          Huntersville, NC 28078 <br/>
+          Exit 23
+        </address>
+      </a>
+      <p>
+        Call or text <a href="tel:205-207-2659">(205) 207-2659</a> to book your appointment <br/>
+        Book online: www.cmaibeauty.com <br/>
+        Follow on Instagram: @cmaibeautystudio <br />
+      </p>
+      <p>
+        Heads up: updated pricing will go into effect with the move — stay tuned for details! I can’t wait to welcome you into these gorgeous new spaces. Book now — spots fill fast!
+      </p>
+    </b-modal>
     <b-navbar toggleable="lg" type="light" variant="white" sticky ref="navbar">
       <b-container>
         <b-navbar-brand href="/">
@@ -98,7 +134,10 @@ export default {
       var top = element.offsetTop;
       window.scrollTo(0, top);
     }
-  }
+  },
+    mounted() {
+      this.$refs.myModal.show();
+    }
 };
 </script>
 

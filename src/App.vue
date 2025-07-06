@@ -41,32 +41,41 @@
       <b-container class="py-5">
         <b-row>
           <b-col sm=6 md=2 class="text-center">
-            <b-img fluid src="https://www.dropbox.com/s/2lwotslgjbikr7f/logo.png?raw=1" class="invert"/>
+            <b-img
+              fluid
+              src="https://www.dropbox.com/s/2lwotslgjbikr7f/logo.png?raw=1"
+              class="invert"
+            />
             <p class="my-3">
-              <a href="https://www.facebook.com/carolynnmai8" target="_blank" class="m-1 btn btn-light fa fa-facebook" />
-              <a href="https://www.instagram.com/cmaibeautystudio/" target="_blank" class="m-1 btn btn-light fa fa-instagram" />
+              <a 
+                href="https://www.facebook.com/carolynnmai8"
+                target="_blank"
+                class="m-1 btn btn-light fa fa-facebook"
+              />
+              <a
+                href="https://www.instagram.com/cmaibeautystudio/"
+                target="_blank"
+                class="m-1 btn btn-light fa fa-instagram"
+              />
             </p>
           </b-col>
-
           <b-col sm=6 md=4>
-            <a href="https://maps.google.com/?q=Salons+by+JC+9747+A+Sam+Furr+Rd.,Huntersville+NC+28078" >
-              <address>
-                C Mai Beauty Studio<br />
-                9747_A Sam Furr Rd. Suite 08 Unit C <br />
-                Huntersville, NC 28078
+            <a href="https://maps.app.goo.gl/RQcJRaxeUDecR7f86">
+              <address class="mt-4">
+                C Mai Beauty <br />
+                316 East Blvd #204<br />
+                Charlotte, NC 28203
               </address>
             </a>
             <p>
-              Find me inside Salons by JC between Kohls and Old Navy in Norcorss Shopping Center. You can call me at <a href="tel:205-207-2659">(205) 207-2659</a> to schedule a free phone consultation.
+              Find me inside Le Wink Lashes & Brows. You can call me at <a href="tel:205-207-2659">(205) 207-2659</a> to schedule a free phone consultation.
             </p>
-
           </b-col>
-
           <b-col>
             <b-embed
               frameborder="0"
               style="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCFKg21pXAn0emYGvr7NJXMNCHEBysL998&q=Salons+by+JC+9747+A+Sam+Furr+Rd.,Huntersville+NC+28078"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.8439504057365!2d-80.85883652339687!3d35.210355772742986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f7838b0c417%3A0x704b0f582c9b6548!2sLe%20Wink%20Lashes%20%26Brows!5e0!3m2!1sen!2sus!4v1751671432703!5m2!1sen!2sus"
               allowfullscreen
             />
           </b-col>

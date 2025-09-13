@@ -101,7 +101,7 @@ export default {
         {
           title: "Eyebrows Lamination",
           subtitle: "",
-          img: "https://www.dropbox.com/s/56vm7k7tfqfqnir/image1.jpeg?raw=1",
+          img: "https://www.dropbox.com/scl/fi/bc0gn4xbq576ss740s0ms/20250913-6.jpg?rlkey=topc25x8n6d44gsoucjne2ods&st=cjzdd46p&raw=1",
           body: "Eyebrow Lamination is a cutting-edge brow grooming technique that restructures and sets the brow hairs in a uniform shape, resulting in a denser and fuller appearance. Similar to a perm for the brows, the effects can last up to 6 weeks. Unlike semi-permanent makeup, Eyebrow Lamination is temporary and is best suited for clients with a sufficient amount of natural brow hair who desire a temporary microblading look."
         },
         {
@@ -161,37 +161,37 @@ export default {
       lashes: [
         {
           title: "Classic Lashes",
-          img: "https://www.dropbox.com/s/eoaz2ila2crauti/classic%20lash.jpeg?raw=1",
+          img: "https://www.dropbox.com/scl/fi/3i2ytc2ws3r2hz7i67oel/20250913-0.jpg?rlkey=mgoikodfs7134ts711fdweufy&st=eandvs7e&raw=1", 
           subtitle: "",
           body: `Classic lashes are the perfect way to enhance natural lashes. With the classic technique, one individual lash is applied to one natural lash to create a set of longer and thicker lashes. Depending on the desired look, there are a variety of curls, lengths, and thicknesses to choose from.`
         },
         {
           title: "Hybrid Lashes",
           subtitle: "",
-          img: "https://www.dropbox.com/s/0lnuwbcrp4bs52x/image17.jpeg?raw=1",
+          img: "https://www.dropbox.com/scl/fi/b3pygl774mw4c5ehgln0c/20250913-1.jpg?rlkey=2a2pmp6cwznl6f8cfkgac6a63&st=xuu51fpu&raw=1",
           body: `Hybrid sets are a mixture between classic and volume. Perfect for clients with sparse lashes, gaps or just anyone looking for a little more fullness than classic but not quite as dense as a volume set.`
         },
         {
           title: "Wet Hybrid Lashes",
-          img: "https://www.dropbox.com/s/fu0x33mcd84svjd/image18.jpeg?raw=1",
+          img: "https://www.dropbox.com/scl/fi/687g7gneb9ppv9lkgsd9m/20250913-2.jpg?rlkey=2mid3zzr6zmgkf5mx7pwpu2wf&st=zlcyxept&raw=1",
           body: `Wet hybrid lash sets combine classic and volume extensions with a wet appearance, offering a unique post-shower look. Ideal for clients with short or sparse lashes seeking extra fullness while maintaining a natural look.`
         },
         {
           title: "Volume Lashes",
-          img: "https://www.dropbox.com/s/a1cfgfi8zzr10ye/volume%20lash.jpeg?raw=1",
+          img: "https://www.dropbox.com/scl/fi/u9f7r7hln3s99fzp3yvjg/20250913-4.jpg?rlkey=ctdnkcbsgj3hzjm2wiaqwh25w&st=z9fwertu&raw=1",
           subtitle: "",
           body: `Volume lashes extensions are multiple very lightweight extensions, made into a "fan" placed onto one natural lash. These sets create a very full, luxurious look. Perfect for clients with thin and sparse lashes and those who love a full, dense look. All volume sets at Cmai Beauty Studio are created by 100% handmade using Cmai ‘s premium handmade cashmere lashes 0.03.`
         },
         {
           title: "Wispy Lashes",
           subtitle: "",
-          img: "https://www.dropbox.com/s/k8ab05hun1ozanf/image9.jpeg?raw=1",
+          img: "https://www.dropbox.com/scl/fi/smc5np6a39fmet3211u04/20250913-3.jpg?rlkey=jib34bdy3d5ttkldpteavuxjd&st=cj1ss7jv&raw=1",
           body: `Wispy lashes are the trendiest style because they look fluffy and feathery, so very natural. They are perfect for people who prefer a dramatic, makeup look and eyelashes that stand out. The wispy lashes set is my favorite! Wispy lashes are created by combining 5-9 wet lashes with 0.05 thickness to create spikes to apply on the first layer of natural lashes. For the second and third layers of natural lashes, either classic, hybrid or volume lashes bases are applied. Spikes are 2-4 mm longer than the base.`
         },
         {
           title: "Mega Volume Lashes",
           subtitle: "",
-          img: "https://www.dropbox.com/s/4sqo73byxfsluq8/image10.jpeg?raw=1",
+          img: "https://www.dropbox.com/scl/fi/p1jlkfi9z4y6235bjx4uq/20250913-5.jpg?rlkey=zyiw57rs04w792dkpl9t98sm0&st=eiyfth77&raw=1",
           body: `Mega volume lashes are created by adhering over 10 incredibly small and lightweight extensions to a single natural lash. These extensions, specifically crafted for both volume and mega volume, are exceptionally small to maintain minimal weight, safeguarding the integrity of your natural lashes. Mega Volume sets deliver bold, dark, and dramatic eyelash looks. Within Cmai Beauty Studio, all volume sets are artfully designed using Cmai's top-tier 100% handmade cashmere lashes ranging from 0.03 to 0.05 thickness.`
         },
         {

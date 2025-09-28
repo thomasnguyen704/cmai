@@ -27,6 +27,7 @@
               fluid
               src="https://www.dropbox.com/scl/fi/ymfvr30m93vnxvp7v5bud/award.jpg?rlkey=qkuurq7mlha274nrdj52fpgod&st=jq0f2gbp&raw=1"
               alt="Carolynn Mai"
+              class="rounded"
             />
           </b-col>
         </b-row>
@@ -70,6 +71,7 @@
                 fluid
                 src="https://www.dropbox.com/scl/fi/aunrgxh1eavxhc9lh9yn9/family.jpg?rlkey=3iu1ai1j1sah2sze7391dlrqh&st=zrvmsg5u&raw=1"
                 alt="Carolynn and family"
+                class="p-5"
               />
             </b-col>
           </b-row>

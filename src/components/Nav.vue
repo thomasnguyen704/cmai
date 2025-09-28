@@ -36,6 +36,7 @@
             <b-nav-item to="terms">Terms & Policies</b-nav-item>
             <b-nav-item to="faq">FAQ</b-nav-item>
             <b-nav-item to="footer">Contact</b-nav-item>
+            <b-nav-item to="pricing">Pricing</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item 

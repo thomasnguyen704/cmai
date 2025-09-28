@@ -6,6 +6,7 @@ import Rules from "../views/Rules.vue";
 import Clients from "../views/Clients.vue";
 import Products from "../views/Products.vue";
 import Faq from "../views/Faq.vue";
+import Pricing from "../views/Pricing.vue";
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ const routes = [
     path: "/faq",
     name: "Faq",
     component: Faq
+  },
+  {
+    path: "/pricing",
+    name: "Pricing",
+    component: Pricing
   }
 ];
 

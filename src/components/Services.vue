@@ -2,18 +2,14 @@
   <div class="container">
     <b-card no-body class="nav-card pt-4">
       <b-tabs pills small>
-
         <b-tab title="Lashes" active>
-          <b-row class="font-weight-light">
-            <b-col md="4">
-              <b-img src="https://www.dropbox.com/s/yytd1x11u6uaxd9/image8.jpeg?raw=1" fluid />
-            </b-col>
-            <b-col md="8">
-              <p>At CMAI Beauty Studio, we specialize in enhancing natural lashes with premium Eyelash Extensions, with a focus on retention, appearance, and client comfort. Our specially formulated adhesive, well known as oil-proof, water-proof, and heat-resistant properties, guarantees exceptional retention. Through meticulous application techniques that reduce irritation, clients can enjoy flawless and long-lasting results. The studio offers a range of lash options, such as handmade cashmere, flat, traditional classic lashes in various lengths, curls, thickness, and colored choices. Furthermore, we provide a complimentary fixing service within the first three days post-application to ensure complete satisfaction.</p>
-            </b-col>
-          </b-row>
           <b-card-group columns>
-            <b-card v-for="lash in lashes" :key="lash.title" :img-src="lash.img" img-top>
+            <b-card
+              v-for="lash in lashes"
+              :key="lash.title"
+              :img-src="lash.img"
+              img-top
+            >
               <b-card-body :title="lash.title" title-tag="h6" class="small">
                 <p v-html="lash.body"></p>
               </b-card-body>
@@ -23,10 +19,22 @@
 
         <b-tab title="Permanent Makeup">
           <div class="font-weight-light">
-            <p>Eyebrows, lips blushing, or eyeliners permanent makeup procedure normally requires multiple treatment sessions. For best results, clients will be required to return for at least one touch-up appointment. This will take place within 4-8 weeks after the initial procedure. Those with oily skin may require an additional touch-up.</p>
+            <p>
+              Eyebrows, lips blushing, or eyeliners permanent makeup procedure
+              normally requires multiple treatment sessions. For best results,
+              clients will be required to return for at least one touch-up
+              appointment. This will take place within 4-8 weeks after the
+              initial procedure. Those with oily skin may require an additional
+              touch-up.
+            </p>
           </div>
           <b-card-group columns>
-            <b-card v-for="pmu in pmus" :key="pmu.title" :img-src="pmu.img" img-top>
+            <b-card
+              v-for="pmu in pmus"
+              :key="pmu.title"
+              :img-src="pmu.img"
+              img-top
+            >
               <b-card-body :title="pmu.title" title-tag="h6" class="small">
                 <p v-html="pmu.body"></p>
               </b-card-body>
@@ -36,7 +44,12 @@
 
         <b-tab title="Facials">
           <b-card-group columns>
-            <b-card v-for="facial in facials" :key="facial.title" :img-src="facial.img" img-top>
+            <b-card
+              v-for="facial in facials"
+              :key="facial.title"
+              :img-src="facial.img"
+              img-top
+            >
               <b-card-body :title="facial.title" title-tag="h6" class="small">
                 <p v-html="facial.body"></p>
               </b-card-body>
@@ -47,14 +60,18 @@
         <b-tab title="Waxing">
           <div class="font-weight-light"></div>
           <b-card-group columns>
-            <b-card v-for="waxing in waxings" :key="waxing.title" :img-src="waxing.img" img-top>
+            <b-card
+              v-for="waxing in waxings"
+              :key="waxing.title"
+              :img-src="waxing.img"
+              img-top
+            >
               <b-card-body :title="waxing.title" title-tag="h6" class="small">
                 <p v-html="waxing.body"></p>
               </b-card-body>
             </b-card>
           </b-card-group>
         </b-tab>
-
       </b-tabs>
     </b-card>
   </div>
@@ -79,7 +96,7 @@ export default {
         {
           title: "Cmai ‘s Hairstrokes Eyebrows",
           subtitle: "",
-          img: "https://www.dropbox.com/s/ejxt1vi48gbuckx/image3.jpeg?raw=1",
+          img: "https://www.dropbox.com/scl/fi/bgly2gtdm63d8h4mqtk7s/hairstroke.jpg?rlkey=vmbhrnbml4m065gvpyrjfy569&st=lc9z2xex&raw=1",
           body: `<p>The Cmai's Hairstrokes Eyebrows technique, also known as machine nano hairstrokes, is a cutting-edge PMU (permanent makeup) method that utilizes digital technology and one tiny needle to create natural-looking hair strokes. This technique is considered less traumatic to the skin than traditional microblading, resulting in less bruising and bleeding, a smoother healing process, better pigment retention, and longer-lasting results of up to 3 years or more after first touch up. Cmai's Hairstrokes Eyebrows are particularly well-suited for individuals seeking the most natural eyebrow enhancement, especially those with thicker, oily skin or existing previous eyebrow work.</p>`
         },
         {
@@ -91,18 +108,20 @@ export default {
           `
         },
         {
-          title: "Combo Eyebrows",
+          title: "Hybrid Eyebrows",
           subtitle: "",
-          img: "",
+          img: "https://www.dropbox.com/scl/fi/n0tl0x9yzn4g1wk41gnk8/hybrid.jpg?rlkey=fsxmuxwab68jbxyjq7vcokfr8&st=84b8p1bn&raw=1",
           body: `
-            <p>Combo Eyebrows is a technique that combines the precision of hairstroke with the soft shading of Ombre eyebrows. The procedure involves creating hairstroke  at the beginning of the eyebrows, seamlessly blending into Ombre shading towards the tail. This style typically lasts about 2 years and is ideal for individuals seeking a natural yet enhanced eyebrow look.</p>
+            <p>Our Hybrid Eyebrows technique beautifully blends the precision of hairstrokes with the soft, powdery finish of ombré shading. Delicate hairstrokes are placed at the front of the brows for a natural beginning, gradually transitioning into a soft ombré effect toward the tail. The result is a flawlessly defined yet natural-looking brow that enhances your features with lasting elegance. Typically lasting up to 2 years, this style is perfect for those who desire brows that are both refined and effortlessly polished.</p>
           `
         },
         {
           title: "Eyebrows Lamination",
           subtitle: "",
-          img: "https://www.dropbox.com/scl/fi/bc0gn4xbq576ss740s0ms/20250913-6.jpg?rlkey=topc25x8n6d44gsoucjne2ods&st=cjzdd46p&raw=1",
-          body: "Eyebrow Lamination is a cutting-edge brow grooming technique that restructures and sets the brow hairs in a uniform shape, resulting in a denser and fuller appearance. Similar to a perm for the brows, the effects can last up to 6 weeks. Unlike semi-permanent makeup, Eyebrow Lamination is temporary and is best suited for clients with a sufficient amount of natural brow hair who desire a temporary microblading look."
+          img:
+            "https://www.dropbox.com/scl/fi/bc0gn4xbq576ss740s0ms/20250913-6.jpg?rlkey=topc25x8n6d44gsoucjne2ods&st=cjzdd46p&raw=1",
+          body:
+            "Eyebrow Lamination is a cutting-edge brow grooming technique that restructures and sets the brow hairs in a uniform shape, resulting in a denser and fuller appearance. Similar to a perm for the brows, the effects can last up to 6 weeks. Unlike semi-permanent makeup, Eyebrow Lamination is temporary and is best suited for clients with a sufficient amount of natural brow hair who desire a temporary microblading look."
         },
         {
           title: "Lips Blushing",
@@ -161,43 +180,51 @@ export default {
       lashes: [
         {
           title: "Classic Lashes",
-          img: "https://www.dropbox.com/scl/fi/3i2ytc2ws3r2hz7i67oel/20250913-0.jpg?rlkey=mgoikodfs7134ts711fdweufy&st=eandvs7e&raw=1", 
+          img:
+            "https://www.dropbox.com/scl/fi/3i2ytc2ws3r2hz7i67oel/20250913-0.jpg?rlkey=mgoikodfs7134ts711fdweufy&st=eandvs7e&raw=1",
           subtitle: "",
-          body: `Classic lashes are the perfect way to enhance natural lashes. With the classic technique, one individual lash is applied to one natural lash to create a set of longer and thicker lashes. Depending on the desired look, there are a variety of curls, lengths, and thicknesses to choose from.`
+          body: `Classic lash extensions are the most natural style, where one lash extension is applied to each natural lash. Using extensions that are 0.15–0.20mm in width, this technique creates soft definition and elegant length while keeping a lightweight, comfortable feel.`
         },
         {
           title: "Hybrid Lashes",
           subtitle: "",
-          img: "https://www.dropbox.com/scl/fi/b3pygl774mw4c5ehgln0c/20250913-1.jpg?rlkey=2a2pmp6cwznl6f8cfkgac6a63&st=xuu51fpu&raw=1",
+          img:
+            "https://www.dropbox.com/scl/fi/b3pygl774mw4c5ehgln0c/20250913-1.jpg?rlkey=2a2pmp6cwznl6f8cfkgac6a63&st=xuu51fpu&raw=1",
           body: `Hybrid sets are a mixture between classic and volume. Perfect for clients with sparse lashes, gaps or just anyone looking for a little more fullness than classic but not quite as dense as a volume set.`
         },
         {
           title: "Wet Hybrid Lashes",
-          img: "https://www.dropbox.com/scl/fi/687g7gneb9ppv9lkgsd9m/20250913-2.jpg?rlkey=2mid3zzr6zmgkf5mx7pwpu2wf&st=zlcyxept&raw=1",
+          img:
+            "https://www.dropbox.com/scl/fi/687g7gneb9ppv9lkgsd9m/20250913-2.jpg?rlkey=2mid3zzr6zmgkf5mx7pwpu2wf&st=zlcyxept&raw=1",
           body: `Wet hybrid lash sets combine classic and volume extensions with a wet appearance, offering a unique post-shower look. Ideal for clients with short or sparse lashes seeking extra fullness while maintaining a natural look.`
         },
         {
           title: "Volume Lashes",
-          img: "https://www.dropbox.com/scl/fi/u9f7r7hln3s99fzp3yvjg/20250913-4.jpg?rlkey=ctdnkcbsgj3hzjm2wiaqwh25w&st=z9fwertu&raw=1",
+          img:
+            "https://www.dropbox.com/scl/fi/u9f7r7hln3s99fzp3yvjg/20250913-4.jpg?rlkey=ctdnkcbsgj3hzjm2wiaqwh25w&st=z9fwertu&raw=1",
           subtitle: "",
-          body: `Volume lashes extensions are multiple very lightweight extensions, made into a "fan" placed onto one natural lash. These sets create a very full, luxurious look. Perfect for clients with thin and sparse lashes and those who love a full, dense look. All volume sets at Cmai Beauty Studio are created by 100% handmade using Cmai ‘s premium handmade cashmere lashes 0.03.`
+          body: `Volume lash extensions use the technique of applying multiple ultra-fine extensions to each natural lash, achieving a look that is soft, full, and beautifully fluffy. Using extensions as fine as 0.03–0.05mm, this style creates a lightweight yet dramatic effect that remains comfortable to wear.`
         },
         {
           title: "Wispy Lashes",
           subtitle: "",
-          img: "https://www.dropbox.com/scl/fi/smc5np6a39fmet3211u04/20250913-3.jpg?rlkey=jib34bdy3d5ttkldpteavuxjd&st=cj1ss7jv&raw=1",
+          img:
+            "https://www.dropbox.com/scl/fi/smc5np6a39fmet3211u04/20250913-3.jpg?rlkey=jib34bdy3d5ttkldpteavuxjd&st=cj1ss7jv&raw=1",
           body: `Wispy lashes are the trendiest style because they look fluffy and feathery, so very natural. They are perfect for people who prefer a dramatic, makeup look and eyelashes that stand out. The wispy lashes set is my favorite! Wispy lashes are created by combining 5-9 wet lashes with 0.05 thickness to create spikes to apply on the first layer of natural lashes. For the second and third layers of natural lashes, either classic, hybrid or volume lashes bases are applied. Spikes are 2-4 mm longer than the base.`
         },
         {
           title: "Mega Volume Lashes",
           subtitle: "",
-          img: "https://www.dropbox.com/scl/fi/p1jlkfi9z4y6235bjx4uq/20250913-5.jpg?rlkey=zyiw57rs04w792dkpl9t98sm0&st=eiyfth77&raw=1",
+          img:
+            "https://www.dropbox.com/scl/fi/jebhiz3h21mmysgnb2m1r/megalash.jpg?rlkey=dyovvy78iv96x4isceiiv5sux&st=ct749stu&raw=1",
           body: `Mega volume lashes are created by adhering over 10 incredibly small and lightweight extensions to a single natural lash. These extensions, specifically crafted for both volume and mega volume, are exceptionally small to maintain minimal weight, safeguarding the integrity of your natural lashes. Mega Volume sets deliver bold, dark, and dramatic eyelash looks. Within Cmai Beauty Studio, all volume sets are artfully designed using Cmai's top-tier 100% handmade cashmere lashes ranging from 0.03 to 0.05 thickness.`
         },
         {
           title: "Lashes Refill",
           subtitle: "",
-          body: `Lashes refill appointments are scheduled periodically to replace lost lashes due to shedding or natural growth cycles, involving the addition of extensions to maintain fullness. The cost of refills is based on time and lash quantity, emphasizing the need to care for lashes between visits. Regular appointments every 2-3 weeks help sustain the lushness and beauty of your lashes.`
+          body: `<p>Lash extensions can be maintained for years without needing a full set when cared for properly. With skilled application, refills should look as fresh as a brand-new set.Most clients return every 2–3 weeks for a refill, since natural lashes follow a 60–90 day growth cycle. During this time, the base of the extensions gradually grows away from the eyelid, and some extensions shed naturally with your own lashes. This is a normal and healthy part of the lash cycle.</p>
+
+          <p>At your refill appointment: You should still have 50–70% of your extensions intact with proper care. Outgrown or uneven extensions will be removed and replaced with new ones.Fresh extensions are applied to new lash growth, restoring a full and flawless look. With consistent refills and aftercare, your lashes will remain beautiful, healthy, and long-lasting.</p>`
         },
         {
           title: "Lash Removal",
@@ -221,7 +248,8 @@ export default {
         {
           title: "Cmai Beauty Facial",
           subtitle: "75 minutes",
-          img: 'https://www.dropbox.com/s/ha3qpax6j95z78k/Cmai%20Beauty%20Facial.jpeg?raw=1',
+          img:
+            "https://www.dropbox.com/s/ha3qpax6j95z78k/Cmai%20Beauty%20Facial.jpeg?raw=1",
           body: `
             <p>The Cmai Beauty Facial is a transformative experience that goes beyond the face, allowing the body to release and realign its energy for a peaceful state. This treatment includes a full range of services, from cleansing to microdermabrasion, extractions, a custom PCA chemical peel, hydro jelly mask under Celluma LED light therapy, and a soothing massage from hands to head and shoulders. It also features ingredients like hyaluronic acid, complex peptide, retinol, moisturizer, and sunscreen. Suitable for all skin types, particularly those with acne, this universal facial offers benefits such as hydrated, bright, plump, and clear skin, while also targeting fine lines, wrinkles, firmness, tone, texture, sunspots, and enlarged pores.</p>
           `
@@ -316,20 +344,23 @@ export default {
         {
           title: "Classic Pedicure ",
           img: "",
-          subtitle: "$30 (35 minutes). Get $5 discount for any Pedi & Mani combo",
+          subtitle:
+            "$30 (35 minutes). Get $5 discount for any Pedi & Mani combo",
           body: `<p>When the time is essence, we can help you renew your feet and relax by: soaking feet to sea salt whirlpool bath, nails and cuticles are carefully groomed, basic callus removal, exfoliate sugar scrub, moisturizing mini massage, hot towel wraps, custom polish or buff shine.</p>`
         },
         {
           title: "Milk and Honey Pedicure ",
           img: "",
-          subtitle: "$45 (50 minutes). Get $5 discount for any Pedi & Mani combo.",
+          subtitle:
+            "$45 (50 minutes). Get $5 discount for any Pedi & Mani combo.",
           body: `<p>Treat yourself with our finest products and extended massage start with soaking your feet in warm milk bath, nails and cuticles are nicely trimmed, callus and dead skin removal treatment, homemade exfoliating sugar scrub with real honey, moist milk masque wrapped in warm towels, extended massage with honey butter lotion, custom polished or buff shine.</p>
           <p>Benefits from milk and honey for anti-fungal: Honey is anti-bacterial, anti-fungal, reduces inflammation, possesses, helps the skin to heal quickly, and contains many vitamins and minerals. Milk contains lactic acid, a gentle, effective alpha-hydroxyl acid that is very efficient in eliminating toxins from your skin. It also exfoliates the top layer of your skin, resulting in a soft and smooth feel and look, which translates into a marvelous, youthful glow.</p>`
         },
         {
           title: "Hawaii Organic Pedicure",
           img: "",
-          subtitle: "$70 (80 minutes). Get $5 discount for any Pedi & Mani combo",
+          subtitle:
+            "$70 (80 minutes). Get $5 discount for any Pedi & Mani combo",
           body: `<p>Our top of the line signature spa pedicure designed to give you an extraordinary spa experience with the finest nature and organic ingredients. We use real fresh fruit to bring you an ultimate experience by natural goodness. We promise, it is a pedicure you will not forget! This includes: your feet are soak in lavender detox bubbling volcano eruption warm bath, nails and cuticles are trimmed beautifully, callus and dead skin removal treatment, exfoliate lavender scrub and fresh real orange fruit, moist collagen cream masque wrap with warm towels, extended massage with collagen lotion and volcanic hot stones, custom polished or buff shine.</p>
           <p>	Benefits of Orange kiss for walking all day feet: Being an excellent source of vitamin C, orange can do wonders for your skin. It helps in restoring collagen in your body, which is responsible for skin firming and prevents premature aging of skin. The topical application of orange on the skin removes dead cells and dirt as well as keeps the skin moisturized and providing the appearance of healthy, glowing skin.</p>`
         }
@@ -358,7 +389,8 @@ export default {
   font-weight: 400;
   font-size: 0.8rem;
 }
-.card-img-top, .card-img-bottom {
+.card-img-top,
+.card-img-bottom {
   padding: 10px;
 }
 .tab-pane {

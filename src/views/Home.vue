@@ -4,7 +4,7 @@
       <b-container>
         <b-row class="section">
           <b-col md="8" class="my-auto">
-            <p class="display-2 pink-font cursiveFont">C Mai Beauty Studio</p>
+            <p class="display-4 pink-font">C Mai Beauty Studio</p>
             <h4 class="p text-muted">Wake Up Beautiful</h4>
             <p class="lead">
               At CMAI Beauty Studio, “Wake Up Beautiful” is more than just
@@ -27,7 +27,7 @@
               fluid
               src="https://www.dropbox.com/scl/fi/ymfvr30m93vnxvp7v5bud/award.jpg?rlkey=qkuurq7mlha274nrdj52fpgod&st=jq0f2gbp&raw=1"
               alt="Carolynn Mai"
-              class="rounded"
+              class="rounded py-4"
             />
           </b-col>
         </b-row>

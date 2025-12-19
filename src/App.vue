@@ -137,9 +137,9 @@
               </address>
             </a>
             <p>
-              Find me inside Le Wink Lashes & Brows. You can call me at
-              <a href="tel:205-207-2659">(205) 207-2659</a> to schedule a free
-              phone consultation.
+              Find me inside Le Wink Lashes & Brows. You can call me at 
+              <a href="tel:205-207-2659">(205) 207-2659</a> 
+              to schedule a free phone consultation.
             </p>
           </b-col>
           <b-col>

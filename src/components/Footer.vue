@@ -24,11 +24,8 @@
             <b-col>
               <p class="lead">Contact</p>
               <p>
-                Call me at
-                <a href="tel:205-207-2659" class="text-white">
-                  (205) 207-2659
-                </a>
-                to schedule a free phone consulation
+                Call me at <script> gtag('config', 'AW-17792103206/cagvCLzH-s8bEKbm96NC', { 'phone_conversion_number': '2052072659' }); </script> to schedule a free phone consulation.
+                <!--<a href="tel:205-207-2659" class="text-white">(205) 207-2659</a>-->
               </p>
             </b-col>
           </b-row>

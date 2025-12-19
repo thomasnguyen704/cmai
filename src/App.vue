@@ -110,19 +110,16 @@
       <b-container class="py-5">
         <b-row>
           <b-col sm="6" md="2" class="text-center">
-            <b-img
+            <b-img src="https://www.dropbox.com/s/2lwotslgjbikr7f/logo.png?raw=1"
               fluid
-              src="https://www.dropbox.com/s/2lwotslgjbikr7f/logo.png?raw=1"
               class="invert"
             />
             <p class="my-3">
-              <a
-                href="https://www.facebook.com/carolynnmai8"
+              <a href="https://www.facebook.com/carolynnmai8"
                 target="_blank"
                 class="m-1 btn btn-light fa fa-facebook"
               />
-              <a
-                href="https://www.instagram.com/cmaibeautystudio/"
+              <a href="https://www.instagram.com/cmaibeautystudio/"
                 target="_blank"
                 class="m-1 btn btn-light fa fa-instagram"
               />
@@ -137,9 +134,8 @@
               </address>
             </a>
             <p>
-              Find me inside Le Wink Lashes & Brows. You can call me at 
-              <a href="tel:205-207-2659">(205) 207-2659</a> 
-              to schedule a free phone consultation.
+              Find me inside Le Wink Lashes & Brows. Call me at <a href="tel:205-207-2659">(205) 207-2659</a> to schedule a free phone consultation.
+              <!--<a href="tel:205-207-2659">(205) 207-2659</a>-->
             </p>
           </b-col>
           <b-col>

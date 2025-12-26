@@ -38,18 +38,6 @@
         </div>
       </b-card-group>
 
-      <h2 class="font-weight-light my-5">
-        Sales and Promotion
-      </h2>
-      <b-card-group columns>
-        <div>
-          <b-card v-for="item in promo_2024" :key="item.promo_2024">
-            <b-card-body>
-              {{ item.body }}
-            </b-card-body>
-          </b-card>
-        </div>
-      </b-card-group>
     </b-container>
   </div>
 </template>

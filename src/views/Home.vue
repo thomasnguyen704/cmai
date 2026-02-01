@@ -21,6 +21,9 @@
             <b-button pill variant="outline-danger" class="mx-1" to="clients">
               Click For Free Consultation
             </b-button>
+            <b-button v-b-modal.my-modal pill variant="danger" class="mx-1">
+              Sales & Promotions
+            </b-button>
           </b-col>
           <b-col md="4" class="my-auto">
             <b-img
@@ -32,6 +35,36 @@
           </b-col>
         </b-row>
       </b-container>
+      <b-modal
+        id="my-modal"
+        ref="myModal"
+        title="Sale & Promotion"
+        header-bg-variant="danger"
+        header-text-variant="light"
+        hide-footer
+      >
+        <ul>
+          <li>
+            <strong>Full Lash Set Discount</strong> <br />
+            Enjoy 10% off all full lash sets at our Huntersville location. Limited time—book your appointment today!
+          </li>
+          <li>
+            <strong>Client Referral Program</strong> <br />
+            Refer a friend and receive $10 in studio credit for both you and your referral when they book their first service.
+          </li>
+          <li>
+            <strong>Add-On Eyebrow Waxing</strong> <br />
+            Add eyebrow waxing to your lash appointment and enjoy $2 off.
+          </li>
+          <li>
+            <strong>Client Feedback Thank You</strong> <br />
+            Love your experience? Share your genius feedback with a 5-star review on Google, or Facebook mom groups, and receive $2 off per platform as our thank-you.
+          </li>
+        </ul>
+        <p class="mt-4">
+          <em>Reminder: To ensure fairness, only one promotion or discount can be used per appointment.</em>
+        </p>
+      </b-modal>
     </b-jumbotron>
 
     <div>

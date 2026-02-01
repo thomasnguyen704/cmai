@@ -1,36 +1,7 @@
 <!-- eslint-disable prettier/prettier -->
 <template>
   <div>
-    <b-modal
-      id="my-modal"
-      ref="myModal"
-      title="Sale & Promotion"
-      header-bg-variant="danger"
-      header-text-variant="light"
-      hide-footer
-    >
-      <ul>
-        <li>
-          <strong>Full Lash Set Discount</strong> <br />
-          Enjoy 10% off all full lash sets at our Huntersville location. Limited time—book your appointment today!
-        </li>
-        <li>
-          <strong>Client Referral Program</strong> <br />
-          Refer a friend and receive $10 in studio credit for both you and your referral when they book their first service.
-        </li>
-        <li>
-          <strong>Add-On Eyebrow Waxing</strong> <br />
-          Add eyebrow waxing to your lash appointment and enjoy $2 off.
-        </li>
-        <li>
-          <strong>Client Feedback Thank You</strong> <br />
-          Love your experience? Share your genius feedback with a 5-star review on Google, or Facebook mom groups, and receive $2 off per platform as our thank-you.
-        </li>
-      </ul>
-      <p class="mt-4">
-        <em>Reminder: To ensure fairness, only one promotion or discount can be used per appointment.</em>
-      </p>
-    </b-modal>
+
     <b-navbar toggleable="lg" type="light" variant="white" sticky ref="navbar">
       <b-container>
         <b-navbar-brand href="/">
@@ -48,6 +19,9 @@
             <b-nav-item to="services" @click="scrollMeTo('navbar')">
               Services
             </b-nav-item>
+            <b-nav-item to="pricing" @click="scrollMeTo('navbar')">
+              Pricing
+            </b-nav-item>
             <b-nav-item to="clients" @click="scrollMeTo('navbar')">
               Consultations
             </b-nav-item>
@@ -62,9 +36,6 @@
             </b-nav-item>
             <b-nav-item @click="scrollMeTo('footer')">
               Contact & Location
-            </b-nav-item>
-            <b-nav-item to="pricing" @click="scrollMeTo('navbar')">
-              Pricing
             </b-nav-item>
             <b-nav-item
               href="https://squareup.com/appointments/book/kiz99xt2bir5gr/LMQXQF1APV2XD/services"
@@ -129,7 +100,7 @@
           <b-col>
             <a href="https://maps.app.goo.gl/RQcJRaxeUDecR7f86">
               <address class="mt-4">
-                C Mai Beauty (Uptown Chalrotte)<br />
+                C Mai Beauty (Uptown Charlotte)<br />
                 316 East Blvd #204<br />
                 Charlotte, NC 28203
               </address>
@@ -182,9 +153,7 @@
 
 <script>
 export default {
-  mounted() {
-    this.$refs.myModal.show();
-  },
+  //mounted() {this.$refs.myModal.show();},
   methods: {
     scrollMeTo(refName) {
       var element = this.$refs[refName];

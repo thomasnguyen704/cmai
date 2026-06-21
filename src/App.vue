@@ -154,23 +154,6 @@
       </b-container>
     </footer>
 
-  <b-modal ref="myModal" title="Hello Gorgeous" hide-footer>
-    <p> A new chapter begins. Cmai Beauty Studio has officially moved from Huntersville to a private luxury suite in Davidson.</p>
-    <p>Designed with intention, this space was created to offer a more elevated, intimate, and personalized experience - because you deserve nothing less than exceptional.</p>
-
-    <p><b>Grand Opening: April 13, 2026</b></p>
-    
-    <a href="https://maps.app.goo.gl/RQcJRaxeUDecR7f86">
-      <address class="mt-4">
-        C Mai Beauty (Davidson)<br />
-        452 S. Main St. Suite 105<br />
-        Davidson, NC 28078
-      </address> 
-    </a>
-
-    <p>Inside Beautiful You by Christine | Same building as State Farm. I can't wait to welcome you into this refined new space</p>
-  </b-modal>
-
   </div>
 </template>
 

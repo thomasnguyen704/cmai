@@ -175,7 +175,7 @@
                   <h6>Permanent Make Up Touch Up</h6>
                   <ul class="service-list">
                     <li>
-                      <span>6–10 Weeks Perfecting Touch-up</span
+                      <span>6–10 Wks Perfecting Touch-up</span
                       ><span class="price">200–250</span>
                     </li>
                     <li>
@@ -388,7 +388,7 @@
                   <h6>Permanent Make Up Touch Up</h6>
                   <ul class="service-list">
                     <li>
-                      <span>6–10 Weeks Perfecting Touch-up</span
+                      <span>6–10 Wks Perfecting Touch-up</span
                       ><span class="price">200–250</span>
                     </li>
                     <li>

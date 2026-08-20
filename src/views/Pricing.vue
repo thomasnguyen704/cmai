@@ -10,22 +10,12 @@
     <b-row>
       <b-col lg="12">
         <img
-          src="https://www.dropbox.com/scl/fi/uu45j17o2yac1om9go5xk/Cmai-Beauty-Studio-Update-Pricing-Page-1.png?rlkey=wfuxcb5trymhvmtpgsoxdagz5&st=lrxt81b3&raw=1"
+          src="https://www.dropbox.com/scl/fi/6cb8fq2805wx4fgmuy6jh/cmai_beauty_studio_davidson.jpeg?rlkey=7awfp29ajiy58t7468x3b8sn3&st=t02gexwc&raw=1"
           style="width: 100%"
           class="mb-2"
         />
         <img
-          src="https://www.dropbox.com/scl/fi/ly3cpijeozihlnnasjaha/Cmai-Beauty-Studio-Update-Pricing-Page-2.png?rlkey=po30qv0c4axr4fix0x9qedorc&st=gsuwmwv8&raw=1"
-          style="width: 100%"
-          class="mb-2"
-        />
-        <img
-          src="https://www.dropbox.com/scl/fi/mqnjun1j42wfnc2j87asj/Cmai-Beauty-Studio-Update-Pricing-Page-3.png?rlkey=2h9afmxeon674tku2uv8z3ryo&st=juippn78&raw=1"
-          style="width: 100%"
-          class="mb-2"
-        />
-        <img
-          src="https://www.dropbox.com/scl/fi/tzjbf0anmomuhovo9kfgs/Cmai-Beauty-Studio-Update-Pricing-Page-4.png?rlkey=8y41uore7ubknefax9kub82x6&st=v1cuuboq&raw=1"
+          src="https://www.dropbox.com/scl/fi/xjza7h1pjywv6xb6o0sfe/cmai_beauty_studio_east_blvd.jpeg?rlkey=myi4b6jnicldzcbjgza0bt7gw&st=nuy2dnz4&raw=1"
           style="width: 100%"
           class="mb-2"
         />
